@@ -5,23 +5,27 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
- text: "We have been working with Aanya Enterprise for over five years, and their role as a Titanium Dioxide wholesaler has been vital for our business. Their products always meet international quality standards, which allows us to maintain the brightness, opacity, and smooth finish of our paints. What we appreciate most is their transparency and on-time deliveries, which give us complete confidence in every order.", name: "Paint Manufacturer – Mumbai",
- },
-
- { text: "As a leading plastics manufacturer, we require large volumes of high-purity Titanium Dioxide on a regular basis. Aanya Enterprise has proven to be a reliable Titanium Dioxide wholesaler who not only delivers bulk quantities at competitive prices but also ensures consistency in every batch. Their strong logistics support has helped us avoid production delays and keep our supply chain running smoothly.", name: "Plastic Products Company – Delhi", 
-
- },
-
- { text: "When it comes to cosmetics, purity and safety are non-negotiable. Aanya Enterprise has become our trusted Titanium Dioxide wholesaler because they provide premium-grade TiO₂ that blends perfectly into our formulations. Their ability to meet custom packaging requirements and provide timely guidance makes them more than just a wholesaler—they are a partner who understands our business needs.", name: "Cosmetics Brand – Bangalore", 
-
- },
-
- { text: "The whiteness and consistency of our paper products directly depend on the quality of Titanium Dioxide we use. With Aanya Enterprise as our Titanium Dioxide wholesaler, we have experienced a remarkable improvement in the brightness and printability of our paper. Their dedication to quality assurance and their ability to supply large orders without delays make them a crucial part of our operations.", name: "Paper Mill – Gujarat",
-
+    text: "DK Modular transformed our office into a modern, efficient workspace. Their modular workstations are not only visually premium but also extremely comfortable for our team. From design planning to final installation, everything was handled professionally and delivered on time.",
+    name: "Corporate Office – Delhi",
   },
-
- { text: "We have worked with several suppliers in the past, but none match the professionalism of Aanya Enterprise as a Titanium Dioxide wholesaler. Their products improve the strength and stability of our rubber goods, which has enhanced customer satisfaction for our end products. Beyond just supply, their customer support and commitment to long-term relationships have made them our preferred partner.", name: "Rubber & Industrial Products Manufacturer – Chennai", },
+  {
+    text: "We were looking for customized office furniture that matched our brand identity and space constraints. DK Modular understood our requirements perfectly and delivered high-quality workstations and storage units that improved both aesthetics and productivity.",
+    name: "IT Company – Delhi",
+  },
+  {
+    text: "The executive cabins and conference tables designed by DK Modular have elevated the overall look of our office. The material quality, finish, and detailing clearly reflect their expertise in modular office furniture solutions.",
+    name: "Real Estate & Infrastructure Firm – Delhi-NCR",
+  },
+  {
+    text: "DK Modular provided us with a complete office setup including workstations, partitions, and reception furniture. Their ergonomic designs and smart space planning helped us utilize our floor area efficiently without compromising comfort.",
+    name: "Co-Working Space – Delhi-NCR",
+  },
+  {
+    text: "What sets DK Modular apart is their commitment to timelines and quality. The installation team was skilled, disciplined, and ensured everything was perfectly aligned. We highly recommend them for any corporate office furniture project.",
+    name: "Manufacturing Company – Delhi-NCR",
+  },
 ];
+
 
 export default function TestimonialSlider() {
   const [index, setIndex] = useState(0);
@@ -29,43 +33,50 @@ export default function TestimonialSlider() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % testimonials.length);
-    }, 5000);
+    }, 6000);
     return () => clearInterval(timer);
   }, []);
 
-  const prevSlide = () => {
+  const prevSlide = () =>
     setIndex(index === 0 ? testimonials.length - 1 : index - 1);
-  };
-
-  const nextSlide = () => {
+  const nextSlide = () =>
     setIndex((index + 1) % testimonials.length);
-  };
 
   const current = testimonials[index];
 
   return (
-    <section className="relative h-full w-full bg-[#F7DF86] py-5 md:py-12 text-white overflow-hidden">
-      <div className="relative max-w-5xl mx-auto text-center px-4 sm:px-6">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mb-3 md:mb-8">
-          <span className="text-white">Client </span>
-          <span className="text-black">Testimonials</span>
+    <section className="relative w-full py-10 bg-gradient-to-b from-[#FAF7F0] via-[#F7DF86]/40 to-white overflow-hidden">
+      
+      {/* Heading */}
+      <div className="max-w-6xl mx-auto text-center px-4">
+        <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
+          What Our Clients Say
         </h2>
+        <p className="text-black max-w-2xl mx-auto mb-8">
+          Trusted by manufacturers across India for quality, consistency, and reliability.
+        </p>
+      </div>
 
+      {/* Slider Card */}
+      <div className="relative max-w-4xl mx-auto px-4">
         <AnimatePresence mode="wait">
           <motion.div
             key={index}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
-            transition={{ duration: 0.6 }}
-            className="space-y-6"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -30 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="relative bg-white/80 backdrop-blur-xl border border-white/60 shadow-2xl rounded-3xl px-6 sm:px-10 py-5 text-center"
           >
-            <p className="italic text-sm sm:text-lg md:text-xl leading-relaxed text-black max-w-xl sm:max-w-2xl md:max-w-3xl mx-auto">
+            {/* Quote Icon */}
+            <div className="text-6xl text-[#F7C600]/40 font-serif ">“</div>
+
+            <p className="text-black italic text-sm sm:text-lg leading-relaxed max-w-3xl mx-auto">
               {current.text}
             </p>
-            <div className="flex flex-col items-center mt-4">
-              
-              <h4 className="text-xs sm:text-base md:text-lg font-serif font-semibold text-black">
+
+            <div className="mt-8">
+              <h4 className="text-sm sm:text-lg font-semibold font-serif text-gray-900">
                 {current.name}
               </h4>
             </div>
@@ -73,30 +84,32 @@ export default function TestimonialSlider() {
         </AnimatePresence>
 
         {/* Controls */}
-        <div className="hidden md:block flex justify-between mt-8 sm:mt-12 max-w-[calc(100%-2rem)] mx-auto px-4 sm:px-0">
+        <div className="hidden md:flex justify-between items-center absolute inset-y-0 left-0 right-0 px-4">
           <button
             onClick={prevSlide}
-            className="bg-white/20 hover:bg-white/40 p-2 sm:p-3 rounded-full transition"
+            className="p-3 rounded-full bg-white shadow-md hover:shadow-xl transition"
           >
-            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-[#00537B]" />
+            <ChevronLeft className="w-6 h-6 text-gray-700" />
           </button>
           <button
             onClick={nextSlide}
-            className="bg-white/20 hover:bg-white/40 p-2 sm:p-3 rounded-full transition"
+            className="p-3 rounded-full bg-white shadow-md hover:shadow-xl transition"
           >
-            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-[#00537B]" />
+            <ChevronRight className="w-6 h-6 text-gray-700" />
           </button>
         </div>
 
         {/* Dots */}
-        <div className="flex justify-center mt-6 space-x-2">
+        <div className="flex justify-center mt-5 gap-2">
           {testimonials.map((_, i) => (
-            <div
+            <span
               key={i}
-              className={`w-3 h-3 rounded-full transition ${
-                i === index ? "bg-[#F7C600]" : "bg-gray-400"
+              className={`h-2.5 w-2.5 rounded-full transition-all ${
+                i === index
+                  ? "bg-[#F7C600] w-6"
+                  : "bg-gray-300"
               }`}
-            ></div>
+            />
           ))}
         </div>
       </div>

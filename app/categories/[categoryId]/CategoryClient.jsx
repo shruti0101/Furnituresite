@@ -2,6 +2,7 @@ import { categories } from "@/Data";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+
 export default function CategoryPage({ params }) {
   const { categoryId } = params;
   const category = categories.find((c) => c.id === categoryId);
@@ -14,49 +15,71 @@ export default function CategoryPage({ params }) {
 
   return (
     <>
-      {/* Hero Banner */}
-      <section
-        style={{ backgroundImage: "url('https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759831101/banner_lklwmi.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh] md:h-[90vh] relative"
+       {/* ===== Banner Section ===== */}
+      <div
+        className="relative bg-cover bg-center h-[40vh] md:h-[65vh] flex flex-col items-center justify-center text-center overflow-hidden"
+        style={{
+          backgroundImage:
+            "url('/test5.webp')",
+        }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#F7C600]/30 via-[#00537B]/50 to-[#F7C600]/40"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="max-w-4xl font-serif text-center rounded-md text-[#B57E1F] bg-white text-2xl md:text-5xl font-bold z-10 p-2">
+   
+<div className="relative z-10 text-white px-6 ">
+  <h2 className="max-w-4xl  text-center font-serif  text-2xl md:text-5xl font-bold z-10 ">
             {category.name}
           </h2>
+
+
+   
+
+</div>
+   {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-900/60 to-slate-800/50" />
+      
+      </div>
+    
+
+      {/* 🔹 PRODUCT GRID (LIKE IMAGE SHARED) */}
+      <section className="bg-white py-14">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {category.products.map((product) => (
+              <Link
+                key={product.id}
+                href={`/products/${product.id}`}
+                className="group"
+              >
+                {/* Card */}
+                <div className=" transition overflow-hidden">
+                  
+                  {/* Image */}
+                  <div className="relative h-[320px] w-full overflow-hidden">
+                    <Image
+                      src={product.image?.[0]?.src || "/placeholder.webp"}
+                      alt={product.name}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      unoptimized
+                    />
+
+                    {/* Arrow Icon */}
+                    <div className="absolute top-4 right-4 bg-amber-600/90 p-2 rounded-full shadow">
+                      <ArrowUpRight className="w-4 h-4 text-white" />
+                    </div>
+                  </div>
+
+                  {/* Button Title (like screenshot) */}
+                  <div className="py-6 flex justify-center">
+                    <span className="px-6 py-2 border-2 border-amber-700 text-amber-700 rounded-full font-semibold text-sm group-hover:bg-amber-700 group-hover:text-white transition">
+                      {product.name}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
-
-      {/* Products Grid */}
-      <div className="p-10 max-w-7xl mx-auto">
-        <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {category.products.map((product) => (
-            <Link
-              key={product.id}
-              href={`/products/${product.id}`}
-              className="border bg-[#ad7920]/20 rounded-lg shadow-md  hover:shadow-lg transition"
-            >
-              <div className=" relative rounded-md overflow-hidden">
-
-                 <div className="absolute top-3 right-3 bg-[#F8CC19] p-2 rounded-full transition-opacity group-hover:opacity-100 opacity-90">
-                                <ArrowUpRight className="w-4 h-4 text-white" />
-                              </div>
-                <Image
-                  src={product.image[0]?.src || "/placeholder.png"}
-                  alt={product.image[0]?.alt || product.name}
-                  title={product.name}
-                  width={400}
-                  height={300}
-                  className="object-contain"  
-                  unoptimized
-                />
-              </div>
-              <h2 className="mt-3 p-2 md:text-lg font-semibold">{product.name}</h2>
-             
-            </Link>
-          ))}
-        </div>
-      </div>
     </>
   );
 }

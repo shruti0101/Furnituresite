@@ -25,8 +25,8 @@ export default function ContactForm({ isOpen, onClose }) {
 
     try {
       const formData = {
-        platform: "Titanium Dioxide Wholesaler Enquiry Form",
-        platformEmail: "sales@aanyaenterprise.com",
+        platform: "DK Modular Furniture Enquiry Form",
+        platformEmail: "dkmodularcontractor@gmail.com",
         name,
         phone,
         email,
@@ -52,7 +52,7 @@ Message: ${message}
 
 Contact: ${phone}`;
 
-        const waUrl = `https://wa.me/+918527557778?text=${encodeURIComponent(
+        const waUrl = `https://wa.me/+919999402424?text=${encodeURIComponent(
           whatsappText
         )}`;
 
@@ -81,7 +81,7 @@ Contact: ${phone}`;
     <div className="fixed inset-0 flex items-center justify-center bg-black/30 z-50">
       <div
         className="relative rounded-3xl shadow-2xl p-8 md:p-10 w-[350px] md:w-[570px] text-white bg-cover bg-center overflow-hidden"
-        style={{ backgroundImage: "url(https://res.cloudinary.com/dzbkxqqo9/image/upload/v1760072301/Titanium_Dioxide_bijcv9.png)" }}
+        style={{ backgroundImage: "url(/test5.webp)" }}
       >
         <div className="absolute inset-0 bg-black/30 rounded-3xl"></div>
 
@@ -93,10 +93,10 @@ Contact: ${phone}`;
             ✕
           </button>
 
-          <h2 className="text-center text-white text-xl md:text-3xl font-semibold tracking-wide">
-            Get In Touch With Us
+          <h2 className="text-center text-white text-xl md:text-2xl font-semibold tracking-wide">
+         Let's Elevate Your Workspace
           </h2>
-          <div className="w-28 h-[4px] bg-[#F7C600] mx-auto mt-3 mb-8 rounded-full"></div>
+          <div className="w-28 h-[4px] bg-amber-500 mx-auto mt-3 mb-8 rounded-full"></div>
 
           {!submitted ? (
             <form className="space-y-4" onSubmit={handleSubmit}>
@@ -117,15 +117,14 @@ Contact: ${phone}`;
                   required
                   disabled={loading}
                 >
-                  <option value="" disabled hidden>
-                    Select Product
-                  </option>
-                  <option value="Titanium Dioxide (TiO₂)">Titanium Dioxide (TiO₂)</option>
-                  <option value="Titanium Dioxide Rutile">Titanium Dioxide Rutile</option>
-                  <option value="Lithopone">Lithopone</option>
-                  <option value="Optical Brighter">Optical Brighter</option>
-                  <option value="Caustic Soda">Caustic Soda</option>
-                  <option value="Calcium Carbonate">Calcium Carbonate</option>
+                   <option disabled value="">Select Product</option>
+                <option value="Modular Office Workstation">Modular Office Workstation</option>
+                <option value="Office Workstation">Office Workstation</option>
+                <option value="Meeting And Conference Room Table">Conference Room Table</option>
+                <option value="Computer Table">Computer Table</option>
+                <option value="Office Chair">Office Chair</option>
+                
+                <option value="Wooden Storage Unit">Wooden Storage Unit</option>
                 </select>
               </div>
 
@@ -160,7 +159,7 @@ Contact: ${phone}`;
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-3 bg-[#F7C600] hover:bg-[#d6ac00] transition rounded-md font-semibold text-white text-md shadow-md"
+                className="w-full py-3 bg-amber-500 hover:bg-amber-600 cursor-pointer transition rounded-md font-semibold text-white text-md shadow-md"
               >
                 {loading ? "Submitting..." : "Send Message"}
               </button>

@@ -31,8 +31,8 @@ export default function ContactForm() {
 
     try {
       const formData = {
-        platform: "Titanium Dioxide Wholesaler Popup Form",
-        platformEmail: "sales@aanyaenterprise.com",
+        platform: "dkmodular Popup Form",
+        platformEmail: "dkmodularcontractor@gmail.com",
         name,
         phone,
         email,
@@ -98,7 +98,7 @@ Contact: ${phone}`;
 
         <div className="hidden md:block w-full md:w-1/2 h-64 md:h-auto relative">
           <Image
-            src="https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759744551/Gemini_Generated_Image_fpz1x1fpz1x1fpz1_1_lpjciw.webp"
+            src="/officeimage/form.webp"
             alt="Contact Us"
             fill
             className="object-cover w-full h-full"
@@ -123,19 +123,21 @@ Contact: ${phone}`;
                 disabled={loading}
               />
               <select
-                className="flex-1 p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
+                className=" p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
                 required
                 value={product}
                 onChange={(e) => setProduct(e.target.value)}
                 disabled={loading}
               >
-                <option value="">Select Product</option>
-                <option value="Titanium Dioxide (TiO₂)">Titanium Dioxide (TiO₂)</option>
-                <option value="Titanium Dioxide Rutile">Titanium Dioxide Rutile</option>
-                <option value="Lithopone">Lithopone</option>
-                <option value="Optical Brighter">Optical Brighter</option>
-                <option value="Caustic Soda">Caustic Soda</option>
-                <option value="Calcium Carbonate">Calcium Carbonate</option>
+                <option disabled value="">Select Product</option>
+                <option value="Modular Office Workstation">Modular Office Workstation</option>
+                <option value="Office Workstation">Office Workstation</option>
+                <option value="Meeting And Conference Room Table">Conference Room Table</option>
+                <option value="Computer Table">Computer Table</option>
+                <option value="Office Chair">Office Chair</option>
+                
+                <option value="Wooden Storage Unit">Wooden Storage Unit</option>
+        
               </select>
             </div>
 

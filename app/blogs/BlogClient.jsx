@@ -19,7 +19,7 @@ async function getBlogs() {
 
 export default function BlogsPage() {
   const [blogs, setBlogs] = useState([]);
-  const [visibleCount, setVisibleCount] = useState(6); // ✅ initially show 6 blogs
+  const [visibleCount, setVisibleCount] = useState(6);
 
   useEffect(() => {
     async function fetchBlogs() {
@@ -33,14 +33,15 @@ export default function BlogsPage() {
     <>
       {/* ===== Banner Section ===== */}
           <div
-            className="relative bg-cover bg-center h-[40vh] md:h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden"
+            className="relative bg-cover bg-center h-[40vh] md:h-[70vh] flex flex-col items-center justify-center text-center overflow-hidden"
             style={{
               backgroundImage:
-                "url('https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759728776/aboutbg_xoifk1.webp')",
+                "url('test5.webp')",
             }}
           >
             {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-b from-[#0A3A49]/70 via-[#0A3A49]/60 to-[#0A3A49]/90"></div>
+            {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-900/60 to-slate-800/50" />
     
             {/* Content */}
             <div className="relative z-10 text-white">
@@ -63,7 +64,7 @@ export default function BlogsPage() {
           {blogs.slice(0, visibleCount).map((b) => (
             <article
               key={b.slug?.current || b.title}
-              className="bg-white border rounded-lg shadow"
+              className="bg-white border border-amber-500 rounded-lg shadow"
             >
               {b.imageUrl && (
                 <Image
@@ -76,7 +77,7 @@ export default function BlogsPage() {
               )}
               <div className="p-4">
                 <h2 className="text-lg font-semibold mb-2">{b.title}</h2>
-                <p className="text-sm text-gray-500 mb-3">
+                <p className="text-sm text-red-500 mb-3">
                   {b.date
                     ? new Date(b.date).toLocaleDateString("en-US", {
                         year: "numeric",
@@ -89,7 +90,7 @@ export default function BlogsPage() {
                 <p className="text-gray-700 text-sm">{b.excerpt}</p>
                 <Link
                   href={`/blogs/${b.slug.current}`}
-                  className="text-blue-600 font-medium hover:underline mt-3 block"
+                  className="text-amber-600 font-medium hover:underline mt-3 block"
                 >
                   Read More →
                 </Link>

@@ -96,14 +96,15 @@ export default async function BlogDetail({ params }) {
     <>
      {/* ===== Banner Section ===== */}
           <div
-            className="relative bg-cover bg-center h-[60vh] md:h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden"
+            className="relative bg-cover bg-center h-[60vh] md:h-[70vh] flex flex-col items-center justify-center text-center overflow-hidden"
             style={{
               backgroundImage:
-                "url('https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759728776/aboutbg_xoifk1.webp')",
+                "url('/test5.webp')",
             }}
           >
             {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-b from-[#0A3A49]/70 via-[#0A3A49]/60 to-[#0A3A49]/90"></div>
+        {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-900/60 to-slate-800/50" />
     
             {/* Content */}
             <div className="relative z-10 text-white">
@@ -114,12 +115,14 @@ export default async function BlogDetail({ params }) {
              
             </div>
           </div>
+
+
       <div className="max-w-6xl mx-auto px-6 py-10">
         {blog.imageUrl && (
           <Image
             src={blog.imageUrl}
             alt={blog.title}
-            width={800}
+            width={700}
             height={400}
             className="rounded my-6"
           />

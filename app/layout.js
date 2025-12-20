@@ -1,19 +1,20 @@
-import { Outfit } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 import Script from "next/script";
 import Whatsapp from "@/components/Whatsapp";
+import Stickbutton from "@/components/Stickbutton";
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-montserrat",
 });
 
 export const metadata = {
-  title: "Titanium Dioxide Wholesaler | Aanya Enterprise",
+  title: "DK Modular Office Furnitures - Premium Modular Office Solutions",
   description:
-    "Aanya Enterprise is a leading Titanium Dioxide Wholesaler. Get bulk, high-quality TiO2 for your industry needs. Reliable supply and competitive pricing. Contact us today!",
+    "DK Modular Office Furniture offers premium modular office furniture solutions designed to enhance productivity and comfort in modern workspaces. Explore our range of ergonomic and stylish furniture today.",
   icons: {
     icon: "/logo.webp",
   },
@@ -21,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.variable}>
       <head>
         <link
           href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -29,14 +30,14 @@ export default function RootLayout({ children }) {
           type="text/css"
         />
       </head>
-      <body className={`${outfit.variable} antialiased`}>
 
-        <Whatsapp></Whatsapp>
+      <body className="antialiased font-sans">
+        <Stickbutton />
+        <Whatsapp />
         <main>
           <LayoutWrapper>{children}</LayoutWrapper>
         </main>
 
-        {/* ✅ Use Next.js Script component instead of <script> */}
         <Script
           src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
           strategy="afterInteractive"

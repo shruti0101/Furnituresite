@@ -1,310 +1,192 @@
 "use client";
-import { useState, useEffect } from "react";
-import { ChevronDown, MapPin, Mail, Phone, Menu, X } from "lucide-react";
+
+import { useState } from "react";
 import Image from "next/image";
-import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
+import { ChevronDown, Menu, X } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { categories } from "@/Data";
-import Enquiry from "@/components/Enquiry"
 
 export default function Navbar() {
-  const [openMenu, setOpenMenu] = useState(null);
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
- const [isFormOpen, setIsFormOpen] = useState(false)
+  const [activeMenu, setActiveMenu] = useState(null);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const menuItems = [
-    { label: "Home", link: "/" },
-    { label: "About Us", link: "/about-us" },
-    {
-      label: "Products",
-      link: "/products",
-      dropdown: [
-        "Titanium Dioxide TiO2", 
-        "Titanium Dioxide Rutile",
-        "Lithopone",
-        "Optical Brighter",
-        "Caustic Soda",
-        "Carbon",
-        "Calcium Carbonate",
-      ],
-    },
-    { label: "Blogs", link: "/blogs" },
-    { label: "Contact Us", link: "/contact-us" },
-  ];
+  const closeMenu = () => {
+    setActiveMenu(null);
+    setMobileOpen(false);
+  };
 
   return (
+    <header className="sticky top-0 z-50 bg-[#252531]/60 w-full border-b border-gray-200">
 
-    <>
-    
-    <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        scrolled ? "bg-white shadow-lg text-black" : "bg-transparent text-white"
-      }`}
-    >
-      {/* Top Info Bar */}
-      <div
-        className={`transition-all duration-500 ${
-          scrolled
-            ? "bg-[#F7C600] border-b border-gray-200 text-black"
-            : "bg-[#00537B] backdrop-blur-md border-b border-white/20 text-white"
-        }`}
+  
+{/* 🔹 TOP BAR */}
+<div className="border-b border-gray-100">
+  <div
+    className="
+      w-full mx-auto
+      px-4
+      h-14
+      flex items-center justify-between
+      bg-[#252531]/95
+      lg:px-10 lg:h-16
+    "
+  >
+    {/* LEFT: Logo */}
+    <Link href="/" className="flex items-center mt-2">
+      <Image
+        className="rounded-full"
+        src="/logo.webp"
+        alt="Logo"
+        width={80}
+        height={50}
+        priority
+      />
+    </Link>
+
+    {/* RIGHT: Actions (Mobile = row, Desktop = hidden here) */}
+    <div className="flex items-center gap-3 lg:hidden">
+      {/* WhatsApp */}
+      <a
+        href="https://wa.me/9999402424"
+        target="_blank"
+        aria-label="WhatsApp"
+        className="rounded-full bg-green-500 p-2 text-white shadow-sm"
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-2 text-sm font-medium">
-          {/* Desktop Info */}
-          <div className="hidden lg:flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <MapPin size={16} />
-              <span>Plot No 67/2, Pooth Khurd, New Delhi-110039, India</span>
-            </div>
-            <div className="flex items-center gap-2 border-l pl-4">
-              <Mail size={16} />
-             <a href="mailto:sales@aanyaenterprise.com">sales@aanyaenterprise.com</a>
-            </div>
-            <div className="flex items-center gap-2 border-l pl-4">
-              <Phone size={16} />
-              <a href="tel:+9185275205777">+91-85275 57778</a>
-            </div>
-            <div className="flex items-center gap-2 border-l pl-4">
-              <Phone size={16} />
-              <a href="tel:+918920109583">+91-89201 09583</a>
-            </div>
-          </div>
+        <FaWhatsapp size={16} />
+      </a>
 
-          {/* Mobile Info */}
-          <div className="flex lg:hidden items-center gap-5 overflow-x-auto no-scrollbar">
-            <a
-              href="https://maps.google.com"
-              className="flex items-center gap-1 text-xs"
-            >
-              <MapPin size={14} /> <span>Delhi</span>
-            </a>
-            {/* <a
-              href="mailto:sales@aanyaenterprise.com"
-              className="flex items-center gap-1 text-xs"
-            >
-              <Mail size={14} /> <span>Email</span>
-            </a> */}
-            <a
-              href="tel:+918527557778"
-              className="flex font-serif items-center gap-1 text-xs"
-            >
-              <Phone size={14} /> <span>+918527557778</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Nav Bar */}
-      <div
-        className={`transition-all duration-500 ${
-          scrolled
-            ? "bg-white text-black border-b border-gray-200"
-            : " bg-black/20 backdrop-blur-xs text-white "
-        }`}
+      {/* Menu Toggle */}
+      <button
+        onClick={() => setMobileOpen(!mobileOpen)}
+        aria-label="Toggle menu"
+        className="text-white"
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-1">
-          {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Link href="/">
-              <Image
-                className="w-20 md:w-auto  md:h-auto"
-                src="/logo.webp"
-                alt="Logo"
-                width={110}
-                height={50}
-              />
-            </Link>
-          </div>
+        {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+      </button>
+    </div>
 
-          {/* Desktop Nav */}
-          <nav className="hidden md:flex text-xl font-medium">
-            {menuItems.map((item, idx) => (
-              <div
-                key={idx}
-                className="relative group px-6"
-                onMouseEnter={() => setOpenMenu(item.label)}
-                onMouseLeave={() => setOpenMenu(null)}
-              >
-                {item.dropdown ? (
-                  <Link
-                    href={item.link}
-                    className="flex items-center gap-1 py-5 hover:text-[#F7C600] transition cursor-pointer"
-                  >
-                    {item.label}
+    {/* DESKTOP LINKS (UNCHANGED) */}
+    <div className="hidden lg:flex items-center gap-10 text-[13px] font-bold tracking-wide text-white">
+      <Link href="/" className="hover:text-amber-500 transition">Home</Link>
+      <Link href="/about-us" className="hover:text-amber-500 transition">About Us</Link>
+      <Link href="/blogs" className="hover:text-amber-500 transition">Blogs</Link>
+      <Link href="/contact-us" className="hover:text-amber-500 transition">Contact Us</Link>
 
-                    <ChevronDown size={14} />
-                  </Link>
-                ) : (
-                  <Link
-                    href={item.link}
-                    className="flex items-center gap-1 py-5 hover:text-[#F7C600] transition"
-                  >
-                    {item.label}
-                  </Link>
-                )}
-
-                {/* Dropdown */}
-                {item.dropdown && openMenu === item.label && (
-                  <div className=" absolute left-0 top-full mt-0 w-60 bg-[#00537B] text-white shadow-lg border-2 border-yellow-400 before:content-[''] before:absolute before:inset-0 before:border-2 before:border-yellow-500 before:z-160 before:translate-x-2 before:translate-y-2 before:block before:z-[-1] ">
-                    {categories.map((cat) => (
-                      <Link
-                        key={cat.id}
-                        href={`/categories/${cat.id}`}
-                        className={`block cursor-pointer text-lg  px-3 py-3  transition-all  hover:bg-[#F7C600]
-                      
-                      
-                    `}
-                      >
-                        {cat.name} 
-                        <span className="text-white ml-2">→</span>
-                        
-                      
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
-          </nav>
-
-          {/* Buttons */}
-          <div className="hidden lg:flex items-center gap-6">
-            <button onClick={() => setIsFormOpen(true)} className=" relative px-6 py-3 font-semibold bg-[#F7C600] text-white cursor-pointer transition-all duration-700 before:content-[''] before:absolute before:inset-0 before:border-1 before:border-[#F7C600] before:transition-transform before:duration-500 before:ease-in-out before:translate-y-2 before:translate-x-2 hover:before:-translate-y-1 hover:before:-translate-x-2 ">
-              {" "}
-              Request A Quote{" "}
-            </button>
-
-            <a
-              href="https://wa.me/918527557778?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20products."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative inline-flex items-center gap-2 px-6 py-3 font-semibold bg-[#25D366] text-white cursor-pointer transition-all duration-700 before:content-[''] before:absolute before:inset-0 before:border before:border-[#25D366] before:transition-transform before:duration-500 before:ease-in-out before:translate-y-2 before:translate-x-2 hover:before:-translate-y-1 hover:before:-translate-x-2 hover:shadow-lg hover:bg-[#20ba5a] "
-            >
-              <FaWhatsapp size={20} className="text-white" />
-              <span>WhatsApp Us</span>
-            </a>
-          </div>
-
-          {/* Mobile Hamburger */}
-          <button className="md:hidden" onClick={() => setMobileNavOpen(true)}>
-            <Menu size={28} />
-          </button>
-        </div>
-      </div>
-
- {/* Mobile Side Drawer */}
-{mobileNavOpen && (
-  <div className="fixed inset-0 z-50">
-    {/* Overlay */}
-    <div
-      className="absolute inset-0 bg-black/60"
-      onClick={() => setMobileNavOpen(false)}
-    />
-
-    {/* Drawer */}
-    <div className="absolute left-0 top-0 h-full w-3/4 max-w-xs bg-black text-white shadow-lg transform transition-transform duration-300 ease-in-out translate-x-0">
-      <div className="flex justify-between items-center px-4 py-4 border-b border-white/20">
-        <Image src="/logo.webp" alt="Logo" width={90} height={45} />
-        <button onClick={() => setMobileNavOpen(false)}>
-          <X size={26} />
-        </button>
-      </div>
-
-      <div className="px-4 py-6 space-y-4">
-        {menuItems.map((item, idx) => (
-          <div key={idx}>
-            {item.dropdown ? (
-              <>
-                <button
-                  className="flex justify-between w-full py-2 text-lg font-medium"
-                  onClick={() =>
-                    openMenu === item.label
-                      ? setOpenMenu(null)
-                      : setOpenMenu(item.label)
-                  }
-                >
-                  {item.label}
-                  <ChevronDown size={16} />
-                </button>
-
-                {openMenu === item.label && (
-                  <div className="pl-4 space-y-2">
-                    {item.dropdown.map((d, i) => (
-                      <Link
-                        key={i}
-                        href={`/categories/${d
-                          .replace(/\s+/g, "-")
-                          .toLowerCase()}`}
-                        className="block py-1 text-sm hover:text-yellow-400"
-                        onClick={() => {
-                          setMobileNavOpen(false);
-                          setOpenMenu(null);
-                        }}
-                      >
-                        {d}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </>
-            ) : (
-              <Link
-                href={item.link}
-                className="block py-2 text-lg font-medium"
-                onClick={() => {
-                  setMobileNavOpen(false);
-                  setOpenMenu(null);
-                }}
-              >
-                {item.label}
-              </Link>
-            )}
-          </div>
-        ))}
-
-        <div className="pt-6 space-y-3">
-          <button
-            onClick={() => {
-              setIsFormOpen(true);
-              setMobileNavOpen(false);
-            }}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded"
-          >
-            Request a Quote
-          </button>
-
-          <Link
-            href="/contact-us"
-            onClick={() => setMobileNavOpen(false)}
-          >
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded">
-              Contact Us
-            </button>
-          </Link>
-        </div>
-      </div>
+      <a
+        href="https://wa.me/9999402424"
+        target="_blank"
+        className="rounded-full bg-green-500 p-2.5 text-white shadow-sm hover:shadow-md transition animate-pulse"
+      >
+        <FaWhatsapp size={18} />
+      </a>
     </div>
   </div>
-)}
+</div>
 
 
 
+      {/* 🔹 DESKTOP CATEGORY BAR (UNCHANGED) */}
+      <div
+        className="relative bg-white border-b border-amber-500 hidden lg:block"
+        onMouseLeave={() => setActiveMenu(null)}
+      >
+        <div className="max-w-7xl ml-15 mx-auto h-13 flex items-center gap-8 font-semibold tracking-wide text-black text-[13px]">
+          {categories.map((cat) => (
+            <Link
+              key={cat.id}
+              href={`/categories/${cat.id}`}
+              onClick={closeMenu}
+              onMouseEnter={() => setActiveMenu(cat.id)}
+              className="group flex items-center gap-1 hover:text-amber-500"
+            >
+              <span className="relative">
+                {cat.name}
+                <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-amber-500 transition-all duration-300 group-hover:w-full" />
+              </span>
+              <ChevronDown size={13} className="opacity-60" />
+            </Link>
+          ))}
+        </div>
+
+        {/* Mega Menu (Desktop Only – unchanged) */}
+        {activeMenu && (
+          <div className="fixed left-0 right-0 top-[118px] h-[calc(100vh-118px)] bg-white overflow-y-auto shadow-[0_30px_80px_rgba(0,0,0,0.12)]">
+            <div className="max-w-7xl mx-auto px-6 py-12">
+              <p className="mb-8 text-[11px] uppercase tracking-[0.35em] text-black">
+                {categories.find(c => c.id === activeMenu)?.name}
+              </p>
+
+              <div className="grid grid-cols-5 gap-10">
+                {categories
+                  .find(c => c.id === activeMenu)
+                  ?.products.map(prod => (
+                    <Link key={prod.id} href={`/products/${prod.id}`} onClick={closeMenu}>
+                      <div className="relative h-56 bg-gray-100 overflow-hidden">
+                        <Image
+                          src={prod.image?.[0]?.src}
+                          alt={prod.name}
+                          fill
+                          className="object-cover hover:scale-110 transition"
+                        />
+                      </div>
+                      <p className="mt-4 text-sm text-center font-medium hover:text-amber-600">
+                        {prod.name}
+                      </p>
+                    </Link>
+                  ))}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* 🔹 MOBILE MENU */}
+      {mobileOpen && (
+        <div className="lg:hidden bg-white border-t">
+          <div className="px-4 py-4 space-y-4 text-sm font-semibold">
+
+            <Link onClick={closeMenu} href="/">Home</Link>
+            <Link onClick={closeMenu} href="/about-us">About Us</Link>
+            <Link onClick={closeMenu} href="/blogs">Blogs</Link>
+            <Link onClick={closeMenu} href="/contact-us">Contact Us</Link>
+
+            {/* Mobile Categories */}
+            <div className="pt-4 border-t">
+              {categories.map(cat => (
+                <details key={cat.id} className="mb-2">
+                  <summary className="cursor-pointer flex justify-between items-center py-2">
+                    {cat.name}
+                    <ChevronDown size={14} />
+                  </summary>
+
+                  <div className="pl-4 pt-2 space-y-2">
+                    {cat.products?.map(prod => (
+                      <Link
+                        key={prod.id}
+                        href={`/products/${prod.id}`}
+                        onClick={closeMenu}
+                        className="block text-gray-700"
+                      >
+                        {prod.name}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              ))}
+            </div>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/9999402424"
+              target="_blank"
+              className="flex items-center gap-2 text-green-600 font-bold"
+            >
+              <FaWhatsapp /> WhatsApp Us
+            </a>
+          </div>
+        </div>
+      )}
     </header>
-
-
-     {/* Pass isOpen + onClose to ContactForm */}
-                  {isFormOpen && (
-                    <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
-                  )}
-    </>
   );
 }

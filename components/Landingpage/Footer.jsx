@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -11,179 +11,226 @@ import {
   Youtube,
   Linkedin,
 } from "lucide-react";
-import { useState } from "react";
 
-const products = [
-  { name: "Titanium Dioxide (TiO₂)", href: "/categories/titanium-dioxide-tiO2" },
-  { name: "Titanium Dioxide Rutile", href: "/categories/titanium-dioxide-rutile" },
-  { name: "Lithopone", href: "/categories/lithopone" },
-  { name: "Optical Brighter", href: "/categories/optical-brighter" },
-  { name: "Caustic Soda", href: "/categories/caustic-soda" },
-  { name: "Carbon", href: "/categories/carbon" },
-  { name: "Calcium Carbonate", href: "/categories/calcium-carbonate" },
-];
+export default function Footer() {
+  const [email, setEmail] = useState("");
+  const [state, setState] = useState("idle");
 
-const Footer = () => {
+  const submitEmail = (e) => {
+    e.preventDefault();
+    if (!email.includes("@")) {
+      setState("error");
+      return;
+    }
+    setState("success");
+    setEmail("");
+  };
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
   return (
-    <footer
-      className=" relative text-gray-300 pt-16 pb-8 bg-cover bg-center"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.6)), url(https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759726382/bg-footer_wntkmm.webp)`,
-      }}
-    >
-      {/* Top Gradient Line */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#D33F00] via-orange-400 to-[#D33F00]"></div>
+    <footer className="relative text-white pt-10 pb-7 overflow-hidden">
+      {/* BACKGROUND IMAGE - behind everything */}
+      <div
+        className="absolute inset-0 -z-20 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('/footerbg.webp')",
+        }}
+        aria-hidden="true"
+      />
 
-      {/* Content */}
-      <div className="relative w-full mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 md:gap-7">
-          {/* Column 1: About Us */}
+      {/* DARK OVERLAY - behind content but above the image */}
+      <div
+        className="absolute inset-0 -z-10"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.7) 100%)",
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Top Accent Line (above bg but below content) */}
+      <div className="absolute top-0 left-0 h-1 w-full -z-5 bg-gradient-to-r from-amber-400 to-amber-600" />
+
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        {/* MAIN GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          {/* BRAND */}
           <div>
-            <Image
-              src="/logo.webp"
-              alt="Aanya Enterprises Logo"
-              width={160}
-              height={50}
-              className="mb-6"
-            />
-            <h3 className="text-white font-semibold text-xl mb-4 font-serif">About Us</h3>
-            <p className="text-base md:text-lg text-gray-200 leading-relaxed">
-              At Aanya Enterprises, we are proud to be recognised as one of
-              India’s most trusted suppliers and importers of premium-grade
-              chemical compounds.
+            <div className=" inline-block rounded-full overflow-hidden">
+              <Image
+                src="/logo.webp"
+                width={150}
+                height={50}
+                alt="DK Modular Furniture"
+                className="object-cover"
+              />
+            </div>
+
+            <p className="leading-relaxed text-sm text-white">
+              DK Modular specializes in modern office furniture — workstations,
+              conference tables, storage units and ergonomic seating with
+              precision, durability and elegant design.
             </p>
+
+         
           </div>
 
-          {/* Column 2: Explore Links */}
-          <div> 
-            <h3 className="text-white font-semibold text-xl mb-4 font-serif">Explore Links</h3>
-            <ul className="space-y-2 text-base md:text-lg text-white">
-              {[
-                { name: "Home", href: "/" },
-                { name: "About Us", href: "/about-us" },
-                { name: "Our Products", href: "/products" },
-                { name: "Our Blog", href: "/blogs" },
-                { name: "Contact Us", href: "/contact-us" },
-                // { name: "Privacy Policy", href: "/privacy-policy" },
-                // { name: "Terms & Conditions", href: "/terms" },
-              
-              ].map((link, i) => (
-                <li key={i}>
-                  <Link
-                    href={link.href}
-                    className="hover:text-[#F7C600] transition-colors duration-300"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
+          {/* QUICK LINKS */}
+          <div>
+            <h3 className="text-white font-serif font-semibold text-xl mb-4">
+              Quick Links
+            </h3>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <Link href="/" className="text-white hover:text-amber-400">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about-us" className="text-white hover:text-amber-400">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/blogs" className="text-white hover:text-amber-400">
+               Blogs
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact-us" className="text-white hover:text-amber-400">
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Column 3: Our Products */}
+          {/* FURNITURE CATEGORIES */}
           <div>
-            <h3 className="text-white font-semibold text-xl mb-4 font-serif">Our Products</h3>
-            <ul className="space-y-2 text-base md:text-lg text-white">
-              {products.map((p, i) => (
-                <li key={i}>
-                  <Link
-                    href={p.href}
-                    className="hover:text-[#F7C600] transition-colors duration-300"
-                  >
-                    {p.name}
-                  </Link>
-                </li>
-              ))}
+            <h3 className="text-white font-serif font-semibold text-xl mb-4">
+              Furniture Categories
+            </h3>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <Link href="/categories/modular-office-workstation" className="text-white hover:text-amber-400">
+                  Modular Office Workstations
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/office-workstation" className="text-white hover:text-amber-400">
+                  Office Workstation
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/meeting-and-conference-room-table" className="text-white hover:text-amber-400">
+                  Conference Room Tables
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/computer-table" className="text-white hover:text-amber-400">
+                  Computer Tables
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/office-chairs" className="text-white hover:text-amber-400">
+                  Office Chairs
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/wooden-storage-units" className="text-white hover:text-amber-400">
+                  Wooden Storage Units
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Column 4: Contact Us */}
+          {/* CONTACT INFO */}
           <div>
-            <h3 className="text-white font-semibold text-xl mb-4 font-serif">Contact Us</h3>
+            <h3 className="text-white font-serif font-semibold text-xl mb-4">
+              Contact Us
+            </h3>
+
             <div className="flex items-start gap-3 mb-4">
-              <MapPin className="w-11 h-11 text-[#F7C600]" />
-              <p className="text-base md:text-lg text-gray-200 leading-relaxed">
-                Plot No 67/2 Kh. No. 154 Village Pooth Khurd, New Delhi – 110039,
-                Delhi, India
+              <MapPin className="text-amber-400 w-5 h-5" />
+              <p className="text-sm text-white/95">
+                DK Modular Furniture,
+                <br />
+                Plot No. 00, Industrial Area,
+                <br />
+                New Delhi 110039
               </p>
             </div>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Phone className="w-5 h-5 text-[#F7C600]" />
-                <a href="tel:+918527557778" className="text-white underline">+91-85275 57778</a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-5 h-5 text-[#F7C600]" />
-                <a href="tel:+918920109583" className="text-white underline">+91-89201 09583</a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-5 h-5 text-[#F7C600]" />
-              <a href="mailto:sales@aanyaenterprise.com ">sales@aanyaenterprise.com</a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-5 h-5 text-[#F7C600]" />
-                <a href="mailto:info@aanyaenterprise.com">info@aanyaenterprise.com</a>
-              </div>
+
+            <div className="space-y-2 text-sm">
+              <p className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-amber-400" />
+                <a href="tel:9999402424" className="text-white hover:text-amber-400">
+                9999402424
+                </a>
+  {" "},  {" "}
+                <a href="tel:8595063087" className="text-white hover:text-amber-400">
+                 8595063087
+                </a>
+              </p>
+
+              <p className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-amber-400" />
+                <a href="mailto:dkmodularcontractor@gmail.com" className="text-white hover:text-amber-400">
+                  dkmodularcontractor@gmail.com
+                </a>
+              </p>
+            </div>
+
+
+
+
+   {/* Social icons */}
+            <div className="flex text-center gap-4 mt-5">
+              
+
+
+            
+          
+                
+                   <a
+
+                  href="https://www.facebook.com/profile.php?id=61585018361307#"
+                  className="flex items-center justify-center  rounded-md transition transform hover:-translate-y-0.5"
+                  aria-label="social"
+                >
+                  <Instagram className="w-5 h-5 text-amber-500 b" />
+                </a>
+              <a
+
+                  href="https://www.facebook.com/profile.php?id=61585018361307#"
+                  className="flex items-center justify-center  rounded-md transition transform hover:-translate-y-0.5"
+                  aria-label="social"
+                >
+                  <Facebook className="w-5 h-5 text-amber-500 " />
+                </a>
+              
+           
+               
+             
+         
             </div>
 
           </div>
 
 
-  {/* Trust Elite Section */}
-        <div className="px-2  items-center md:pb-8">
-          <div>
-            <h3 className="text-xl font-serif text-white font-semibold  mb-3">
-              Trust Elite Certificate
-            </h3>
-            <p className="text-base text-white leading-relaxed">
-            We are proud to present the TrustElite Certificate of Excellence to Aanya Enterprises , recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
-            </p>
-          </div>
-          <div className="flex justify-center md:justify-end">
-            <img
-              src="https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759726401/trustseal_vltgii.webp"
-              alt="Trust Elite"
-              className="w-28 h-28 object-contain cursor-pointer hover:scale-105 transition"
-              onClick={() => setIsModalOpen(true)}
-            />
 
-            {/* Modal */}
-            {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
-                <div className="relative">
-                  <button
-                    className="absolute top-2 right-2 text-white text-2xl font-bold"
-                    onClick={() => setIsModalOpen(false)}
-                  >
-                    ✕
-                  </button>
-                  <img
-                    src="https://res.cloudinary.com/dzbkxqqo9/image/upload/v1760078054/WhatsApp_1_liz2am.webp"
-                    alt="Trust Elite Full"
-                    className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
-                  />
-                </div>
-              </div>
-            )}
-          </div>
+          
         </div>
 
+      
 
+        {/* COPYRIGHT */}
+        <div className="mt-10 border-t border-white/10 pt-4 text-center text-sm text-white">
+        <div className="flex flex-col md:flex-row justify-between items-center ">
+          <p>  © 2025 DK Modular Furniture. All Rights Reserved.</p>
+          <p>Website Designed By Promozione Branding Pvt. Ltd. <a className="underline text-amber-500" href="https://promozionebranding.com/">Website Designing Company.</a> </p>
         </div>
-      </div>
-
-      {/* Bottom Bar */}
-      <div className="relative border-t px-2 border-gray-600 md:mt-12 pt-4 text-center text-sm md:text-base text-gray-300">
-        <p>Copyright © 2025 Aanya Enterprises. All Rights Reserved.</p>
-        <p className="mt-1">
-       Website Designed  By Promozione Branding Pvt. Ltd.
-          <a href="https://promozionebranding.com/" className="text-[#F7C600] cursor-pointer  underline font-serif"> Website Designing Company.</a>
-        </p>
+        </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
