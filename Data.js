@@ -57,11 +57,13 @@ export const categories = [
 
  specs: [
   { label: "Material", value: "Pre Laminated Board" },
-  { label: "Frame Material", value: "Aluminium" },
+  { label: "Frame Material", value: "Crca pipe" },
+    { label: "Table top height", value: "750mm" },
   { label: "Usage/Application", value: "Office" },
+   { label: "total height ", value: "1050mm" },
   { label: "Seating Height", value: "2 Feet" },
   { label: "Brand", value: "DK Modulars" },
-  { label: "Surface Finishing", value: "Matt" },
+  { label: "Surface Finishing", value: "laminate" },
   { label: "Product Type", value: "Modular Workstation" },
   { label: "Wood Style", value: "Pre Laminated Board" },
   { label: "Is It Portable", value: "Yes" },
@@ -120,7 +122,7 @@ export const categories = [
 
 
  specs: [
-  { label: "Seating Capacity", value: "1 Seater" },
+  { label: "Seating Capacity", value: "2 Seater" },
   { label: "Material", value: "Particle Board" },
   { label: "Layout Type", value: "L Shaped" },
   { label: "Size", value: "1500 x 1350 mm" },
@@ -243,9 +245,10 @@ description: [
 
 specs: [
   { label: "Seating Capacity", value: "1 Person" },
-  { label: "Material", value: "Glass and Particle Board" },
-  { label: "Thickness", value: "18–19 mm" },
-  { label: "Surface Treatment", value: "Polished" },
+  { label: "Material", value: " partical board with aluminium section " },
+  { label: "Partition Thickness", value: " 45mm" },
+    { label: "Table top Thickness", value: " 25mm" },
+  { label: "Surface Finish", value: "laminate" },
   { label: "Height", value: "3.5 Feet (Full Height)" },
   { label: "Usage/Application", value: "Office" },
   { label: "Color Options", value: "White, Blue & Custom Colours" },
@@ -308,9 +311,9 @@ description: [
 
 specs: [
   { label: "Seating Capacity", value: "4 Seater" },
-  { label: "Material", value: "Particle Board" },
-  { label: "Thickness", value: "18–19 mm" },
-  { label: "Surface Treatment", value: "Polished" },
+  { label: "Material", value: "partition board with 45mm aluminium section " },
+  { label: "Thickness", value: "25mm for table top" },
+  { label: "Surface Treatment", value: "laminate" },
   { label: "Usage/Application", value: "Office" },
   { label: "Color Options", value: "Brown, Red, White & Custom Colours" },
   { label: "Product Type", value: "Modern Office Workstation" },
@@ -373,10 +376,10 @@ description: [
 
 specs: [
   { label: "Seating Capacity", value: "4 Seater" },
-  { label: "Material", value: "Wood" },
-  { label: "Thickness", value: "18–19 mm" },
-  { label: "Table Height", value: "2 Feet" },
-  { label: "Surface Treatment", value: "Polished" },
+  { label: "Material", value: "prelame pratical board with 45mm aluminium section" },
+  { label: "Thickness", value: "25mm" },
+  { label: "Table Height", value: "750/1200mm" },
+  { label: "Surface Treatment", value: "laminated" },
   { label: "Usage/Application", value: "Office" },
   { label: "Color Options", value: "Orange, White, Brown, Cream & Custom Colours" },
   { label: "Product Type", value: "Linear Modern Office Workstation" },
@@ -398,33 +401,33 @@ specs: [
 
 // product 7
 {
-  id: "L-shape-modern-office-workstation",
-  name: "L Shape Modern Office Workstation",
-  metaTitle: "L Shape Modern Office Workstation",
+  id: "U-shape-modern-office-workstation",
+  name: "U Shape Modern Office Workstation",
+  metaTitle: "U Shape Modern Office Workstation",
   metaDescription:
-    "L Shape Modern Office Workstation",
+    "U Shape Modern Office Workstation",
 
 description: [
   {
     type: "h2",
-    text: "L Shape Modern Office Workstation | DK Modulars",
+    text: "U Shape Modern Office Workstation | DK Modulars",
   },
   {
     type: "p",
-    text: "The L Shape Modern Office Workstation by DK Modulars is designed to offer maximum workspace efficiency with a modern and professional appearance. Ideal for corporate offices, IT companies, managerial cabins, and home offices, this workstation makes optimal use of corner spaces while providing ample working surface.",
+    text: "The U Shape Modern Office Workstation by DK Modulars is designed to offer maximum workspace efficiency with a modern and professional appearance. Ideal for corporate offices, IT companies, managerial cabins, and home offices, this workstation makes optimal use of corner spaces while providing ample working surface.",
   },
   {
     type: "p",
-    text: "Manufactured using high-quality particle board with a polished surface finish, this workstation delivers durability, stability, and long-term performance. The L-shaped design allows better organisation of computers, files, and accessories, creating a comfortable and productive working environment.",
+    text: "Manufactured using high-quality particle board with a polished surface finish, this workstation delivers durability, stability, and long-term performance. The U-shaped design allows better organisation of computers, files, and accessories, creating a comfortable and productive working environment.",
   },
   {
     type: "h2",
-    text: "Key Features – L Shape Modern Office Workstation",
+    text: "Key Features – U Shape Modern Office Workstation",
   },
   {
     type: "ul",
     items: [
-      "L Shape Layout – maximises workspace and efficiently utilises corner areas.",
+      "U Shape Layout – maximises workspace and efficiently utilises corner areas.",
       "High-Quality Particle Board Construction – ensures strength and daily wear resistance.",
       "Polished Surface Finish – smooth, easy to clean, and visually appealing.",
       "Standard Thickness (18–19 mm) – offers structural stability and durability.",
@@ -440,10 +443,10 @@ description: [
 
 
 specs: [
-  { label: "Shape", value: "L Shape" },
+  { label: "Shape", value: "U Shape" },
   { label: "Material", value: "Particle Board" },
-  { label: "Thickness", value: "18–19 mm" },
-  { label: "Surface Treatment", value: "Polished" },
+  { label: "Thickness", value: "25mm " },
+  { label: "Surface Treatment", value: "laminated" },
   { label: "Usage/Application", value: "Office" },
   { label: "Color Options", value: "Orange, White, Ivory & Custom Colours" },
   { label: "Product Type", value: "L Shape Modern Office Workstation" },
@@ -479,11 +482,7 @@ specs: [
 
 
 
-    // product 1
-
-
-
-    //product 3
+    //product 1
     
     
 {
@@ -524,9 +523,9 @@ specs: [
     { label: "Seating Capacity", value: "2 Seater" },
     { label: "Material", value: "Wooden" },
     { label: "Color", value: "Brown, Cream, Ivory, Orange" },
-    { label: "Frame Type", value: "Aluminium" },
+    { label: "Frame Type", value: "Aluminium and ms" },
     { label: "Usage/Application", value: "Corporate Office" },
-    { label: "Table Top Thickness", value: "10 to 30 mm" },
+    { label: "Table Top Thickness", value: "25mm" },
   ],
 
   image: [
@@ -579,7 +578,7 @@ specs: [
     { label: "Material", value: "Wooden" },
     { label: "Frame Type", value: "Aluminium" },
     { label: "Usage/Application", value: " Office" },
-    { label: "Table Top Thickness", value: "10 to 30 mm" },
+    { label: "Table Top Thickness", value: "25mm" },
   ],
 
   image: [
@@ -627,7 +626,7 @@ specs: [
   ],
 
   specs: [
-    { label: "Material", value: "Particle Board" },
+    { label: "Material", value: "partical board with 45mm aluminium section & clear glass" },
     { label: "Seating Capacity", value: "6 Seater" },
     { label: "Color", value: "Multi Color" },
     { label: "Brand", value: "DK Modular" },
@@ -683,9 +682,9 @@ specs: [
     { label: "Usage/Application", value: "Office" },
     { label: "Material", value: "Wood" },
     { label: "Color", value: "Brown, White etc" },
-    { label: "Seating Capacity", value: "4 Seater" },
-    { label: "Surface Treatment", value: "Polished" },
-    { label: "Thickness", value: "18–19 mm" },
+    { label: "Seating Capacity", value: "6 Person" },
+    { label: "Surface Treatment", value: "laminated " },
+    { label: "Thickness", value: "25mm" },
   ],
 
   image: [
@@ -733,12 +732,12 @@ specs: [
 
   specs: [
     { label: "Usage/Application", value: "Office" },
-    { label: "Shape", value: "Linear" },
+    { label: "Shape", value: " L-shape and linear" },
     { label: "Brand", value: "DK" },
     { label: "Color", value: "Brown, White etc" },
     { label: "Seating Capacity", value: "Customisable" },
-    { label: "Surface Treatment", value: "Polished" },
-    { label: "Thickness", value: "18–19 mm" },
+    { label: "Surface Treatment", value: "laminated " },
+    { label: "Thickness", value: "25mm" },
     { label: "Size", value: "customised" },
   ],
 
@@ -788,12 +787,12 @@ specs: [
 
   specs: [
     { label: "Seating Capacity", value: "6 Seater" },
-    { label: "Material", value: "Particle Board" },
+    { label: "Material", value: "Metal and Particle Board" },
     { label: "Color", value: "Red, Cream, White, Yellow etc" },
     { label: "Shape", value: "Linear" },
     { label: "Usage/Application", value: "Office" },
-    { label: "Thickness", value: "18–19 mm" },
-    { label: "Surface Treatment", value: "Polished" },
+    { label: "Thickness", value: "25mm " },
+    { label: "Surface Treatment", value: "laminated" },
   ],
 
   image: [
@@ -843,9 +842,9 @@ specs: [
     { label: "Color", value: "Brown, White, Black etc" },
     { label: "Seating Capacity", value: "1 Seater" },
     { label: "Material", value: "Particle Board" },
-    { label: "Table Top Thickness", value: "19 mm" },
+    { label: "Table Top Thickness", value: "45mm" },
     { label: "Usage/Application", value: "Office" },
-    { label: "Surface Treatment", value: "Powder Coated" },
+    { label: "Surface Treatment", value: "laminated" },
   ],
 
   image: [
@@ -894,11 +893,11 @@ specs: [
   ],
 
   specs: [
-    { label: "Material", value: "Particle Board" },
+    { label: "Material", value: "Particle Board with 45mm Aluminium section " },
     { label: "Usage/Application", value: "Office" },
     { label: "Seating Capacity", value: "Customisable" },
-    { label: "Thickness", value: "18–19 mm" },
-    { label: "Surface Treatment", value: "Polished" },
+    { label: "Thickness", value: "25mm" },
+    { label: "Surface Treatment", value: "laminated" },
     { label: "Color", value: "Any" },
   ],
 
@@ -953,7 +952,7 @@ specs: [
     { label: "Color", value: "White and Red" },
     { label: "Frame Type", value: "Aluminium" },
     { label: "Usage/Application", value: "Office" },
-    { label: "Thickness", value: "18–19 mm" },
+    { label: "Thickness", value: "25mm" },
     { label: "Surface Treatment", value: "Polished" },
   ],
 
@@ -1132,14 +1131,14 @@ specs: [
 
   specs: [
     { label: "Shape", value: "Rectangular" },
-    { label: "Storage", value: "Without Storage" },
-    { label: "No. of Drawers", value: "3" },
+    { label: "Storage", value: "With Storage" },
+    { label: "No. of Drawers", value: "1" },
     { label: "Color", value: "Brown" },
     { label: "Suitable For", value: "Office" },
     { label: "Style", value: "Modern" },
-    { label: "Material", value: "Pre Laminated Ply" },
+    { label: "Material", value: "Prelame Pratical Board" },
     { label: "Seating Capacity", value: "1 Seater" },
-    { label: "Height", value: "4 feet" },
+    { label: "Height", value: "30 inch" },
   ],
 
   image: [
