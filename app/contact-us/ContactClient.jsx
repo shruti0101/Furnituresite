@@ -230,9 +230,11 @@ Contact: ${phone}`;
                     Address:
                   </h4>
                   <p className="text-black text-sm sm:text-base md:text-lg leading-snug">
-                    231, G-Iii, Gali No. 9, Near Government School, Gali No 9,
-                    Sai Enclave, Mohan Garden, New Delhi-110059, Delhi,
-                    India{" "}
+                    Plot no. 1 Khasra No. 52/10/2 Ranhola Vihar, 
+                <br />
+              Neta ji Subhash Nagar Near Nangloi Najafgarh Road Near Ranhola Police Station 
+                <br />
+                New Delhi , 110041
                   </p>
                 </div>
               </div>

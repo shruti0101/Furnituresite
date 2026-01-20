@@ -142,18 +142,10 @@ export default function About() {
             </h1>
 
             <p className="text-base  text-black leading-relaxed ">
-              <strong>DK Modular</strong> creates elegant, durable and adaptable office furniture designed for modern workplaces. From collaborative benching systems to ergonomic executive suites, our solutions balance aesthetics, comfort and functionality to support productivity and brand identity.
+             As an experienced <Link className="font-bold" href="/categories/modular-office-workstation">Office Workstation Manufacturer</Link>  , DK Modular designs and manufactures workstations that enhance employee comfort, optimize space utilization, and reflect a professional brand image. <br /> Our modular office workstations are engineered using premium materials and advanced manufacturing techniques to ensure durability and long-term performance. From compact office layouts to large corporate floors, we offer customized workstation solutions tailored to your specific requirements.
             </p>
 
-            <p className="text-base md:text-lg text-black leading-relaxed mb-4">
-              We specialise in modular workstations, acoustic partitions, storage systems and meeting furniture that can be configured and reconfigured as your business grows. Every product is manufactured with premium materials and precision craftsmanship for long-lasting performance.
-            </p>
-
-            <p className="text-base md:text-lg text-black leading-relaxed mb-6">
-              Our end-to-end service includes space planning, custom finishes, manufacturing and professional installation — ensuring a smooth, on-time delivery tailored to your office needs.
-            </p>
-
-            <div className="flex flex-wrap items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4 mt-4">
               <Link
                 href="/contact-us"
                 className="inline-flex items-center gap-3 px-5 py-3 bg-[#0b2545] text-white font-semibold rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-0.5"

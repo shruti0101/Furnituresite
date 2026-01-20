@@ -12,9 +12,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "DK Modular Office Furnitures - Premium Modular Office Solutions",
+  title: "Office Workstation Manufacturer | Modular Office Furniture",
   description:
-    "DK Modular Office Furniture offers premium modular office furniture solutions designed to enhance productivity and comfort in modern workspaces. Explore our range of ergonomic and stylish furniture today.",
+    "Trusted office workstation manufacturer offering modular, ergonomic, and custom workstations for modern corporate offices. Quality assured.",
   icons: {
     icon: "/logo.webp",
   },

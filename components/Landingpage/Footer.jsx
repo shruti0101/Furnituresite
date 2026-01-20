@@ -152,11 +152,11 @@ export default function Footer() {
             <div className="flex items-start gap-3 mb-4">
               <MapPin className="text-amber-400 w-5 h-5" />
               <p className="text-sm text-white/95">
-                DK Modular Furniture,
+                Plot no. 1 Khasra No. 52/10/2 Ranhola Vihar, 
                 <br />
-                Plot No. 00, Industrial Area,
+              Neta ji Subhash Nagar Near Nangloi Najafgarh Road Near Ranhola Police Station 
                 <br />
-                New Delhi 110039
+                New Delhi , 110041
               </p>
             </div>
 
