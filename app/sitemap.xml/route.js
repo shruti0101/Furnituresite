@@ -11,7 +11,7 @@ async function getAllBlogs() {
 }
 
 export async function GET() {
-  const baseUrl = "https://titaniumdioxidewholesaler.com";
+  const baseUrl = "https://officeworkstationmanufacturer.com";
 
   // Flatten all products
   const allProducts = categories.flatMap((c) => c.products);
@@ -23,7 +23,7 @@ export async function GET() {
   const staticPages = [
     { loc: `${baseUrl}/about-us`, priority: 0.8, changefreq: "yearly" },
     { loc: `${baseUrl}/contact-us`, priority: 0.8, changefreq: "yearly" },
-    { loc: `${baseUrl}/products`, priority: 0.8, changefreq: "yearly" },
+    { loc: `${baseUrl}/categories`, priority: 0.8, changefreq: "yearly" },
     { loc: `${baseUrl}/blogs`, priority: 0.9, changefreq: "weekly" },
   ]
     .map(
