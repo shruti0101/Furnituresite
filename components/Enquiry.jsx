@@ -25,7 +25,7 @@ export default function ContactForm({ isOpen, onClose }) {
 
     try {
       const formData = {
-        platform: "DK Modular Furniture Enquiry Form",
+        platform: "Dk Modular Contractor Furniture Enquiry Form",
         platformEmail: "dkmodularcontractor@gmail.com",
         name,
         phone,

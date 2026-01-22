@@ -27,24 +27,24 @@ const categories = [
 ];
 
 const items = [
-  { id: 1, title: "Modular Office Workstation 1", category: "Modular Office Workstation", image: "/gallery/modular1.webp" },
-  { id: 2, title: "Modular Office Workstation 2", category: "Modular Office Workstation", image: "/gallery/modular2.webp" },
-  { id: 3, title: "Modular Office Workstation 3", category: "Modular Office Workstation", image: "/gallery/modular3.webp" },
-  { id: 4, title: "Modular Office Workstation 4", category: "Modular Office Workstation", image: "/gallery/modular4.webp" },
+  { id: 1, title: "Modular Office Workstation ", category: "Modular Office Workstation", image: "/gallery/modular1.webp" },
+  { id: 2, title: "Modular Office Workstation ", category: "Modular Office Workstation", image: "/gallery/modular2.webp" },
+  { id: 3, title: "Modular Office Workstation ", category: "Modular Office Workstation", image: "/gallery/modular3.webp" },
+  { id: 4, title: "Modular Office Workstation ", category: "Modular Office Workstation", image: "/gallery/modular4.webp" },
 
-  { id: 5, title: "Office Workstation 1", category: "Office Workstation", image: "/gallery/workstation1.webp" },
-  { id: 6, title: "Office Workstation 2", category: "Office Workstation", image: "/gallery/workstation2.webp" },
-  { id: 7, title: "Office Workstation 3", category: "Office Workstation", image: "/gallery/workstation.webp" },
+  { id: 5, title: "Office Workstation ", category: "Office Workstation", image: "/gallery/workstation1.webp" },
+  { id: 6, title: "Office Workstation ", category: "Office Workstation", image: "/gallery/workstation2.webp" },
+  { id: 7, title: "Office Workstation ", category: "Office Workstation", image: "/gallery/workstation.webp" },
 
-  { id: 8, title: "Meeting Table 1", category: "Meeting And Conference Room Table", image: "/gallery/meeting1.webp" },
-  { id: 9, title: "Meeting Table 2", category: "Meeting And Conference Room Table", image: "/gallery/meeting3.webp" },
-  { id: 10, title: "Meeting Table 3", category: "Meeting And Conference Room Table", image: "/gallery/meeting4.webp" },
-  { id: 11, title: "Meeting Table 4", category: "Meeting And Conference Room Table", image: "/gallery/meeting5.webp" },
+  { id: 8, title: "Meeting Table", category: "Meeting And Conference Room Table", image: "/gallery/meeting1.webp" },
+  { id: 9, title: "Meeting Table ", category: "Meeting And Conference Room Table", image: "/gallery/meeting3.webp" },
+  { id: 10, title: "Meeting Table ", category: "Meeting And Conference Room Table", image: "/gallery/meeting4.webp" },
+  { id: 11, title: "Meeting Table ", category: "Meeting And Conference Room Table", image: "/gallery/meeting5.webp" },
 
-  { id: 12, title: "Computer Table 1", category: "Computer Table", image: "/gallery/comptable1.webp" },
-  { id: 13, title: "Computer Table 2", category: "Computer Table", image: "/gallery/comptable2.webp" },
-  { id: 14, title: "Computer Table 3", category: "Computer Table", image: "/gallery/comptable4.webp" },
-  { id: 15, title: "Computer Table 4", category: "Computer Table", image: "/gallery/comptable3.webp" },
+  { id: 12, title: "Computer Table ", category: "Computer Table", image: "/gallery/comptable1.webp" },
+  { id: 13, title: "Computer Table ", category: "Computer Table", image: "/gallery/comptable2.webp" },
+  { id: 14, title: "Computer Table ", category: "Computer Table", image: "/gallery/comptable4.webp" },
+  { id: 15, title: "Computer Table ", category: "Computer Table", image: "/gallery/comptable3.webp" },
 
    { id: 16, title: "Wooden Storage Unit", category: "Wooden Storage Unit", image: "/gallery/wooden1.webp" },
 

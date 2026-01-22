@@ -22,7 +22,7 @@ const AboutPage = () => {
 
   return (
     <div>
-    {/* ===== About Us Banner Section ===== */}
+   
 <div
   className="relative h-[40vh] md:h-[70vh] flex items-center justify-center text-center bg-cover bg-center overflow-hidden"
   style={{
@@ -56,11 +56,11 @@ const AboutPage = () => {
     {/* ===== TOP HEADING ===== */}
     <div className="md:text-center mb-8 md:mb-17">
       <h1 className="text-xl md:text-4xl font-semibold text-amber-600">
-        About Us – DK Modular Office Furniture
+        About Us – Dk Modular Contractor Office Furniture
       </h1>
 
       <p className=" mt-3 md:text-center text-black text-sm md:text-base leading-relaxed">
-        Founded with a vision to redefine modern workspaces, DK Modular Office
+        Founded with a vision to redefine modern workspaces, Dk Modular Contractor Office
         Furniture is a trusted manufacturer and supplier of premium modular
         office furniture solutions. We specialize in creating functional,
         ergonomic, and aesthetically refined furniture that enhances workplace
@@ -78,7 +78,7 @@ const AboutPage = () => {
         </h2>
 
         <p className="text-black text-sm md:text-md leading-relaxed">
-          DK Modular Office Furniture began its journey with a commitment to
+          Dk Modular Contractor Office Furniture began its journey with a commitment to
           deliver reliable, durable, and innovative office furniture solutions.
           From compact workstations to large corporate setups, we have grown
           into a preferred partner for offices across diverse industries.
@@ -101,20 +101,20 @@ const AboutPage = () => {
         {/* ===== STATS ===== */}
         <div className="grid grid-cols-3 gap-3 text-center font-serif md:text-start">
           <div>
-            <h3 className="text-2xl font-semibold text-[#962292]">400+</h3>
+            <h3 className="text-2xl font-semibold text-[#962292]">700+</h3>
             <p className="text-gray-900 text-sm">
               Workspaces Delivered
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-[#962292]">6+</h3>
+            <h3 className="text-2xl font-semibold text-[#962292]">15+</h3>
             <p className="text-gray-900 text-sm">Years of Experience</p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-[#962292]">100%</h3>
-            <p className="text-gray-900 text-sm">Client Satisfaction</p>
+            <h3 className="text-2xl font-semibold text-[#962292]">600+</h3>
+            <p className="text-gray-900 text-sm">Clients</p>
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ const AboutPage = () => {
     {/* ===== SECTION HEADER ===== */}
     <div className="text-center max-w-3xl mx-auto mb-10">
       <h2 className="text-2xl md:text-4xl font-semibold text-gray-900">
-        Why Choose <span className="text-amber-600">DK Modular</span>
+        Why Choose <span className="text-amber-600">Dk Modular Contractor</span>
       </h2>
       <p className="mt-2 text-black text-sm md:text-base leading-relaxed">
         We combine thoughtful design, precision manufacturing, and reliable
@@ -244,7 +244,7 @@ const AboutPage = () => {
             </h2>
 
             <p className="text-black text-[15px] leading-7 ">
-              At <strong>DK Modular Office Furniture</strong>, our vision is driven
+              At <strong>Dk Modular Contractor Office Furniture</strong>, our vision is driven
               by a commitment to redefine modern workspaces through thoughtful
               design, superior craftsmanship, and functional excellence. We aim
               to deliver modular office furniture solutions that seamlessly blend

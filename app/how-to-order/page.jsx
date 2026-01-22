@@ -77,7 +77,7 @@ export default function HowToOrderStepper() {
 
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-medium text-gray-900 mb-10">
-          How to Order Office Furniture From <br></br> DK Modular
+          How to Order Office Furniture From <br></br> Dk Modular Contractor
         </h2>
 
         {/* Process Bar */}

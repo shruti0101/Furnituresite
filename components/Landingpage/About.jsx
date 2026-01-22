@@ -135,19 +135,22 @@ export default function About() {
 
           {/* Right - content */}
           <div className="text-left text-white">
-            <h3 className="font-serif text-sm tracking-widest text-black uppercase mb-2">About DK Modular</h3>
+            <h3 className="font-serif text-sm tracking-widest text-black uppercase mb-2">About Dk Modular Contractor</h3>
 
             <h1 className="text-3xl font-extrabold leading-tight mb-4 text-amber-600">
               Premium Modular Office Furniture
             </h1>
 
             <p className="text-base  text-black leading-relaxed ">
-             As an experienced <Link className="font-bold" href="/categories/modular-office-workstation">Office Workstation Manufacturer</Link>  , DK Modular designs and manufactures workstations that enhance employee comfort, optimize space utilization, and reflect a professional brand image. <br /> Our modular office workstations are engineered using premium materials and advanced manufacturing techniques to ensure durability and long-term performance. From compact office layouts to large corporate floors, we offer customized workstation solutions tailored to your specific requirements.
+             As an experienced <Link className="font-bold" href="/categories/modular-office-workstation">Office Workstation Manufacturer</Link>  , Dk Modular Contractor designs and manufactures workstations that enhance employee comfort, optimize space utilization, and reflect a professional brand image. <br /> Our modular office workstations are engineered using premium materials and advanced manufacturing techniques to ensure durability and long-term performance. From compact office layouts to large corporate floors, we offer customized workstation solutions tailored to your specific requirements.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mt-4">
               <Link
                 href="/contact-us"
+
+
+                
                 className="inline-flex items-center gap-3 px-5 py-3 bg-[#0b2545] text-white font-semibold rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-0.5"
               >
                 Request a Quote
@@ -170,16 +173,16 @@ export default function About() {
             <div className="flex items-center gap-2 ">
               <div className="w-8 h-8 flex items-center border border-black justify-center rounded-full bg-white/10">🏅</div>
               <div>
-                <div className="font-bold">10+ Years</div>
-                <div className="text-xs">of craftsmanship</div>
+                <div className="font-bold">15+ years </div>
+                <div className="text-xs">of experience</div>
               </div>
             </div>
 
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 flex border border-black  items-center justify-center rounded-full bg-white/10">🏢</div>
               <div>
-                <div className="font-bold">500+ Projects</div>
-                <div className="text-xs">corporate & commercial</div>
+                <div className="font-bold">600+ </div>
+                <div className="text-xs">clients</div>
               </div>
             </div>
           </div>

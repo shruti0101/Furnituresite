@@ -15,10 +15,26 @@ export default function ContactForm() {
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 2000);
-    return () => clearTimeout(timer);
-  }, []);
+useEffect(() => {
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const docHeight =
+      document.documentElement.scrollHeight - window.innerHeight;
+
+    if (docHeight <= 0) return;
+
+    const scrollPercent = (scrollTop / docHeight) * 100;
+
+    if (scrollPercent >= 20) {
+      setIsOpen(true);
+      window.removeEventListener("scroll", handleScroll); // open once
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
   if (!isOpen) return null;
 

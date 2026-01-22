@@ -1,8 +1,8 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "ContactClient",
-  description: "Get in touch with Aanya Enterprise, your reliable Titanium Dioxide Wholesaler. Call, email, or use our form for expert support and quick quotes on bulk chemical orders.",
+  title: "Contact DK Modular Contractor – Office Furniture Manufacturer",
+  description: "Get in touch with DK Modular Contractor, a trusted office furniture and modular workstation manufacturer in India. Contact our team for custom furniture solutions, quotes, and support.",
 };
 
 export default function AboutUsPage() {

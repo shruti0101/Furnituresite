@@ -61,13 +61,13 @@ export default function Footer() {
                 src="/logo.webp"
                 width={150}
                 height={50}
-                alt="DK Modular Furniture"
+                alt="Dk Modular Contractor Furniture"
                 className="object-cover"
               />
             </div>
 
             <p className="leading-relaxed text-sm text-white">
-              DK Modular specializes in modern office furniture — workstations,
+              Dk Modular Contractor specializes in modern office furniture — workstations,
               conference tables, storage units and ergonomic seating with
               precision, durability and elegant design.
             </p>
@@ -99,6 +99,13 @@ export default function Footer() {
               <li>
                 <Link href="/contact-us" className="text-white hover:text-amber-400">
                   Contact Us
+                </Link>
+              </li>
+
+
+                    <li>
+                <Link href="/sitemap" className="text-white hover:text-amber-400">
+            Sitemap
                 </Link>
               </li>
             </ul>
@@ -226,7 +233,7 @@ export default function Footer() {
         {/* COPYRIGHT */}
         <div className="mt-10 border-t border-white/10 pt-4 text-center text-sm text-white">
         <div className="flex flex-col md:flex-row justify-between items-center ">
-          <p>  © 2025 DK Modular Furniture. All Rights Reserved.</p>
+          <p>  © 2025 Dk Modular Contractor Furniture. All Rights Reserved.</p>
           <p>Website Designed By Promozione Branding Pvt. Ltd. <a className="underline text-amber-500" href="https://promozionebranding.com/">Website Designing Company.</a> </p>
         </div>
         </div>

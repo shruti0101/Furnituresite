@@ -22,7 +22,7 @@ const Contact = () => {
 
     try {
       const payload = {
-        platform: "DK Modular Office Furniture Contact Form",
+        platform: "Dk Modular Contractor Office Furniture Contact Form",
         platformEmail: "dkmodularcontractor@gmail.com",
         name,
         phone,
@@ -79,7 +79,7 @@ Contact: ${phone}`;
         <div className="relative z-10 text-white px-6 mt-8">
           <div className="mx-auto mb-4 h-[2px] w-20 bg-amber-400 rounded-full" />
           <h1 className="text-2xl md:text-5xl font-bold tracking-wide">
-            Contact DK Modular Office Furniture
+            Contact Dk Modular Contractor Office Furniture
           </h1>
 
           <p className="mt-3 max-w-2xl mx-auto text-sm md:text-lg text-white">
@@ -193,7 +193,7 @@ Contact: ${phone}`;
               <span className="block text-[#002B5B] text-xl sm:text-2xl md:text-3xl font-extrabold mb-4">
                 Connect with{" "}
                 <span className="text-[#F86613]">
-                  DK Modular Office Furniture
+                  Dk Modular Contractor Office Furniture
                 </span>
               </span>
 
@@ -203,7 +203,7 @@ Contact: ${phone}`;
               </span>
 
               <span className="block mb-3 text-gray-700">
-                At <b>DK Modular Office Furniture</b>, we specialize in
+                At <b>Dk Modular Contractor Office Furniture</b>, we specialize in
                 designing and manufacturing premium, ergonomic, and
                 space-efficient office furniture solutions tailored for
                 corporate offices, startups, and commercial spaces.

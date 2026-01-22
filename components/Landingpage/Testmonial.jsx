@@ -5,23 +5,23 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    text: "DK Modular transformed our office into a modern, efficient workspace. Their modular workstations are not only visually premium but also extremely comfortable for our team. From design planning to final installation, everything was handled professionally and delivered on time.",
+    text: "Dk Modular Contractor transformed our office into a modern, efficient workspace. Their modular workstations are not only visually premium but also extremely comfortable for our team. From design planning to final installation, everything was handled professionally and delivered on time.",
     name: "Corporate Office – Delhi",
   },
   {
-    text: "We were looking for customized office furniture that matched our brand identity and space constraints. DK Modular understood our requirements perfectly and delivered high-quality workstations and storage units that improved both aesthetics and productivity.",
+    text: "We were looking for customized office furniture that matched our brand identity and space constraints. Dk Modular Contractor understood our requirements perfectly and delivered high-quality workstations and storage units that improved both aesthetics and productivity.",
     name: "IT Company – Delhi",
   },
   {
-    text: "The executive cabins and conference tables designed by DK Modular have elevated the overall look of our office. The material quality, finish, and detailing clearly reflect their expertise in modular office furniture solutions.",
+    text: "The executive cabins and conference tables designed by Dk Modular Contractor have elevated the overall look of our office. The material quality, finish, and detailing clearly reflect their expertise in modular office furniture solutions.",
     name: "Real Estate & Infrastructure Firm – Delhi-NCR",
   },
   {
-    text: "DK Modular provided us with a complete office setup including workstations, partitions, and reception furniture. Their ergonomic designs and smart space planning helped us utilize our floor area efficiently without compromising comfort.",
+    text: "Dk Modular Contractor provided us with a complete office setup including workstations, partitions, and reception furniture. Their ergonomic designs and smart space planning helped us utilize our floor area efficiently without compromising comfort.",
     name: "Co-Working Space – Delhi-NCR",
   },
   {
-    text: "What sets DK Modular apart is their commitment to timelines and quality. The installation team was skilled, disciplined, and ensured everything was perfectly aligned. We highly recommend them for any corporate office furniture project.",
+    text: "What sets Dk Modular Contractor apart is their commitment to timelines and quality. The installation team was skilled, disciplined, and ensured everything was perfectly aligned. We highly recommend them for any corporate office furniture project.",
     name: "Manufacturing Company – Delhi-NCR",
   },
 ];

@@ -1,8 +1,8 @@
 import BlogClient from "./BlogClient";
 
 export const metadata = {
-  title: "Chemical Solutions & R&D Insights |Aanya Enterprise Blog",
-  description: "Explore the latest in the chemical industry. Get expert analysis on market trends, B2B chemical supply chain, and R&D innovations. Read the latest.",
+  title: "Latest Office Workstation Manufacturer Blog | Trends, Tips & Insights",
+  description: "Explore the latest insights from an office workstation manufacturer — including design trends, ergonomic tips, and how modular workstations boost productivity in modern workplaces.",
 };
 
 export default function AboutUsPage() {

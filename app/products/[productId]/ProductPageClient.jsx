@@ -86,7 +86,7 @@ export default function ProductPage({ params }) {
             {product.name}
           </h2>
           <p className="text-black mt-2">
-            Premium modular furniture solution by DK Modulars
+            Premium modular furniture solution by Dk Modular Contractor Contractor
           </p>
         </div>
 
