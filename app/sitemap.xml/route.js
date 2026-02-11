@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic";
 
-import { categories } from "@/Data";
+import { categories, cites } from "@/Data";
 import { client } from "@/lib/sanity";
 import { groq } from "next-sanity";
 
@@ -82,14 +82,24 @@ export async function GET() {
       (blog) => `
       <url>
         <loc>${baseUrl}/blog/${blog.slug.current}</loc>
-        <lastmod>${
-          blog.date ? new Date(blog.date).toISOString() : new Date().toISOString()
+        <lastmod>${blog.date ? new Date(blog.date).toISOString() : new Date().toISOString()
         }</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
       </url>
     `
     )
+    .join("");
+
+  const locationUrls = cites.map((loc) => `
+      <url>
+        <loc>${baseUrl}${loc.href}</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+    `
+  )
     .join("");
 
   // Combine all
@@ -100,6 +110,7 @@ export async function GET() {
     ${categoryUrls}
     ${productUrls}
     ${blogUrls}
+    ${locationUrls}
   </urlset>`;
 
   return new Response(sitemap, {

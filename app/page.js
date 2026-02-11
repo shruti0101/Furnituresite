@@ -10,37 +10,38 @@ import Enquiry from "@/components/Enquiry"
 import Gallery from "@/components/Gallery";
 import YoutubeSection from "@/components/Landingpage/Youtube";
 import Testimonial from "@/components/Landingpage/Testmonial";
+import CitySection from "@/components/City";
 
 
 export default function Home() {
   return (
-<>
+    <>
 
 
-<Popup></Popup>
-<Hero></Hero>
-<Enquiry></Enquiry>
-<AboutUs></AboutUs>
-<ProductCategorySection></ProductCategorySection>
-{/* <Whychoose></Whychoose>
+      <Popup></Popup>
+      <Hero></Hero>
+      <Enquiry></Enquiry>
+      <AboutUs></AboutUs>
+      <ProductCategorySection></ProductCategorySection>
+      {/* <Whychoose></Whychoose>
 <Countup></Countup> */}
-<Products></Products>
-<Cta></Cta>
+      <Products></Products>
+      <Cta></Cta>
 
 
-<Clientele></Clientele>
-
-
-
+      <Clientele></Clientele>
 
 
 
-<Gallery></Gallery>
-<YoutubeSection></YoutubeSection>
-
-<Testimonial></Testimonial>
 
 
-</>
+
+      <Gallery></Gallery>
+      <YoutubeSection></YoutubeSection>
+
+      <Testimonial></Testimonial>
+      <CitySection></CitySection>
+
+    </>
   );
 }
