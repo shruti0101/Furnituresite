@@ -468,7 +468,7 @@ export const categories = [
   {
     id: "modular-office-workstation",
     name: "Modular Office Workstation",
-    metaTitle: "Custom Modular Office Workstations ",
+    metaTitle: "Custom Modular Office Workstations – Dk Modular Contractor Office Furniture",
     metaDescription:
       "Custom Modular Office Workstations",
 
@@ -481,7 +481,7 @@ export const categories = [
       {
         id: "modular-office-workstation",
         name: "Modular Office Workstation",
-        metaTitle: "Modular Office Workstation",
+        metaTitle: "Modular Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Modular Office Workstation",
 
@@ -547,7 +547,7 @@ export const categories = [
       {
         id: "L-shaped-workstation",
         name: "L Shaped Workstation",
-        metaTitle: "L Shaped Workstation",
+        metaTitle: "L Shaped Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "L Shaped Workstation",
 
@@ -607,7 +607,7 @@ export const categories = [
       {
         id: "computer-workstation-furniture",
         name: "Computer Workstation Furniture",
-        metaTitle: "Computer Workstation Furniture",
+        metaTitle: "Computer Workstation Furniture – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Computer Workstation Furniture",
 
@@ -669,7 +669,7 @@ export const categories = [
       {
         id: "single-seater-modular-office-workstation",
         name: "Single Seater Modular Office Workstation",
-        metaTitle: "Single Seater Modular Office Workstation",
+        metaTitle: "Single Seater Modular Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Single Seater Modular Office Workstation",
 
@@ -734,7 +734,7 @@ export const categories = [
       {
         id: "modern-office-workstation",
         name: "Modern Office Workstation",
-        metaTitle: "Modern Office Workstation",
+        metaTitle: "Modern Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Modern Office Workstation",
 
@@ -798,7 +798,7 @@ export const categories = [
       {
         id: "linear-modular-office-workstation",
         name: "Linear Modular Office Workstation",
-        metaTitle: "Linear Modular Office Workstation",
+        metaTitle: "Linear Modular Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Linear Modular Office Workstation",
 
@@ -866,7 +866,7 @@ export const categories = [
       {
         id: "U-shape-modern-office-workstation",
         name: "U Shape Modern Office Workstation",
-        metaTitle: "U Shape Modern Office Workstation",
+        metaTitle: "U Shape Modern Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "U Shape Modern Office Workstation",
 
@@ -937,7 +937,7 @@ export const categories = [
   {
     id: "office-workstation",
     name: "Office-Workstation",
-    metaTitle: "office-workstation ",
+    metaTitle: "Office workstation – Dk Modular Contractor Office Furniture",
     metaDescription:
       "office-workstation",
 
@@ -1441,7 +1441,7 @@ export const categories = [
   {
     id: "computer-table",
     name: "Computer Table",
-    metaTitle: "Computer Tables for Office Workstations",
+    metaTitle: "Computer Tables for Office Workstations – Dk Modular Contractor Office Furniture",
     metaDescription:
       "Find premium Computer Tables for Office Workstations. ",
 
@@ -1964,7 +1964,7 @@ export const categories = [
   {
     id: "wooden-storage-units",
     name: "Wooden Storage Units",
-    metaTitle: "Wooden Storage Units – Aanya Enterprises",
+    metaTitle: "Wooden Storage Units – Dk Modular Contractor Office Furniture",
     metaDescription:
       "Explore premium Wooden Storage Units for efficient organization and storage. Ideal for home and office use. Get quality solutions from Aanya Enterprises.",
 
@@ -2318,7 +2318,7 @@ export const categories = [
   {
     id: "meeting-and-conference-room-table",
     name: "Meeting And Conference Room Table",
-    metaTitle: "Meeting And Conference Room Table ",
+    metaTitle: "Meeting And Conference Room Table – Dk Modular Contractor Office Furniture",
     metaDescription:
       "Meeting And Conference Room Table",
 
