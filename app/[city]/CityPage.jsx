@@ -4,13 +4,13 @@ import { useParams } from "next/navigation";
 import React, { useState } from "react";
 import { Building2, Laptop2, Users, Briefcase, Landmark } from "lucide-react";
 import CitySection from "@/components/City";
+import Link from "next/link";
 
 export default function CityPage() {
     const params = useParams();
 
-    const cityName = params?.city?.includes("-in-")
-        ? params.city.split("-in-")[1]
-        : "India";
+    const cityName = params?.city?.includes("-in-") ? params.city.split("-in-")[1].split("-")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ") : "India";
 
     return (<>
         {/* Hero */}
@@ -39,7 +39,7 @@ export default function CityPage() {
                     </h1>
 
                     <p className="text-black mb-4">
-                        <strong>DK Modular Contractor</strong> is a leading <strong>Office Workstation Manufacturer in {cityName},</strong> delivering modern, ergonomic, and space-efficient workstation solutions for corporate offices, IT companies, coworking spaces, startups, and commercial interiors across {cityName}.
+                        <strong>DK Modular Contractor</strong> is a leading <Link href={"/"} className="font-bold">Office Workstation Manufacturer in {cityName},</Link> delivering modern, ergonomic, and space-efficient workstation solutions for corporate offices, IT companies, coworking spaces, startups, and commercial interiors across {cityName}.
                     </p>
 
                     <p className="text-black mb-4">
@@ -114,7 +114,7 @@ export default function CityPage() {
                     </h2>
 
                     <p className="text-black mb-4 leading-relaxed">
-                        DK Modular Contractor is among the top office workstation manufacturers and suppliers in {cityName}, providing premium modular furniture solutions that meet modern office design and ergonomic standards.
+                        DK Modular Contractor is among the top <Link href={"/"}>office workstation manufacturers</Link> and suppliers in {cityName}, providing premium modular furniture solutions that meet modern office design and ergonomic standards.
                     </p>
 
                     <p className="text-black mb-4 leading-relaxed">
@@ -384,7 +384,7 @@ export default function CityPage() {
                         <div className="pt-4">
                             <p className="text-black leading-relaxed">
                                 This project highlights <span className="font-semibold">DK Modular Contractor’s</span> expertise as a trusted
-                                <span className="font-semibold"> Office Workstation Manufacturer in {cityName}</span>
+                                <Link href={"/"} className="font-semibold"> Office Workstation Manufacturer in {cityName}</Link>
                             </p>
                         </div>
                     </div>
@@ -396,9 +396,9 @@ export default function CityPage() {
         <section className="w-full bg-gray-900 text-white py-5">
             <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="md:text-left text-center">
-                    <p className="text-lg font-semibold">
-                        Office Workstation Manufacturer {cityName}
-                    </p>
+                    <Link href={"/"} className="text-lg font-semibold">
+                        Office Workstation Manufacturer in {cityName}
+                    </Link>
                     <p className="md:text-6xl text-4xl font-semibold">
                         +91-9999402424
                     </p>
