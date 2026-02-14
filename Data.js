@@ -1597,7 +1597,7 @@ export const categories = [
     name: "Wooden Storage Units",
     metaTitle: "Wooden Storage Units – Dk Modular Contractor Office Furniture",
     metaDescription:
-      "Explore premium Wooden Storage Units for efficient organization and storage. Ideal for home and office use. Get quality solutions from Aanya Enterprises.",
+      "Explore premium Wooden Storage Units for efficient organization and storage. Ideal for home and office use.",
 
     products: [
       // product 1
