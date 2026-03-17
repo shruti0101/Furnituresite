@@ -229,7 +229,7 @@ export const categories = [
         image: [
           {
             src: "https://res.cloudinary.com/dzbkxqqo9/image/upload/v1766052989/GallaryImg_273_0_1682752254_pgkzw6.webp",
-            alt: "Titanium Dioxide Kronos R2450",
+            alt: "frf",
           },
         ],
       },
@@ -291,7 +291,7 @@ export const categories = [
         image: [
           {
             src: "https://res.cloudinary.com/dzbkxqqo9/image/upload/v1766054329/jai-215_etlwws.webp",
-            alt: "Titanium Dioxide Kronos R2450",
+            alt: "rf",
           },
         ],
       },

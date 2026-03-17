@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-[#252531]/60 w-full border-b border-gray-200">
 
-  
+    
 {/* 🔹 TOP BAR */}
 <div className="border-b border-gray-100">
   <div
