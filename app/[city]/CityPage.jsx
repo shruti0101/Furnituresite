@@ -416,7 +416,7 @@ export default function CityPage() {
         </section>
 
         {/* FAQ */}
-        <section section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100" >
+        <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100" >
             <h2 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Office Workstations in {cityName} – FAQs
             </h2>
@@ -475,7 +475,7 @@ export default function CityPage() {
         </section>
 
         {/* about */}
-        <section section className="mx-auto lg:px-15 px-5 py-8" >
+        <section className="mx-auto lg:px-15 px-5 py-8" >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="w-full">
                     <img

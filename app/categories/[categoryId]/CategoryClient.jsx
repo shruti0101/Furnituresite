@@ -2,6 +2,7 @@ import { categories } from "@/Data";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+import CategoryCitySection from "@/components/CategoryCitySection";
 
 export default function CategoryPage({ params }) {
   const { categoryId } = params;
@@ -12,10 +13,10 @@ export default function CategoryPage({ params }) {
       <h2 className="text-center text-red-500 mt-10">Category not found</h2>
     );
   }
-
+  console.log(category)
   return (
     <>
-       {/* ===== Banner Section ===== */}
+      {/* ===== Banner Section ===== */}
       <div
         className="relative bg-cover bg-center h-[40vh] md:h-[65vh] flex flex-col items-center justify-center text-center overflow-hidden"
         style={{
@@ -23,21 +24,21 @@ export default function CategoryPage({ params }) {
             "url('/test5.webp')",
         }}
       >
-   
-<div className="relative z-10 text-white px-6 ">
-  <h2 className="max-w-4xl  text-center font-serif  text-2xl md:text-5xl font-bold z-10 ">
+
+        <div className="relative z-10 text-white px-6 ">
+          <h2 className="max-w-4xl  text-center font-serif  text-2xl md:text-5xl font-bold z-10 ">
             {category.name}
           </h2>
 
 
-   
 
-</div>
-   {/* Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-900/60 to-slate-800/50" />
-      
+
+        </div>
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-900/60 to-slate-800/50" />
+
       </div>
-    
+
 
       {/* 🔹 PRODUCT GRID (LIKE IMAGE SHARED) */}
       <section className="bg-white py-14">
@@ -51,7 +52,7 @@ export default function CategoryPage({ params }) {
               >
                 {/* Card */}
                 <div className=" transition overflow-hidden">
-                  
+
                   {/* Image */}
                   <div className="relative h-[320px] w-full overflow-hidden">
                     <Image
@@ -80,6 +81,10 @@ export default function CategoryPage({ params }) {
           </div>
         </div>
       </section>
+
+      {(category.id == "computer-table" || category.id == "modular-office-workstation" || category.id == "office-workstation" || category.id == "meeting-and-conference-room-table") &&
+        <CategoryCitySection id={category.id == "meeting-and-conference-room-table" ? "office-tables" :category.id} />}
+
     </>
   );
 }
