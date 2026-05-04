@@ -72,7 +72,7 @@ const itemVariants = {
   show: { opacity: 1, y: 0 },
 };
 
-export default function GalleryPremium() {
+export default function   GalleryPremium() {
   const [active, setActive] = useState("All");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("newest");

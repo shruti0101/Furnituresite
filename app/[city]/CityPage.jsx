@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { Building2, Laptop2, Users, Briefcase, Landmark } from "lucide-react";
 import CitySection from "@/components/City";
 import Link from "next/link";
+import GalleryPremium from "./Gallery";
 
 export default function CityPage() {
     const params = useParams();
@@ -60,6 +61,8 @@ export default function CityPage() {
                 </div>
             </div>
         </section>
+
+        <GalleryPremium></GalleryPremium>
 
         {/* why us */}
         <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100">
