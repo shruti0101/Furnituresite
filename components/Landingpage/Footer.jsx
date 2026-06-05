@@ -234,7 +234,14 @@ export default function Footer() {
         <div className="mt-10 border-t border-white/10 pt-4 text-center text-sm text-white">
         <div className="flex flex-col md:flex-row justify-between items-center ">
           <p>  © 2025 Dk Modular Contractor Furniture. All Rights Reserved.</p>
-          <p>Website Designed By Promozione Branding Pvt. Ltd. <a className="underline text-amber-500" href="https://promozionebranding.com/">Website Designing Company.</a> </p>
+          <p>Website Designed By   Inquiry Bazaar Pvt. Ltd.  {" "}
+        <a
+          target="_blank"
+          href="https://inquirybazaar.com/"
+          className="text-[#FAAC18] hover:underline"
+        >
+           B2B Marketplace
+        </a> </p>
         </div>
         </div>
       </div>
