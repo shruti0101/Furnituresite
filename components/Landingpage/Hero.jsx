@@ -94,9 +94,9 @@ export default function HeroCarousel() {
           </span>
 
           {/* Title */}
-          <h1 className="text-center md:text-start text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight bg-gradient-to-r from-white via-amber-100 to-amber-300 bg-clip-text text-transparent">
+          <h2 className="text-center md:text-start text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight bg-gradient-to-r from-white via-amber-100 to-amber-300 bg-clip-text text-transparent">
             {activeSlide.title}
-          </h1>
+          </h2>
 
           {/* Subtitle */}
           <p className="text-center md:text-start text-sm sm:text-base md:text-lg text-white/90 leading-relaxed max-w-2xl">

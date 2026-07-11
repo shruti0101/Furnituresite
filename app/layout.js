@@ -21,14 +21,33 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+   const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    name: "Dk Modular",
+    url: "https://officeworkstationmanufacturer.com/",
+    logo: "https://officeworkstationmanufacturer.com/logo.png",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+91-9999402424",
+      contactType: "sales",
+      areaServed: "IN",
+      availableLanguage: "en",
+    },
+    sameAs: [
+      "https://www.facebook.com/people/DK-Modular-Contractor/61585018361307/",
+    ],
+  };
   return (
     <html lang="en" className={montserrat.variable}>
       <head>
+        
         <link
           href="https://cdn.jsdelivr.net/npm/daisyui@5"
           rel="stylesheet"
           type="text/css"
         />
+        <link rel="canonical" href="https://officeworkstationmanufacturer.com" /> 
       </head>
 
       <body className="antialiased font-sans">
@@ -41,6 +60,14 @@ export default function RootLayout({ children }) {
         <Script
           src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
           strategy="afterInteractive"
+        />
+         <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
         />
       </body>
     </html>

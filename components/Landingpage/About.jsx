@@ -142,7 +142,7 @@ export default function About() {
             </h1>
 
             <p className="text-base  text-black leading-relaxed ">
-             As an experienced <Link className="font-bold" href="/categories/modular-office-workstation">Office Workstation Manufacturer</Link>  , Dk Modular Contractor designs and manufactures workstations that enhance employee comfort, optimize space utilization, and reflect a professional brand image. <br /> Our modular office workstations are engineered using premium materials and advanced manufacturing techniques to ensure durability and long-term performance. From compact office layouts to large corporate floors, we offer customized workstation solutions tailored to your specific requirements.
+             As an experienced <Link className="font-bold" href="/categories/modular-office-workstation">Office Workstation Manufacturer</Link>  , Dk Modular Contractor designs and manufactures workstations that enhance employee comfort, optimize space utilization, and reflect a professional brand image. <br /> Our modular office workstations are engineered using premium materials and advanced manufacturing techniques to ensure durability and long-term performance. From compact office layouts to large corporate floors, we offer <a className="font-bold  text-blue-500" href="https://officeworkstationmanufacturer.com/categories/office-workstation">office workstation</a> solutions tailored to your specific requirements. 
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mt-4">

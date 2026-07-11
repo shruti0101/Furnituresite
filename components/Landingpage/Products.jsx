@@ -29,8 +29,7 @@ const products = [
     id: 1,
     title: "Modular Office Workstation",
     category: "Modular Office Workstation",
-    desc:
-      "Premium modular office workstations engineered to create organised, efficient, and modern workspaces. Ideal for corporate offices, IT companies, startups, and large commercial environments.",
+    desc: `Premium modular workstations engineered to create organised, efficient, and <a className="text-blue-500" href="https://officeworkstationmanufacturer.com/categories/modular-office-workstation">modern workspaces</a>. Ideal for corporate offices, IT companies, startups, and large commercial environments.`,
     image:
       "https://res.cloudinary.com/dzbkxqqo9/image/upload/v1766228880/0993f5_9f89cc419f0b4d46a0eb22d6c94330df_mv2_icqzns.avif",
     bullets: [
@@ -437,7 +436,10 @@ export default function OurProducts() {
                         <h3 className="text-2xl font-bold text-gray-900">
                           {featured.title}
                         </h3>
-                        <p className="text-black text-sm mt-3">{featured.desc}</p>
+                        <p
+  className="text-black text-sm mt-3"
+  dangerouslySetInnerHTML={{ __html: featured.desc }}
+/>
 
                         <ul className="mt-4 space-y-2 text-sm text-black">
                           {featured.bullets?.map((b) => (
