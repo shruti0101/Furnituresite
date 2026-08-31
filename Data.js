@@ -1,98 +1,422 @@
 // data.js
 export const cites = [
-  { "href": "/office-workstation-manufacturer-in-bengaluru", "label": "Bengaluru", "id": 1 },
-  { "href": "/office-workstation-manufacturer-in-mumbai", "label": "Mumbai", "id": 2 },
-  { "href": "/office-workstation-manufacturer-in-pune", "label": "Pune", "id": 3 },
-  { "href": "/office-workstation-manufacturer-in-ahmedabad", "label": "Ahmedabad", "id": 4 },
-  { "href": "/office-workstation-manufacturer-in-delhi", "label": "Delhi", "id": 5 },
-  { "href": "/office-workstation-manufacturer-in-jaipur", "label": "Jaipur", "id": 6 },
-  { "href": "/office-workstation-manufacturer-in-hyderabad", "label": "Hyderabad", "id": 7 },
-  { "href": "/office-workstation-manufacturer-in-chennai", "label": "Chennai", "id": 8 },
-  { "href": "/office-workstation-manufacturer-in-kolkata", "label": "Kolkata", "id": 9 },
-  { "href": "/office-workstation-manufacturer-in-jodhpur", "label": "Jodhpur", "id": 10 },
-  { "href": "/office-workstation-manufacturer-in-gurugram", "label": "Gurugram", "id": 11 },
-  { "href": "/office-workstation-manufacturer-in-surat", "label": "Surat", "id": 12 },
-  { "href": "/office-workstation-manufacturer-in-vadodara", "label": "Vadodara", "id": 13 },
-  { "href": "/office-workstation-manufacturer-in-indore", "label": "Indore", "id": 14 },
-  { "href": "/office-workstation-manufacturer-in-nagpur", "label": "Nagpur", "id": 15 },
-  { "href": "/office-workstation-manufacturer-in-lucknow", "label": "Lucknow", "id": 16 },
-  { "href": "/office-workstation-manufacturer-in-noida", "label": "Noida", "id": 17 },
-  { "href": "/office-workstation-manufacturer-in-ghaziabad", "label": "Ghaziabad", "id": 18 },
-  { "href": "/office-workstation-manufacturer-in-bhopal", "label": "Bhopal", "id": 19 },
-  { "href": "/office-workstation-manufacturer-in-saharanpur", "label": "Saharanpur", "id": 20 },
-  { "href": "/office-workstation-manufacturer-in-kanpur", "label": "Kanpur", "id": 21 },
-  { "href": "/office-workstation-manufacturer-in-coimbatore", "label": "Coimbatore", "id": 22 },
-  { "href": "/office-workstation-manufacturer-in-nashik", "label": "Nashik", "id": 23 },
-  { "href": "/office-workstation-manufacturer-in-faridabad", "label": "Faridabad", "id": 24 },
-  { "href": "/office-workstation-manufacturer-in-navi-mumbai", "label": "Navi Mumbai", "id": 25 },
-  { "href": "/office-workstation-manufacturer-in-rajkot", "label": "Rajkot", "id": 26 },
-  { "href": "/office-workstation-manufacturer-in-ludhiana", "label": "Ludhiana", "id": 27 },
-  { "href": "/office-workstation-manufacturer-in-ranchi", "label": "Ranchi", "id": 28 },
-  { "href": "/office-workstation-manufacturer-in-patna", "label": "Patna", "id": 29 },
-  { "href": "/office-workstation-manufacturer-in-udaipur", "label": "Udaipur", "id": 30 },
-  { "href": "/office-workstation-manufacturer-in-guwahati", "label": "Guwahati", "id": 31 },
-  { "href": "/office-workstation-manufacturer-in-thane", "label": "Thane", "id": 32 },
-  { "href": "/office-workstation-manufacturer-in-mysore", "label": "Mysore", "id": 33 },
-  { "href": "/office-workstation-manufacturer-in-dehradun", "label": "Dehradun", "id": 34 },
-  { "href": "/office-workstation-manufacturer-in-raipur", "label": "Raipur", "id": 35 },
-  { "href": "/office-workstation-manufacturer-in-vijayawada", "label": "Vijayawada", "id": 36 },
-  { "href": "/office-workstation-manufacturer-in-greater-noida", "label": "Greater Noida", "id": 37 },
-  { "href": "/office-workstation-manufacturer-in-chandigarh", "label": "Chandigarh", "id": 38 },
-  { "href": "/office-workstation-manufacturer-in-howrah", "label": "Howrah", "id": 39 },
-  { "href": "/office-workstation-manufacturer-in-jamshedpur", "label": "Jamshedpur", "id": 40 },
-  { "href": "/office-workstation-manufacturer-in-bhubaneswar", "label": "Bhubaneswar", "id": 41 },
-  { "href": "/office-workstation-manufacturer-in-agra", "label": "Agra", "id": 42 },
-  { "href": "/office-workstation-manufacturer-in-siliguri", "label": "Siliguri", "id": 43 },
-  { "href": "/office-workstation-manufacturer-in-visakhapatnam", "label": "Visakhapatnam", "id": 44 },
-  { "href": "/office-workstation-manufacturer-in-meerut", "label": "Meerut", "id": 45 },
-  { "href": "/office-workstation-manufacturer-in-thiruvananthapuram", "label": "Thiruvananthapuram", "id": 46 },
-  { "href": "/office-workstation-manufacturer-in-kochi", "label": "Kochi", "id": 47 },
-  { "href": "/office-workstation-manufacturer-in-mohali", "label": "Mohali", "id": 48 },
-  { "href": "/office-workstation-manufacturer-in-vadodara", "label": "Vadodara", "id": 49 },
-  { "href": "/office-workstation-manufacturer-in-ujjain", "label": "Ujjain", "id": 50 },
-  { "href": "/office-workstation-manufacturer-in-ajmer", "label": "Ajmer", "id": 51 },
-  { "href": "/office-workstation-manufacturer-in-amritsar", "label": "Amritsar", "id": 52 },
-  { "href": "/office-workstation-manufacturer-in-bhiwandi", "label": "Bhiwandi", "id": 53 },
-  { "href": "/office-workstation-manufacturer-in-kolhapur", "label": "Kolhapur", "id": 54 },
-  { "href": "/office-workstation-manufacturer-in-tiruchirappalli", "label": "Tiruchirappalli", "id": 55 },
-  { "href": "/office-workstation-manufacturer-in-madurai", "label": "Madurai", "id": 56 },
-  { "href": "/office-workstation-manufacturer-in-salem", "label": "Salem", "id": 57 },
-  { "href": "/office-workstation-manufacturer-in-panaji", "label": "Panaji", "id": 58 },
-  { "href": "/office-workstation-manufacturer-in-gwalior", "label": "Gwalior", "id": 59 },
-  { "href": "/office-workstation-manufacturer-in-jalandhar", "label": "Jalandhar", "id": 60 },
-  { "href": "/office-workstation-manufacturer-in-tiruppur", "label": "Tiruppur", "id": 61 },
-  { "href": "/office-workstation-manufacturer-in-bareilly", "label": "Bareilly", "id": 62 },
-  { "href": "/office-workstation-manufacturer-in-gorakhpur", "label": "Gorakhpur", "id": 63 },
-  { "href": "/office-workstation-manufacturer-in-jhansi", "label": "Jhansi", "id": 64 },
-  { "href": "/office-workstation-manufacturer-in-moradabad", "label": "Moradabad", "id": 65 },
-  { "href": "/office-workstation-manufacturer-in-muzaffarpur", "label": "Muzaffarpur", "id": 66 },
-  { "href": "/office-workstation-manufacturer-in-varanasi", "label": "Varanasi", "id": 67 },
-  { "href": "/office-workstation-manufacturer-in-dhanbad", "label": "Dhanbad", "id": 68 },
-  { "href": "/office-workstation-manufacturer-in-aligarh", "label": "Aligarh", "id": 69 },
-  { "href": "/office-workstation-manufacturer-in-tirupati", "label": "Tirupati", "id": 70 },
-  { "href": "/office-workstation-manufacturer-in-bhilai", "label": "Bhilai", "id": 71 },
-  { "href": "/office-workstation-manufacturer-in-bilaspur", "label": "Bilaspur", "id": 72 },
-  { "href": "/office-workstation-manufacturer-in-deoghar", "label": "Deoghar", "id": 73 },
-  { "href": "/office-workstation-manufacturer-in-rajahmundry", "label": "Rajahmundry", "id": 74 },
-  { "href": "/office-workstation-manufacturer-in-mangalore", "label": "Mangalore", "id": 75 },
-  { "href": "/office-workstation-manufacturer-in-jabalpur", "label": "Jabalpur", "id": 76 },
-  { "href": "/office-workstation-manufacturer-in-belagavi", "label": "Belagavi", "id": 77 },
-  { "href": "/office-workstation-manufacturer-in-saharsa", "label": "Saharsa", "id": 78 },
-  { "href": "/office-workstation-manufacturer-in-thanjavur", "label": "Thanjavur", "id": 79 },
-  { "href": "/office-workstation-manufacturer-in-warangal", "label": "Warangal", "id": 80 },
-  { "href": "/office-workstation-manufacturer-in-agartala", "label": "Agartala", "id": 81 },
-  { "href": "/office-workstation-manufacturer-in-shillong", "label": "Shillong", "id": 82 },
-  { "href": "/office-workstation-manufacturer-in-imphal", "label": "Imphal", "id": 83 },
-  { "href": "/office-workstation-manufacturer-in-jammu", "label": "Jammu", "id": 84 },
-  { "href": "/office-workstation-manufacturer-in-srinagar", "label": "Srinagar", "id": 85 },
-  { "href": "/office-workstation-manufacturer-in-patiala", "label": "Patiala", "id": 86 },
-  { "href": "/office-workstation-manufacturer-in-bathinda", "label": "Bathinda", "id": 87 },
-  { "href": "/office-workstation-manufacturer-in-hubli-dharwad", "label": "Hubli-Dharwad", "id": 88 },
-  { "href": "/office-workstation-manufacturer-in-visnagar", "label": "Visnagar", "id": 89 },
-  { "href": "/office-workstation-manufacturer-in-faizabad", "label": "Faizabad", "id": 90 },
-  { "href": "/office-workstation-manufacturer-in-muzaffarnagar", "label": "Muzaffarnagar", "id": 91 },
-  { "href": "/office-workstation-manufacturer-in-rohtak", "label": "Rohtak", "id": 92 }
-]
+  {
+    href: "/office-workstation-manufacturer-in-bengaluru",
+    label: "Bengaluru",
+    id: 1,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-mumbai",
+    label: "Mumbai",
+    id: 2,
+  },
+  { href: "/office-workstation-manufacturer-in-pune", label: "Pune", id: 3 },
+  {
+    href: "/office-workstation-manufacturer-in-ahmedabad",
+    label: "Ahmedabad",
+    id: 4,
+  },
+  { href: "/office-workstation-manufacturer-in-delhi", label: "Delhi", id: 5 },
+  {
+    href: "/office-workstation-manufacturer-in-jaipur",
+    label: "Jaipur",
+    id: 6,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-hyderabad",
+    label: "Hyderabad",
+    id: 7,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-chennai",
+    label: "Chennai",
+    id: 8,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-kolkata",
+    label: "Kolkata",
+    id: 9,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-jodhpur",
+    label: "Jodhpur",
+    id: 10,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-gurugram",
+    label: "Gurugram",
+    id: 11,
+  },
+  { href: "/office-workstation-manufacturer-in-surat", label: "Surat", id: 12 },
+  {
+    href: "/office-workstation-manufacturer-in-vadodara",
+    label: "Vadodara",
+    id: 13,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-indore",
+    label: "Indore",
+    id: 14,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-nagpur",
+    label: "Nagpur",
+    id: 15,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-lucknow",
+    label: "Lucknow",
+    id: 16,
+  },
+  { href: "/office-workstation-manufacturer-in-noida", label: "Noida", id: 17 },
+  {
+    href: "/office-workstation-manufacturer-in-ghaziabad",
+    label: "Ghaziabad",
+    id: 18,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bhopal",
+    label: "Bhopal",
+    id: 19,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-saharanpur",
+    label: "Saharanpur",
+    id: 20,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-kanpur",
+    label: "Kanpur",
+    id: 21,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-coimbatore",
+    label: "Coimbatore",
+    id: 22,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-nashik",
+    label: "Nashik",
+    id: 23,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-faridabad",
+    label: "Faridabad",
+    id: 24,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-navi-mumbai",
+    label: "Navi Mumbai",
+    id: 25,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-rajkot",
+    label: "Rajkot",
+    id: 26,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-ludhiana",
+    label: "Ludhiana",
+    id: 27,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-ranchi",
+    label: "Ranchi",
+    id: 28,
+  },
+  { href: "/office-workstation-manufacturer-in-patna", label: "Patna", id: 29 },
+  {
+    href: "/office-workstation-manufacturer-in-udaipur",
+    label: "Udaipur",
+    id: 30,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-guwahati",
+    label: "Guwahati",
+    id: 31,
+  },
+  { href: "/office-workstation-manufacturer-in-thane", label: "Thane", id: 32 },
+  {
+    href: "/office-workstation-manufacturer-in-mysore",
+    label: "Mysore",
+    id: 33,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-dehradun",
+    label: "Dehradun",
+    id: 34,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-raipur",
+    label: "Raipur",
+    id: 35,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-vijayawada",
+    label: "Vijayawada",
+    id: 36,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-greater-noida",
+    label: "Greater Noida",
+    id: 37,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-chandigarh",
+    label: "Chandigarh",
+    id: 38,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-howrah",
+    label: "Howrah",
+    id: 39,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-jamshedpur",
+    label: "Jamshedpur",
+    id: 40,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bhubaneswar",
+    label: "Bhubaneswar",
+    id: 41,
+  },
+  { href: "/office-workstation-manufacturer-in-agra", label: "Agra", id: 42 },
+  {
+    href: "/office-workstation-manufacturer-in-siliguri",
+    label: "Siliguri",
+    id: 43,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-visakhapatnam",
+    label: "Visakhapatnam",
+    id: 44,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-meerut",
+    label: "Meerut",
+    id: 45,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-thiruvananthapuram",
+    label: "Thiruvananthapuram",
+    id: 46,
+  },
+  { href: "/office-workstation-manufacturer-in-kochi", label: "Kochi", id: 47 },
+  {
+    href: "/office-workstation-manufacturer-in-mohali",
+    label: "Mohali",
+    id: 48,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-vadodara",
+    label: "Vadodara",
+    id: 49,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-ujjain",
+    label: "Ujjain",
+    id: 50,
+  },
+  { href: "/office-workstation-manufacturer-in-ajmer", label: "Ajmer", id: 51 },
+  {
+    href: "/office-workstation-manufacturer-in-amritsar",
+    label: "Amritsar",
+    id: 52,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bhiwandi",
+    label: "Bhiwandi",
+    id: 53,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-kolhapur",
+    label: "Kolhapur",
+    id: 54,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-tiruchirappalli",
+    label: "Tiruchirappalli",
+    id: 55,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-madurai",
+    label: "Madurai",
+    id: 56,
+  },
+  { href: "/office-workstation-manufacturer-in-salem", label: "Salem", id: 57 },
+  {
+    href: "/office-workstation-manufacturer-in-panaji",
+    label: "Panaji",
+    id: 58,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-gwalior",
+    label: "Gwalior",
+    id: 59,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-jalandhar",
+    label: "Jalandhar",
+    id: 60,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-tiruppur",
+    label: "Tiruppur",
+    id: 61,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bareilly",
+    label: "Bareilly",
+    id: 62,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-gorakhpur",
+    label: "Gorakhpur",
+    id: 63,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-jhansi",
+    label: "Jhansi",
+    id: 64,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-moradabad",
+    label: "Moradabad",
+    id: 65,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-muzaffarpur",
+    label: "Muzaffarpur",
+    id: 66,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-varanasi",
+    label: "Varanasi",
+    id: 67,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-dhanbad",
+    label: "Dhanbad",
+    id: 68,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-aligarh",
+    label: "Aligarh",
+    id: 69,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-tirupati",
+    label: "Tirupati",
+    id: 70,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bhilai",
+    label: "Bhilai",
+    id: 71,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bilaspur",
+    label: "Bilaspur",
+    id: 72,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-deoghar",
+    label: "Deoghar",
+    id: 73,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-rajahmundry",
+    label: "Rajahmundry",
+    id: 74,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-mangalore",
+    label: "Mangalore",
+    id: 75,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-jabalpur",
+    label: "Jabalpur",
+    id: 76,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-belagavi",
+    label: "Belagavi",
+    id: 77,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-saharsa",
+    label: "Saharsa",
+    id: 78,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-thanjavur",
+    label: "Thanjavur",
+    id: 79,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-warangal",
+    label: "Warangal",
+    id: 80,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-agartala",
+    label: "Agartala",
+    id: 81,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-shillong",
+    label: "Shillong",
+    id: 82,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-imphal",
+    label: "Imphal",
+    id: 83,
+  },
+  { href: "/office-workstation-manufacturer-in-jammu", label: "Jammu", id: 84 },
+  {
+    href: "/office-workstation-manufacturer-in-srinagar",
+    label: "Srinagar",
+    id: 85,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-patiala",
+    label: "Patiala",
+    id: 86,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-bathinda",
+    label: "Bathinda",
+    id: 87,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-hubli-dharwad",
+    label: "Hubli-Dharwad",
+    id: 88,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-visnagar",
+    label: "Visnagar",
+    id: 89,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-faizabad",
+    label: "Faizabad",
+    id: 90,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-muzaffarnagar",
+    label: "Muzaffarnagar",
+    id: 91,
+  },
+  {
+    href: "/office-workstation-manufacturer-in-rohtak",
+    label: "Rohtak",
+    id: 92,
+  },
+];
 
 export const catCites = [
   { href: "-in-delhi", label: "Delhi", id: 1 },
@@ -100,7 +424,7 @@ export const catCites = [
   { href: "-in-greater-noida", label: "Greater Noida", id: 3 },
   { href: "-in-ghaziabad", label: "Ghaziabad", id: 4 },
   { href: "-in-faridabad", label: "Faridabad", id: 5 },
-  { href: "-in-gurgaon", label: "Gurgaon", id: 7 }, 
+  { href: "-in-gurgaon", label: "Gurgaon", id: 7 },
   { href: "-in-meerut", label: "Meerut", id: 8 },
   { href: "-in-hapur", label: "Hapur", id: 9 },
   { href: "-in-bulandshahr", label: "Bulandshahr", id: 10 },
@@ -124,22 +448,18 @@ export const categories = [
   {
     id: "modular-office-workstation",
     name: "Modular Office Workstation",
-    metaTitle: "Custom Modular Office Workstations – Dk Modular Contractor Office Furniture",
-    metaDescription:
-      "Custom Modular Office Workstations",
-
+    metaTitle:
+      "Custom Modular Office Workstations – Dk Modular Contractor Office Furniture",
+    metaDescription: "Custom Modular Office Workstations",
 
     products: [
-
-
-
       // product 1
       {
         id: "modular-office-workstation",
         name: "Modular Office Workstation",
-        metaTitle: "Modular Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "Modular Office Workstation",
+        metaTitle:
+          "Modular Office Workstation – Dk Modular Contractor Office Furniture",
+        metaDescription: "Modular Office Workstation",
 
         description: [
           {
@@ -173,7 +493,6 @@ export const categories = [
           },
         ],
 
-
         specs: [
           { label: "Material", value: "Pre Laminated Board" },
           { label: "Frame Material", value: "Crca pipe" },
@@ -190,7 +509,6 @@ export const categories = [
           { label: "Features", value: "Best and Economical Designs" },
         ],
 
-
         image: [
           {
             src: "https://res.cloudinary.com/dzbkxqqo9/image/upload/v1766228880/0993f5_9f89cc419f0b4d46a0eb22d6c94330df_mv2_icqzns.avif",
@@ -203,9 +521,9 @@ export const categories = [
       {
         id: "L-shaped-workstation",
         name: "L Shaped Workstation",
-        metaTitle: "L Shaped Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "L Shaped Workstation",
+        metaTitle:
+          "L Shaped Workstation – Dk Modular Contractor Office Furniture",
+        metaDescription: "L Shaped Workstation",
 
         description: [
           {
@@ -239,7 +557,6 @@ export const categories = [
           },
         ],
 
-
         specs: [
           { label: "Seating Capacity", value: "2 Seater" },
           { label: "Material", value: "Particle Board" },
@@ -248,7 +565,6 @@ export const categories = [
           { label: "Usage/Application", value: "Office" },
           { label: "Color", value: "Brown" },
           { label: "Product Type", value: "Modular Office Workstation" },
-
         ],
 
         image: [
@@ -263,9 +579,9 @@ export const categories = [
       {
         id: "computer-workstation-furniture",
         name: "Computer Workstation Furniture",
-        metaTitle: "Computer Workstation Furniture – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "Computer Workstation Furniture",
+        metaTitle:
+          "Computer Workstation Furniture – Dk Modular Contractor Office Furniture",
+        metaDescription: "Computer Workstation Furniture",
 
         description: [
           {
@@ -299,8 +615,6 @@ export const categories = [
           },
         ],
 
-
-
         specs: [
           { label: "Product Name", value: "Computer Workstation Furniture" },
           { label: "Material", value: "Particle Board" },
@@ -311,7 +625,6 @@ export const categories = [
 
           { label: "Brand", value: "Dk Modular Contractor Contractor" },
         ],
-
 
         image: [
           {
@@ -325,9 +638,9 @@ export const categories = [
       {
         id: "single-seater-modular-office-workstation",
         name: "Single Seater Modular Office Workstation",
-        metaTitle: "Single Seater Modular Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "Single Seater Modular Office Workstation",
+        metaTitle:
+          "Single Seater Modular Office Workstation – Dk Modular Contractor Office Furniture",
+        metaDescription: "Single Seater Modular Office Workstation",
 
         description: [
           {
@@ -361,21 +674,25 @@ export const categories = [
           },
         ],
 
-
         specs: [
           { label: "Seating Capacity", value: "1 Person" },
-          { label: "Material", value: " partical board with aluminium section " },
+          {
+            label: "Material",
+            value: " partical board with aluminium section ",
+          },
           { label: "Partition Thickness", value: " 45mm" },
           { label: "Table top Thickness", value: " 25mm" },
           { label: "Surface Finish", value: "laminate" },
           { label: "Height", value: "3.5 Feet (Full Height)" },
           { label: "Usage/Application", value: "Office" },
           { label: "Color Options", value: "White, Blue & Custom Colours" },
-          { label: "Product Type", value: "Single Seater Modular Office Workstation" },
+          {
+            label: "Product Type",
+            value: "Single Seater Modular Office Workstation",
+          },
           { label: "Modular", value: "Yes" },
           { label: "Brand", value: "Dk Modular Contractor Contractor" },
         ],
-
 
         image: [
           {
@@ -385,14 +702,13 @@ export const categories = [
         ],
       },
 
-
       // product 5
       {
         id: "modern-office-workstation",
         name: "Modern Office Workstation",
-        metaTitle: "Modern Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "Modern Office Workstation",
+        metaTitle:
+          "Modern Office Workstation – Dk Modular Contractor Office Furniture",
+        metaDescription: "Modern Office Workstation",
 
         description: [
           {
@@ -426,21 +742,23 @@ export const categories = [
           },
         ],
 
-
-
         specs: [
           { label: "Seating Capacity", value: "4 Seater" },
-          { label: "Material", value: "partition board with 45mm aluminium section " },
+          {
+            label: "Material",
+            value: "partition board with 45mm aluminium section ",
+          },
           { label: "Thickness", value: "25mm for table top" },
           { label: "Surface Treatment", value: "laminate" },
           { label: "Usage/Application", value: "Office" },
-          { label: "Color Options", value: "Brown, Red, White & Custom Colours" },
+          {
+            label: "Color Options",
+            value: "Brown, Red, White & Custom Colours",
+          },
           { label: "Product Type", value: "Modern Office Workstation" },
           { label: "Modular", value: "Yes" },
           { label: "Brand", value: "Dk Modular Contractor Contractor" },
         ],
-
-
 
         image: [
           {
@@ -454,9 +772,9 @@ export const categories = [
       {
         id: "linear-modular-office-workstation",
         name: "Linear Modular Office Workstation",
-        metaTitle: "Linear Modular Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "Linear Modular Office Workstation",
+        metaTitle:
+          "Linear Modular Office Workstation – Dk Modular Contractor Office Furniture",
+        metaDescription: "Linear Modular Office Workstation",
 
         description: [
           {
@@ -490,24 +808,24 @@ export const categories = [
           },
         ],
 
-
-
-
         specs: [
           { label: "Seating Capacity", value: "4 Seater" },
-          { label: "Material", value: "prelame pratical board with 45mm aluminium section" },
+          {
+            label: "Material",
+            value: "prelame pratical board with 45mm aluminium section",
+          },
           { label: "Thickness", value: "25mm" },
           { label: "Table Height", value: "750/1200mm" },
           { label: "Surface Treatment", value: "laminated" },
           { label: "Usage/Application", value: "Office" },
-          { label: "Color Options", value: "Orange, White, Brown, Cream & Custom Colours" },
+          {
+            label: "Color Options",
+            value: "Orange, White, Brown, Cream & Custom Colours",
+          },
           { label: "Product Type", value: "Linear Modern Office Workstation" },
           { label: "Modular", value: "Yes" },
           { label: "Brand", value: "Dk Modular Contractor Contractor" },
         ],
-
-
-
 
         image: [
           {
@@ -517,14 +835,13 @@ export const categories = [
         ],
       },
 
-
       // product 7
       {
         id: "U-shape-modern-office-workstation",
         name: "U Shape Modern Office Workstation",
-        metaTitle: "U Shape Modern Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription:
-          "U Shape Modern Office Workstation",
+        metaTitle:
+          "U Shape Modern Office Workstation – Dk Modular Contractor Office Furniture",
+        metaDescription: "U Shape Modern Office Workstation",
 
         description: [
           {
@@ -558,23 +875,20 @@ export const categories = [
           },
         ],
 
-
-
-
         specs: [
           { label: "Shape", value: "U Shape" },
           { label: "Material", value: "Particle Board" },
           { label: "Thickness", value: "25mm " },
           { label: "Surface Treatment", value: "laminated" },
           { label: "Usage/Application", value: "Office" },
-          { label: "Color Options", value: "Orange, White, Ivory & Custom Colours" },
+          {
+            label: "Color Options",
+            value: "Orange, White, Ivory & Custom Colours",
+          },
           { label: "Product Type", value: "L Shape Modern Office Workstation" },
           { label: "Modular", value: "Yes" },
           { label: "Brand", value: "Dk Modular Contractor Contractor" },
         ],
-
-
-
 
         image: [
           {
@@ -583,31 +897,221 @@ export const categories = [
           },
         ],
       },
+    ],
 
+    sections: [
+      {
+        id: "modular-workstation-for-modern-offices",
+        title: "Modular Workstation for Modern Offices",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A Modular Workstation kind of thing; it ends up being a practical solution for setting up spaces that feel organized, comfortable, and still look professional.",
+          },
+
+          {
+            type: "paragraph",
+            text: "The Modular Office Workstation options we offer come in several configurations so they can match different office layouts and seating requirements.",
+          },
+
+          {
+            type: "paragraph",
+            text: "These are built with efficient space utilization in mind, which makes them a good fit for corporate offices, startups, IT companies, BPOs, and other commercial workplaces.",
+          },
+
+          {
+            type: "paragraph",
+            text: [
+              "And since we act as a ",
+              {
+                type: "link",
+                text: "Workstation Manufacturer",
+                href: "https://officeworkstationmanufacturer.com/",
+              },
+              " who's been in this space for a while, we keep the designs functional, the construction durable, and the workspace setup flexible, not just “nice to look at.”",
+            ],
+          },
+
+          {
+            type: "paragraph",
+            text: "Basically, our Modular Office Furniture helps businesses create a more professional environment while making better use of the available floor area.",
+          },
+        ],
+      },
+
+      {
+        id: "office-workstation-solutions",
+        title: "Office Workstation Solutions",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A properly planned Office Workstation gives employees a specific, almost dedicated zone for focused and productive work.",
+          },
+
+          {
+            type: "paragraph",
+            text: "The Office Modular Workstation setups can be arranged depending on office size, team needs, seating capacity, and even interior preferences, so it doesn’t feel randomly placed.",
+          },
+
+          {
+            type: "paragraph",
+            text: "For those who need more structured spaces, Office Cubicle Workstation solutions work well when businesses want more organized or semi-private employee work areas.",
+          },
+
+          {
+            type: "paragraph",
+            text: "And if the goal is teamwork without losing individual work time, Office Cluster Workstation layouts are a solid choice because they support collaboration while still keeping dedicated workspaces.",
+          },
+
+          {
+            type: "paragraph",
+            text: "In short, our Office Workstation Furniture brings together practical workspace planning with a professional appearance, the kind modern offices tend to require.",
+          },
+        ],
+      },
+
+      {
+        id: "key-features",
+        title: "Key Features",
+
+        content: [
+          {
+            type: "feature",
+            title: "Flexible configurations",
+            description:
+              "Workstations can be put together based on the office size, seating needs, and what space is actually there.",
+          },
+
+          {
+            type: "feature",
+            title: "Space-efficient design",
+            description:
+              "This supports businesses in using floor area well while still keeping the workplace calm and tidy, not just chaotic.",
+          },
+
+          {
+            type: "feature",
+            title: "Durable construction",
+            description:
+              "Built for day-to-day office life, with stability in mind and long-term functionality.",
+          },
+
+          {
+            type: "feature",
+            title: "Cable management",
+            description:
+              "It also helps keep computer and electrical cables organized, so the workspace looks cleaner.",
+          },
+
+          {
+            type: "feature",
+            title: "Multiple design options",
+            description:
+              "You can choose different layouts, finishes, and configurations, so it fits with the office interiors.",
+          },
+
+          {
+            type: "feature",
+            title: "Easy maintenance",
+            description:
+              "Surfaces and overall design are meant to make daily cleaning and upkeep pretty convenient.",
+          },
+        ],
+      },
+
+      {
+        id: "benefits-of-modular-office-workstations",
+        title: "Benefits of Modular Office Workstations",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A Modular Office Workstation in Delhi can really improve space utilization, helping you get more from the room you already have without making the place feel cluttered.",
+
+            links: [
+              {
+                text: "Modular Office Workstation in Delhi",
+                href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
+              },
+            ],
+          },
+
+          {
+            type: "paragraph",
+            text: "You can also treat flexible office planning as a bit of a living thing, because these modular layouts can be shifted or expanded later, when the employee count moves around, or when business needs evolve.",
+          },
+
+          {
+            type: "paragraph",
+            text: "There’s also improved organization, since dedicated work zones make it easier for people to keep equipment, documents, and the usual day-to-day basics in order.",
+          },
+
+          {
+            type: "paragraph",
+            text: "On top of that, a professional office appearance tends to show up naturally, especially when the workstation furniture is chosen thoughtfully so the whole workspace has a consistent look.",
+          },
+        ],
+      },
+
+      {
+        id: "faqs",
+        title: "FAQs",
+
+        content: [
+          {
+            type: "faq",
+            number: 1,
+            question: "What is a modular office workstation, really?",
+            answer:
+              "A modular office workstation is a flexible office furniture solution, made of configurable work units, that can be arranged based on the available space and the employee requirements, kind of depending on how you want things to flow.",
+          },
+
+          {
+            type: "faq",
+            number: 2,
+            question: "What are the benefits of a modular workstation?",
+            answer:
+              "You get better space utilization, more adaptable layouts, an organized work area, easy expansion later on, and yes, a pretty professional-looking office overall.",
+          },
+
+          {
+            type: "faq",
+            number: 3,
+            question: "Where can modular office workstations be used?",
+            answer:
+              "They can fit in corporate offices, IT companies, startups, BPOs, call centers, coworking spaces, government offices, and basically commercial workplaces too, where desks matter.",
+          },
+
+          {
+            type: "faq",
+            number: 4,
+            question:
+              "How do I choose the right office workstation for my business?",
+            answer:
+              "Think about your office size, your team count, how you plan the seating arrangement, how much privacy you need, what kind of storage you actually want, and which workstation configuration you prefer.",
+          },
+        ],
+      },
     ],
   },
-
-
 
   // category 2 office-workstation
   {
     id: "office-workstation",
     name: "Office-Workstation",
     metaTitle: "Office workstation – Dk Modular Contractor Office Furniture",
-    metaDescription:
-      "office-workstation",
+    metaDescription: "office-workstation",
 
     products: [
-
-
-
       //product 1
-
 
       {
         id: "2-seater-corporate-office-workstation",
         name: "2 Seater Corporate Office Workstation",
-        metaTitle: "2 Seater Corporate Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "2 Seater Corporate Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "2 Seater Corporate Office Workstation by Dk Modular Contractor – modern, durable, and space-efficient workstation with aluminium frame and wooden tabletop. Ideal for corporate office environments.",
 
@@ -655,13 +1159,13 @@ export const categories = [
         ],
       },
 
-
       // product 4
 
       {
         id: "2-seater-office-workstation",
         name: "2 Seater  Office Workstation",
-        metaTitle: "2 Seater  Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "2 Seater  Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "2 Seater  Office Workstation by Dk Modular Contractor – modern, durable, and space-efficient workstation with aluminium frame and wooden tabletop. Ideal for corporate office environments.",
 
@@ -706,14 +1210,14 @@ export const categories = [
             alt: "2 Seater Corporate Office Workstation by Dk Modular Contractor",
           },
         ],
-      }
-      ,
+      },
 
       // product 5
       {
         id: "office-cubicle-workstation",
         name: "Office Cubicle Workstation",
-        metaTitle: "Office Cubicle Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Office Cubicle Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Office Cubicle Workstation by Dk Modular Contractor – modern, modular, and space-efficient 4 seater cubicle workstation made from premium particle board. Ideal for corporate and commercial offices.",
 
@@ -745,7 +1249,10 @@ export const categories = [
         ],
 
         specs: [
-          { label: "Material", value: "partical board with 45mm aluminium section & clear glass" },
+          {
+            label: "Material",
+            value: "partical board with 45mm aluminium section & clear glass",
+          },
           { label: "Seating Capacity", value: "6 Seater" },
           { label: "Color", value: "Multi Color" },
           { label: "Brand", value: "Dk Modular Contractor" },
@@ -766,7 +1273,8 @@ export const categories = [
       {
         id: "wooden-office-workstation",
         name: "Wooden Office Workstation",
-        metaTitle: "Wooden Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Wooden Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Wooden Office Workstation by Dk Modular Contractor – premium 4 seater workstation crafted from high-quality wood with polished finish. Ideal for modern office environments.",
 
@@ -818,7 +1326,8 @@ export const categories = [
       {
         id: "office-workstation",
         name: " Office Workstation",
-        metaTitle: " Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          " Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           " Office Workstation by Dk Modular Contractor – premium 4 seater workstation crafted from high-quality wood with polished finish. Ideal for modern office environments.",
 
@@ -873,7 +1382,8 @@ export const categories = [
       {
         id: "6-seater-linear-office-workstation",
         name: "6 Seater Linear Office Workstation",
-        metaTitle: "6 Seater Linear Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "6 Seater Linear Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "6 Seater Linear Office Workstation by Dk Modular Contractor – modern, space-efficient linear workstation made from premium particle board with polished finish. Ideal for office and corporate environments.",
 
@@ -922,11 +1432,11 @@ export const categories = [
         ],
       },
 
-
       {
         id: "l-shape-director-table",
         name: "L Shape Director Table",
-        metaTitle: "L Shape Director Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "L Shape Director Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "L Shape Director Table by Dk Modular Contractor – premium executive table made from particle board with powder-coated finish. Designed for director cabins and modern office spaces.",
 
@@ -974,13 +1484,11 @@ export const categories = [
         ],
       },
 
-
-
-
       {
         id: "particle-board-office-workstation",
         name: "Particle Board Office Workstation",
-        metaTitle: "Particle Board Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Particle Board Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Particle Board Office Workstation by Dk Modular Contractor – modern, durable, and space-efficient workstation designed for offices. Ideal for 4-seater setups with polished surface and premium finish.",
 
@@ -1012,7 +1520,10 @@ export const categories = [
         ],
 
         specs: [
-          { label: "Material", value: "Particle Board with 45mm Aluminium section " },
+          {
+            label: "Material",
+            value: "Particle Board with 45mm Aluminium section ",
+          },
           { label: "Usage/Application", value: "Office" },
           { label: "Seating Capacity", value: "Customisable" },
           { label: "Thickness", value: "25mm" },
@@ -1026,15 +1537,15 @@ export const categories = [
             alt: "Particle Board Office Workstation by Dk Modular Contractor",
           },
         ],
-      }
-      ,
+      },
 
       // product 2
 
       {
         id: "single-seater-office-workstation",
         name: "Single Seater Office Workstation",
-        metaTitle: "Single Seater Office Workstation – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Single Seater Office Workstation – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Single Seater Office Workstation by Dk Modular Contractor – compact, ergonomic, and premium workstation with aluminium frame and polished finish. Ideal for individual office setups and focused work environments.",
 
@@ -1082,24 +1593,212 @@ export const categories = [
           },
         ],
       },
+    ],
 
+    sections: [
+      {
+        id: "modular-workstation-for-modern-offices",
+        title: "Modular Workstation for Modern Offices",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A Modular Workstation is designed to create an organized, comfortable, and productive workspace for today’s businesses. You know, the kind where people actually work.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Our Office Workstation solutions fit corporate offices, startups, IT companies, BPOs, coworking spaces, and also commercial workplaces.",
+          },
+
+          {
+            type: "paragraph",
+            text: "With flexible configurations, businesses can use available floor space more effectively while still keeping that professional office environment vibe.",
+          },
+
+          {
+            type: "paragraph",
+            text: [
+              "As an experienced ",
+              {
+                type: "link",
+                text: "Workstation Manufacturer",
+                href: "https://officeworkstationmanufacturer.com/",
+              },
+              ", we deliver workable workstation solutions based on different office layouts and seating needs.",
+            ],
+          },
+
+          {
+            type: "paragraph",
+            text: "Our Modular Office Furniture mixes functional design with a professional look, which matches contemporary workplaces really well.",
+          },
+        ],
+      },
+
+      {
+        id: "office-workstation-solutions",
+        title: "Office Workstation Solutions",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A well-planned Office Modular Workstation gives each employee a dedicated work area, yet it still supports communication and collaboration between people.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Our Modular Office Workstation solutions can be set up based on office size, number of employees, and what floor space is available.",
+          },
+
+          {
+            type: "paragraph",
+            text: "For companies that want individual or semi-private work zones, our Office Cubicle Workstation designs fit nicely.",
+          },
+
+          {
+            type: "paragraph",
+            text: "If you prefer teamwork, Office Cluster Workstation layouts let teams work together while their seating stays organized and separate enough.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Our Office Workstation Furniture is built to offer practical, efficient working areas across many different business environments, not just one style.",
+          },
+        ],
+      },
+
+      {
+        id: "key-features",
+        title: "Key Features",
+
+        content: [
+          {
+            type: "feature",
+            title: "Flexible configurations",
+            description:
+              "Workstations can be arranged depending on how big the office is, what seating is needed, and also the room you actually have.",
+          },
+
+          {
+            type: "feature",
+            title: "Space-efficient design",
+            description:
+              "It supports businesses in using the floor area more thoughtfully, without turning everything into some kind of messy situation, you know.",
+          },
+
+          {
+            type: "feature",
+            title: "Durable construction",
+            description:
+              "It is made for everyday office use, with emphasis on steadiness and long-lasting performance.",
+          },
+
+          {
+            type: "feature",
+            title: "Cable management",
+            description:
+              "Helps keep the computer wires and electrical cables organized, so you end up with a cleaner, calmer workspace.",
+          },
+
+          {
+            type: "feature",
+            title: "Multiple design options",
+            description:
+              "Different layouts, finishes, and setups are available, so the furniture matches the office mood.",
+          },
+
+          {
+            type: "feature",
+            title: "Easy maintenance",
+            description:
+              "The practical surfaces and the overall design make daily wipe-downs and upkeep feel more convenient.",
+          },
+        ],
+      },
+
+      {
+        id: "benefits-of-modular-office-workstations",
+        title: "Benefits of Modular Office Workstations",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A Modular Office Workstation in Delhi can really improve space utilization, helping you get more from the room you already have without making the place feel cluttered.",
+
+            links: [
+              {
+                text: "Office Workstation in Delhi",
+                href: "https://officeworkstationmanufacturer.com/category/office-workstation-in-delhi",
+              },
+            ],
+          },
+
+          {
+            type: "paragraph",
+            text: "You can also treat flexible office planning as a bit of a living thing, because these modular layouts can be shifted or expanded later, when the employee count moves around, or when business needs evolve.",
+          },
+
+          {
+            type: "paragraph",
+            text: "There’s also improved organization, since dedicated work zones make it easier for people to keep equipment, documents, and the usual day-to-day basics in order.",
+          },
+
+          {
+            type: "paragraph",
+            text: "On top of that, a professional office appearance tends to show up naturally, especially when the workstation furniture is chosen thoughtfully so the whole workspace has a consistent look.",
+          },
+        ],
+      },
+
+      {
+        id: "faqs",
+        title: "FAQs",
+
+        content: [
+          {
+            type: "faq",
+            number: 1,
+            question: "What is a modular workstation?",
+            answer:
+              "A modular workstation is an adaptable office furniture system that can be set up in a variety of arrangements, kind of depending on the room space and what employees need. It’s like building with parts, you know, but in a workplace way.",
+          },
+
+          {
+            type: "faq",
+            number: 2,
+            question: "What are the benefits of an office workstation?",
+            answer:
+              "An office workstation helps organize employee seating, makes better use of floor space, supports collaboration and teamwork, and also helps create a more professional working environment. It keeps things clearer too, especially when you have a shared area.",
+          },
+
+          {
+            type: "faq",
+            number: 3,
+            question: "Can modular office workstations be customized?",
+            answer:
+              "Yes, modular office workstations can be customized around office dimensions, the seating count, employee requirements, the office layout, and even design preferences. So you’re not stuck with just one single look or setup.",
+          },
+
+          {
+            type: "faq",
+            number: 4,
+            question: "Where can office workstations be used?",
+            answer:
+              "Office workstations can be used in corporate offices, IT companies, startups, BPOs, call centers, coworking spaces, government offices, and other commercial workplaces. In short, places where people need a workable desk setup that fits the setting.",
+          },
+        ],
+      },
     ],
   },
-
-
-
-
-
-
-
 
   // category 3 Computer Table
   {
     id: "computer-table",
     name: "Computer Table",
-    metaTitle: "Computer Tables for Office Workstations – Dk Modular Contractor Office Furniture",
-    metaDescription:
-      "Find premium Computer Tables for Office Workstations. ",
+    metaTitle:
+      "Computer Tables for Office Workstations – Dk Modular Contractor Office Furniture",
+    metaDescription: "Find premium Computer Tables for Office Workstations. ",
 
     products: [
       // product 1
@@ -1107,7 +1806,8 @@ export const categories = [
       {
         id: "modular-wooden-computer-table",
         name: "Modular Wooden Computer Table",
-        metaTitle: "Modular Wooden Computer Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Modular Wooden Computer Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Modular Wooden Computer Table by Dk Modular Contractor – compact, durable, and functional computer table with drawers. Ideal for office use with a clean and modern design.",
 
@@ -1154,16 +1854,15 @@ export const categories = [
             alt: "Modular Wooden Computer Table by Dk Modular Contractor",
           },
         ],
-      }
-      ,
-
+      },
 
       // product 2
 
       {
         id: "office-computer-desk",
         name: "Office Computer Desk",
-        metaTitle: "Office Computer Desk – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Office Computer Desk – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Office Computer Desk by Dk Modular Contractor Contractor – durable and spacious computer desk made from high-quality wooden material with pre-laminated finish. Ideal for corporate office environments.",
 
@@ -1195,7 +1894,6 @@ export const categories = [
         ],
 
         specs: [
-
           { label: "Color", value: "Brown" },
           { label: "Material", value: "Wooden" },
           { label: "Usage/Application", value: "Corporate Office" },
@@ -1217,7 +1915,8 @@ export const categories = [
       {
         id: "wooden-computer-table",
         name: "Wooden Computer Table",
-        metaTitle: "Wooden Computer Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Wooden Computer Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Wooden Computer Table by Dk Modular Contractor Contractor – modern single-seater computer table made from pre-laminated ply with a clean rectangular design. Ideal for office use.",
 
@@ -1267,15 +1966,212 @@ export const categories = [
           },
         ],
       },
+    ],
 
+    sections: [
+      {
+        id: "computer-table-for-modern-workspaces",
+        title: "Computer Table for Modern Workspaces",
 
+        content: [
+          {
+            type: "paragraph",
+            text: "A Computer Table gives you a pretty dedicated and honestly organized little corner for computers, laptops, papers, and those everyday office bits and pieces that seem to multiply overnight.",
+          },
 
+          {
+            type: "paragraph",
+            text: "Built with practical intent, it can work well in corporate offices, IT companies, schools and other educational institutions, home offices, and also commercial workplaces where things need to look tidy.",
+          },
 
+          {
+            type: "paragraph",
+            text: "These computer tables can blend into different workspace layouts, and they are often used together with Office Workstation Furniture, so the whole setup feels connected, not random.",
+          },
+          {
+            type: "paragraph",
+            text: [
+              "We’re an experienced ",
+              {
+                type: "link",
+                text: "Workstation Manufacturer",
+                href: "https://officeworkstationmanufacturer.com/",
+              },
+              ", so we keep leaning toward functional designs, the kind that help people sit comfortably and stay organized while working through the day.",
+            ],
+          },
 
+          {
+            type: "paragraph",
+            text: "Also, Computer tables can fit nicely into Modular Office Furniture setups, especially when you need flexible pieces and space-efficient solutions that don’t hog the room.",
+          },
+        ],
+      },
 
+      {
+        id: "computer-tables-for-different-office-requirements",
+        title: "Computer Tables for Different Office Requirements",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A well-planned Office Workstation really gives employees a specific zone for computer-based tasks and daily office activity, without turning everything into a cluttered mess.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Computer tables can be paired with an Office Modular Workstation arrangement to form clean work zones for one person or for a small team.",
+          },
+
+          {
+            type: "paragraph",
+            text: "For companies that need clearly defined spaces, an Office Cubicle Workstation can offer individual or semi-private working areas.",
+          },
+
+          {
+            type: "paragraph",
+            text: "If a team needs a shared work area but still wants each seat to feel like it has its own place, an Office Cluster Workstation setup is a solid option.",
+          },
+
+          {
+            type: "paragraph",
+            text: "These options can be chosen based on office size, seating needs, how much floor space is available, and the overall workplace layout.",
+          },
+        ],
+      },
+
+      {
+        id: "key-features",
+        title: "Key Features",
+
+        content: [
+          {
+            type: "feature",
+            title: "Functional work surface",
+            description:
+              "gives enough room for your computer, laptop, keyboard, papers, and those little must-haves you end up needing every day.",
+          },
+
+          {
+            type: "feature",
+            title: "Space-efficient design",
+            description:
+              "makes use of the floor space, so it works for tiny setups and also for bigger workspaces, depending on how you arrange it.",
+          },
+
+          {
+            type: "feature",
+            title: "Organized workspace",
+            description:
+              "it sort of creates a dedicated zone so your equipment and daily essentials stay in place and not all over the room.",
+          },
+
+          {
+            type: "feature",
+            title: "Durable construction",
+            description:
+              "built for daily office and commercial activity, with an emphasis on solid support and practical use.",
+          },
+
+          {
+            type: "feature",
+            title: "Professional appearance",
+            description:
+              "matches modern interiors, and it can pair well with various office workstation furniture setups.",
+          },
+
+          {
+            type: "feature",
+            title: "Easy maintenance",
+            description:
+              "The surface is practical, and the design stays simple, so cleaning and routine upkeep are convenient.",
+          },
+        ],
+      },
+
+      {
+        id: "benefits-of-modular-computer-table",
+        title: "Benefits of Modular Computer Table",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "A Computer Table in Delhi helps you keep computer gear, documents, and office accessories together in one neat workspace.",
+            links: [
+              {
+                text: "Computer Table in Delhi",
+                href: "https://officeworkstationmanufacturer.com/categories/computer-table",
+              },
+            ],
+          },
+
+          {
+            type: "paragraph",
+            text: "Efficient space utilization: Compact and useful layouts allow businesses to use the available office area more effectively.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Improved productivity: When the desk is arranged and tidy, computer tasks often feel more comfortable and easier to handle.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Flexible workspace planning: You can use the table on its own or bring it into a Modular Workstation arrangement.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Professional office environment: with well-planned Office & Commercial Furniture, the workplace tends to look clean and organized.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Versatile usage: suitable for offices, IT companies, educational institutions, coworking areas, home offices, and lots of other professional settings.",
+          },
+        ],
+      },
+
+      {
+        id: "faqs",
+        title: "FAQs",
+
+        content: [
+          {
+            type: "faq",
+            number: 1,
+            question: "What is a computer table used for?",
+            answer:
+              "A computer table is basically a dedicated working spot for computers, laptops, keyboards, papers, and a few other day-to-day office things.",
+          },
+
+          {
+            type: "faq",
+            number: 2,
+            question: "How do I choose the right computer table for my office?",
+            answer:
+              "You can start with how much floor space you have, then think about your computer layout, the surface you really need for work, plus storage expectations and the way you’re arranging the seating. Also, look at the full office layout, like how everything flows together.",
+          },
+
+          {
+            type: "faq",
+            number: 3,
+            question: "Can a computer table be used in a modular office?",
+            answer:
+              "Yes, it can fit right into a modular office workstation, or it may be used as part of a modular workstation setup, so it blends in well with the system.",
+          },
+
+          {
+            type: "faq",
+            number: 4,
+            question: "Where can computer tables be used?",
+            answer:
+              "Computer tables work in corporate offices, IT companies, schools and colleges, coworking spaces, home offices, and also in commercial work locations.",
+          },
+        ],
+      },
     ],
   },
-
 
   // category 4 office chair
   {
@@ -1288,11 +2184,11 @@ export const categories = [
     products: [
       // product 1
 
-
       {
         id: "adjustable-height-office-chair",
         name: "Adjustable Height Office Chair",
-        metaTitle: "Adjustable Height Office Chair – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Adjustable Height Office Chair – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Adjustable Height Office Chair by Dk Modular Contractor Contractor – ergonomic office chair with leather seat, stainless steel frame, and smooth-rolling wheels. Designed for comfort and productivity in office environments.",
 
@@ -1339,16 +2235,13 @@ export const categories = [
         ],
       },
 
-
-
-
       // product 2
-
 
       {
         id: "executive-office-chair",
         name: "Executive Office Chair",
-        metaTitle: "Executive Office Chair – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Executive Office Chair – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Executive Office Chair by Dk Modular Contractor – ergonomic, adjustable office chair with fabric seat, adjustable backrest, and smooth-rolling wheels. Ideal for modern office environments.",
 
@@ -1402,7 +2295,8 @@ export const categories = [
       {
         id: "high-back-mesh-chair",
         name: "High Back Mesh Chair",
-        metaTitle: "High Back Mesh Chair – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "High Back Mesh Chair – Dk Modular Contractor Office Furniture",
         metaDescription:
           "High Back Mesh Chair by Dk Modular Contractor – ergonomic office chair with breathable fabric seat, adjustable height, and high back support. Ideal for long working hours in office environments.",
 
@@ -1453,7 +2347,8 @@ export const categories = [
       {
         id: "low-back-office-chair",
         name: "Low Back Office Chair",
-        metaTitle: "Low Back Office Chair – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Low Back Office Chair – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Low Back Office Chair by Dk Modular Contractor – ergonomic office chair with adjustable arms, fabric seat, adjustable backrest and height. Ideal for daily office use and workstations.",
 
@@ -1502,12 +2397,11 @@ export const categories = [
         ],
       },
 
-
-
       {
         id: "office-director-chair",
         name: "Office Director Chair",
-        metaTitle: "Office Director Chair – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Office Director Chair – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Office Director Chair by Dk Modular Contractor – premium executive chair designed for director cabins, offering superior comfort, ergonomic support, and a professional appearance.",
 
@@ -1555,11 +2449,11 @@ export const categories = [
         ],
       },
 
-
       {
         id: "office-leather-revolving-chair",
         name: "Office Leather Revolving Chair",
-        metaTitle: "Office Leather Revolving Chair – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Office Leather Revolving Chair – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Office Leather Revolving Chair by Dk Modular Contractor – premium high back leather chair with revolving mechanism, fixed arms, and smooth wheels. Ideal for executive and office use.",
 
@@ -1606,15 +2500,209 @@ export const categories = [
           },
         ],
       },
+    ],
 
+    sections: [
+      {
+        id: "office-chairs-for-modern-workspaces",
+        title: "Office Chairs for Modern Workspaces",
 
+        content: [
+          {
+            type: "paragraph",
+            text: "Office Chairs are built to give comfortable, supportive seating for employees when they are doing daily office activities, and honestly, they just need to feel right day after day.",
+          },
 
+          {
+            type: "paragraph",
+            text: "A good office chair helps with posture, and it makes those long working hours feel much more tolerable, even when the schedule gets crowded.",
+          },
 
+          {
+            type: "paragraph",
+            text: "Our office seating solutions fit corporate offices, startups, IT companies, BPOs, coworking spaces, and other commercial workplaces that need a clean setup.",
+          },
 
+          {
+            type: "paragraph",
+            text: "You can also combine office chairs with Office Workstation Furniture, and then suddenly the whole area looks complete, organized, and a bit more professional.",
+          },
+
+          {
+            type: "paragraph",
+            text: [
+              "As an experienced ",
+              {
+                type: "link",
+                text: "Workstation Manufacturer",
+                href: "https://officeworkstationmanufacturer.com/",
+              },
+              ", we deliver Office Furniture Solutions centered on functionality, comfort, and professional style.",
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "office-chair-solutions-for-different-workspaces",
+        title: "Office Chair Solutions for Different Workspaces",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "Office chairs come in different designs and configurations, so they can match employee needs, the floor layout, and the internal office style.",
+          },
+
+          {
+            type: "paragraph",
+            text: "They can be paired with an Office Modular Workstation, which turns into a more comfortable and actually efficient personal workspace.",
+          },
+
+          {
+            type: "paragraph",
+            text: "In team-based offices, chairs are often used alongside a Modular Workstation, or with an Office Cluster Workstation arrangement, depending on how the teams sit.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Modular Office Furniture solutions may include fitting seating options so the entire workplace feels coordinated without looking mismatched.",
+          },
+
+          {
+            type: "paragraph",
+            text: "And of course, businesses can choose office chairs based on usage patterns, comfort expectations, workspace design, and the budget that is available at the moment.",
+          },
+        ],
+      },
+
+      {
+        id: "benefits-of-office-chairs",
+        title: "Benefits of Office Chairs",
+
+        content: [
+          {
+            type: "feature",
+            title: "More comfort for real life",
+            description:
+              "a proper office chair gives you better seating comfort for those long, daily work stretches, you know.",
+          },
+
+          {
+            type: "feature",
+            title: "A nicer workspace feel",
+            description:
+              "when sitting is comfortable, computer work or desk-based tasks tend to feel more convenient, even after a while.",
+          },
+
+          {
+            type: "feature",
+            title: "Support for posture",
+            description:
+              "ergonomically designed chairs can offer the right kind of backing for your back and body while you’re seated.",
+          },
+
+          {
+            type: "feature",
+            title: "Looking more professional",
+            description:
+              "when chairs are paired with Modular Office Workstation solutions, you get a more coordinated and professional kind of workspace, not just random pieces.",
+          },
+
+          {
+            type: "feature",
+            title: "Easy to use in different places",
+            description:
+              "office chairs can work with standalone desks, cubicles, cluster workstations, and other office furniture too.",
+          },
+
+          {
+            type: "feature",
+            title: "Built for the long run",
+            description:
+              "good office seating usually delivers dependable performance for regular workplace use, day after day.",
+          },
+        ],
+      },
+
+      {
+        id: "customized-office-furniture-solutions",
+        title: "Customized Office Furniture Solutions",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "Office Chairs in Delhi can be chosen based on employee needs, the workstation design, office size, and what fits the interior style.",
+            links: [
+              {
+                text: "Office Chairs in Delhi",
+                href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
+              },
+            ],
+          },
+
+          {
+            type: "paragraph",
+            text: "Chairs can go together with Office Workstation solutions so the employee workspace feels complete and functional, not half done.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Companies can align seating with their existing Office & Commercial Furniture, so everything matches and the overall look stays consistent.",
+          },
+
+          {
+            type: "paragraph",
+            text: "As a professional Workstation Manufacturer, we aim to deliver practical office furniture solutions for different workplace requirements.",
+          },
+
+          {
+            type: "paragraph",
+            text: "Our approach helps with both smaller individual work areas and bigger team-based workstation layouts, with less hassle and more coherence.",
+          },
+        ],
+      },
+
+      {
+        id: "faqs",
+        title: "FAQs",
+
+        content: [
+          {
+            type: "faq",
+            number: 1,
+            question: "What is an office chair for, like in general?",
+            answer:
+              "An office chair is made to give comfortable and steady seating, especially for employees during desk-based, computer-related tasks.",
+          },
+
+          {
+            type: "faq",
+            number: 2,
+            question:
+              "How do I pick the right office chair without overthinking it?",
+            answer:
+              "Think about comfort and back support first. Also check adjustability, the size of the chair, how many hours you use it daily, your desk height, and what you actually need in your workspace.",
+          },
+
+          {
+            type: "faq",
+            number: 3,
+            question: "Are office chairs really good for long hours?",
+            answer:
+              "Yes, the right ergonomic office chair design can offer solid support and comfort for people who stay at a desk for extended stretches of time.",
+          },
+
+          {
+            type: "faq",
+            number: 4,
+            question: "Can office chairs work with modular workstations?",
+            answer:
+              "Yes, they can be paired with modular workstation setups, office cubicle workstations, and office cluster workstation configurations too.",
+          },
+        ],
+      },
     ],
   },
-
-
 
   // category 5 wooden
   {
@@ -1627,11 +2715,11 @@ export const categories = [
     products: [
       // product 1
 
-
       {
         id: "home-wooden-storage-cupboard",
         name: "Home Wooden Storage Cupboard",
-        metaTitle: "Home Wooden Storage Cupboard – Dk Modular Contractor Furniture",
+        metaTitle:
+          "Home Wooden Storage Cupboard – Dk Modular Contractor Furniture",
         metaDescription:
           "Home Wooden Storage Cupboard by Dk Modular Contractor – modern 2 door wooden cabinet with polished finish and customized design. Ideal for home storage with a clean and elegant look.",
 
@@ -1680,7 +2768,6 @@ export const categories = [
           },
         ],
       },
-
 
       // product 2
 
@@ -1737,11 +2824,11 @@ export const categories = [
 
       // product 3
 
-
       {
         id: "smart-wooden-cabinet",
         name: "Smart Wooden Cabinet",
-        metaTitle: "Smart Wooden Cabinet – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Smart Wooden Cabinet – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Smart Wooden Cabinet by Dk Modular Contractor – modern laminated file cabinet with sliding doors, spacious storage, and durable plywood construction. Ideal for office file and document storage.",
 
@@ -1852,8 +2939,7 @@ export const categories = [
             alt: "Wooden Storage Cabinet by Dk Modular Contractor",
           },
         ],
-      }
-      ,
+      },
 
       // product 5
 
@@ -1907,13 +2993,13 @@ export const categories = [
             alt: "Wooden Storage Cupboard by Dk Modular Contractor",
           },
         ],
-      }
-      ,
+      },
 
       {
         id: "laminated-wooden-storage-cabinet",
         name: "Laminated Wooden Storage Cabinet",
-        metaTitle: "Laminated Wooden Storage Cabinet – Dk Modular Contractor Furniture",
+        metaTitle:
+          "Laminated Wooden Storage Cabinet – Dk Modular Contractor Furniture",
         metaDescription:
           "Laminated Wooden Storage Cabinet by Dk Modular Contractor – modern hinged-door cabinet with polished laminated finish. Ideal for office and home storage needs.",
 
@@ -1962,30 +3048,481 @@ export const categories = [
           },
         ],
       },
-
-
-
     ],
+
+
+
+      sections: [
+    {
+      id: "wooden-storage-units-for-modern-offices",
+      title: "Wooden Storage Units for Modern Offices",
+
+      content: [
+        {
+          type: "paragraph",
+          text: "Wooden Storage Units are a pretty practical way to keep documents, files, office supplies, and those everyday workplace essentials in order, even when things get busy.",
+        },
+
+        {
+          type: "paragraph",
+          text: "Built with modern workplaces in mind, these units work on their own, and they can fit into a Modular Office Furniture setup, kind of seamlessly.",
+        },
+
+        {
+          type: "paragraph",
+          text: "The whole, structured storage design helps you keep the office looking clean and organized, and it also makes the items people use most easier to reach quickly.",
+        },
+
+        {
+          type: "paragraph",
+          text: "These wooden storage solutions can also complement an Office workstation and other office furniture, so the space feels coordinated, not random.",
+        },
+
+       {
+  type: "paragraph",
+  text: [
+    "As an experienced ",
+    {
+      type: "link",
+      text: "Workstation Manufacturer",
+      href: "https://officeworkstationmanufacturer.com/",
+    },
+    ", we offer storage options that are practical for different office layouts and different requirements, too.",
+  ],
+},
+      ],
+    },
+
+    {
+      id: "key-features",
+      title: "Key Features",
+
+      content: [
+        {
+          type: "feature",
+          title: "Spacious Storage",
+          description:
+            "Gives you dedicated space for files, documents, stationery, and other office essentials, without making everything feel crowded.",
+        },
+
+        {
+          type: "feature",
+          title: "Organized Design",
+          description:
+            "Helps keep workplace items arranged neatly, and it tends to reduce clutter around an employee's work area day after day.",
+        },
+
+        {
+          type: "feature",
+          title: "Durable Construction",
+          description:
+            "Made for regular office use, with stability in mind and long-term functionality as a goal.",
+        },
+
+        {
+          type: "feature",
+          title: "Professional Appearance",
+          description:
+            "Wooden finishes blend well with contemporary office interiors and with existing Office Workstation Furniture.",
+        },
+
+        {
+          type: "feature",
+          title: "Flexible Placement",
+          description:
+            "You can place these near workstations, across departments, near meeting areas, or just in other office zones that need a little more order.",
+        },
+
+        {
+          type: "feature",
+          title: "Easy Maintenance",
+          description:
+            "Practical surfaces make routine cleaning and everyday upkeep pretty convenient, honestly.",
+        },
+      ],
+    },
+
+    {
+      id: "benefits-of-wooden-storage-units",
+      title: "Benefits of Wooden Storage Units",
+
+      content: [
+        {
+          type: "feature",
+          title: "Better Organization",
+          description:
+            "Wooden storage units help keep papers, folders, and everyday office essentials in clear spots, so stuff doesn’t end up wandering around.",
+        },
+
+        {
+          type: "feature",
+          title: "Reduced Workplace Clutter",
+          description:
+            "When the storage is in the right location, the desk area tends to feel calmer, cleaner, and more orderly for employees.",
+        },
+
+        {
+          type: "feature",
+          title: "Efficient Space Utilization",
+          description:
+            "Storage can be worked into existing Modular Workstation arrangements and office layouts without needing a full redesign.",
+        },
+
+        {
+          type: "feature",
+          title: "Professional Appearance",
+          description:
+            "If the storage furniture is designed well, it makes the whole office look neater and less improvised.",
+        },
+
+        {
+          type: "feature",
+          title: "Easy Accessibility",
+          description:
+            "Dedicated compartments make frequently used documents and supplies faster to reach, with less hunting around.",
+        },
+
+        {
+          type: "feature",
+          title: "Long-Term Practicality",
+          description:
+            "Sturdy storage furniture can keep up as the office evolves, and it keeps supporting daily order as well.",
+        },
+      ],
+    },
+
+    {
+      id: "office-furniture-integration",
+      title: "Office Furniture Integration",
+
+      content: [
+        {
+          type: "paragraph",
+          text: "Wooden Storage Units in Delhi can be matched with modular office workstations, so the same space covers both the working area and storage, kind of side by side.",
+          links: [
+            {
+              text: "Wooden Storage Units in Delhi",
+              href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
+            },
+          ],
+        },
+
+        {
+          type: "paragraph",
+          text: "They often pair nicely with an Office Modular Workstation, because the storage stays near where employees spend most of their time.",
+        },
+
+        {
+          type: "paragraph",
+          text: "You can also fold storage options around an Office Cubicle workstation and Office Cluster Workstation setups, in a way that still looks cohesive.",
+        },
+
+        {
+          type: "paragraph",
+          text: "As a professional Workstation Manufacturer, we can help companies plan storage alongside workstation needs and other furniture requirements too.",
+          links: [
+            {
+              text: "Workstation Manufacturer",
+              href: "https://officeworkstationmanufacturer.com/",
+            },
+          ],
+        },
+
+        {
+          type: "paragraph",
+          text: "These units can turn into part of a full Office & Commercial Furniture scheme for workplaces that are organized and functional, with less back-and-forth.",
+        },
+      ],
+    },
+
+    {
+      id: "faqs",
+      title: "FAQs",
+
+      content: [
+        {
+          type: "faq",
+          number: 1,
+          question: "What are wooden storage units used for?",
+          answer:
+            "Wooden storage units are used for organizing files, documents, stationery, office supplies, and other workplace essentials—yeah, sort of all that daily stuff.",
+        },
+
+        {
+          type: "faq",
+          number: 2,
+          question: "Are wooden storage units suitable for offices?",
+          answer:
+            "Yes, they are good for corporate offices, IT companies, educational institutions, coworking spaces, and commercial workplaces as well, generally.",
+        },
+
+        {
+          type: "faq",
+          number: 3,
+          question:
+            "Can wooden storage units be used with modular office furniture?",
+          answer:
+            "Yes, they can be integrated with Modular Office Furniture and placed alongside workstations, so it all feels coordinated, more or less.",
+        },
+
+        {
+          type: "faq",
+          number: 4,
+          question:
+            "How do wooden storage units help organize an office?",
+          answer:
+            "They provide specific storage places for documents, files, and small supplies, which helps cut down on mess and keep the workplace tidy without too much effort.",
+        },
+      ],
+    },
+  ],
+
+
+    
   },
-
-
 
   // category 6 meeting room
   {
     id: "meeting-and-conference-room-table",
     name: "Meeting And Conference Room Table",
-    metaTitle: "Meeting And Conference Room Table – Dk Modular Contractor Office Furniture",
-    metaDescription:
-      "Meeting And Conference Room Table",
+    metaTitle:
+      "Meeting And Conference Room Table – Dk Modular Contractor Office Furniture",
+    metaDescription: "Meeting And Conference Room Table",
+
+
+     sections: [
+    {
+      id: "meeting-and-conference-room-table-for-professional-workspaces",
+      title: "Meeting And Conference Room Table for Professional Workspaces",
+
+      content: [
+        {
+          type: "paragraph",
+          text: "A Meeting And Conference Room Table gives a professional but comfortable setup for meetings, presentations, discussions, interviews, and even day-to-day team collaboration.",
+        },
+
+        {
+          type: "paragraph",
+          text: "In a way, it also helps things feel more coordinated in modern workplaces, so it can go well with an Office workstation, and yes, it can make the whole office furniture arrangement look like it belongs together.",
+        },
+
+        {
+          type: "paragraph",
+          text: "You can pick the table based on meeting room size, how many people you expect to seat, the office layout, and the general interior design style you’re trying to keep.",
+        },
+
+        {
+          type: "paragraph",
+          text: "It also works alongside Modular Office Furniture, so the workplace environment stays consistent and still feels practical.",
+        },
+
+        {
+  type: "paragraph",
+  text: [
+    "As an experienced ",
+    {
+      type: "link",
+      text: "Workstation Manufacturer",
+      href: "https://officeworkstationmanufacturer.com/",
+    },
+    ", we provide office & commercial furniture solutions that fit different business needs, not just one type of requirement.",
+  ],
+},
+      ],
+    },
+
+    {
+      id: "key-features",
+      title: "Key features",
+
+      content: [
+        {
+          type: "feature",
+          title: "Spacious tabletop",
+          description:
+            "gives enough surface for laptops, documents, presentation materials, and meeting accessories, so nobody feels crowded.",
+        },
+
+        {
+          type: "feature",
+          title: "Sturdy build",
+          description:
+            "made for steadiness and reliable everyday performance, even with regular use.",
+        },
+
+        {
+          type: "feature",
+          title: "Professional look",
+          description:
+            "matches modern conference rooms and corporate office interiors.",
+        },
+
+        {
+          type: "feature",
+          title: "Flexible configurations",
+          description:
+            "works for various room sizes, seating capacities, and meeting purposes.",
+        },
+
+        {
+          type: "feature",
+          title: "Easy maintenance",
+          description:
+            "practical surfaces make cleaning and routine upkeep convenient.",
+        },
+
+        {
+          type: "feature",
+          title: "Functional workspace",
+          description:
+            "Forms a shared zone for productive conversations, presentations, and other cooperative tasks.",
+        },
+      ],
+    },
+
+    {
+      id: "benefits-of-meeting-and-conference-room-table",
+      title: "Benefits of Meeting And Conference Room Table",
+
+      content: [
+        {
+          type: "feature",
+          title: "Professional meeting environment",
+          description:
+            "A well-designed conference table creates a more organized and professional space for important business discussions.",
+        },
+
+        {
+          type: "feature",
+          title: "Better collaboration",
+          description:
+            "It offers a shared workspace where teams can communicate, trade ideas, and work together in a more effective way.",
+        },
+
+        {
+          type: "feature",
+          title: "Efficient space utilization",
+          description:
+            "Table configurations can be picked based on room dimensions and seating needs, even if the layout is tricky.",
+        },
+
+        {
+          type: "feature",
+          title: "Improved organization",
+          description:
+            "There’s enough room for laptops, documents, files, and presentation equipment, so things stay tidy.",
+        },
+
+        {
+          type: "feature",
+          title: "Complete office planning",
+          description:
+            "A conference table can blend in nicely with Modular Office Workstation layouts plus other workplace furniture.",
+        },
+
+        {
+          type: "feature",
+          title: "Long-term practicality",
+          description:
+            "A good-quality table supports regular meetings and also adapts to changing requirements in professional workplaces over time.",
+        },
+      ],
+    },
+
+    {
+      id: "integration-with-office-furniture",
+      title: "Integration with office furniture",
+
+      content: [
+        {
+          type: "paragraph",
+          text: "A Meeting and Conference Room Table in Delhi can be paired with Office Workstation Furniture to form a coordinated and functional workplace setup.",
+          links: [
+            {
+              text: "Meeting and Conference Room Table in Delhi",
+              href: "https://officeworkstationmanufacturer.com/category/office-tables-in-delhi",
+            },
+          ],
+        },
+
+        {
+          type: "paragraph",
+          text: "It can complement an Office Modular Workstation by giving a specific area for team discussions and collaborative activities.",
+        },
+
+        {
+          type: "paragraph",
+          text: "For businesses using an Office Cubicle Workstation layout, a conference table can be added to create a separate space for formal meetings.",
+        },
+
+        {
+          type: "paragraph",
+          text: "An Office Cluster Workstation arrangement can also benefit from a dedicated meeting area for team communication.",
+        },
+
+        {
+          type: "paragraph",
+          text: "As a professional Workstation Manufacturer, we provide furniture solutions that can be planned around different office layouts and real-world flow.",
+         
+        },
+
+        {
+          type: "paragraph",
+          text: "The table can be part of a complete Office & Commercial Furniture plan for modern corporate and business environments.",
+        },
+      ],
+    },
+
+    {
+      id: "faqs",
+      title: "FAQs",
+
+      content: [
+        {
+          type: "faq",
+          number: 1,
+          question:
+            "What is a meeting and conference room table used for?",
+          answer:
+            "A meeting and conference room table is used for business meetings, team discussions, presentations, interviews, training sessions, and collaborative activities. Sometimes it is also used for planning sessions or short brainstorming blocks.",
+        },
+
+        {
+          type: "faq",
+          number: 2,
+          question:
+            "Can a conference table be used with modular office furniture?",
+          answer:
+            "Yes, a conference table can fit nicely with Modular Office Furniture and it can be planned alongside workstations, office chairs, and a few other pieces of workplace furniture; it just depends on how you arrange everything.",
+        },
+
+        {
+          type: "faq",
+          number: 3,
+          question: "What size conference table is suitable for an office?",
+          answer:
+            "The right size really hinges on room dimensions, the seating capacity that you need, and also how much open space you want for comfortable walking around the table.",
+        },
+
+        {
+          type: "faq",
+          number: 4,
+          question: "Can a conference table be customized for an office?",
+          answer:
+            "Yes, conference tables can be planned according to room dimensions, seating requirements, design preferences, and the overall office layout.",
+        },
+      ],
+    },
+  ],
 
     products: [
       // product 1
 
-
       {
         id: "14-seater-meeting-table",
         name: "14 Seater Meeting Table",
-        metaTitle: "14 Seater Meeting Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "14 Seater Meeting Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "14 Seater Meeting Table by Dk Modular Contractor – spacious wooden meeting table with polished finish, designed for corporate boardrooms and conference rooms.",
 
@@ -2033,16 +3570,13 @@ export const categories = [
         ],
       },
 
-
-
-
-
       // product 2
 
       {
         id: "executive-meeting-table",
         name: "Executive Meeting Table",
-        metaTitle: "Executive Meeting Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Executive Meeting Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Executive Meeting Table by Dk Modular Contractor – premium wooden meeting table with drawer storage and polished finish. Ideal for executive meetings and corporate office use.",
 
@@ -2091,15 +3625,13 @@ export const categories = [
         ],
       },
 
-
-
-
       // product 3
 
       {
         id: "large-conference-table",
         name: "Large Conference Table",
-        metaTitle: "Large Conference Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Large Conference Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Large Conference Table by Dk Modular Contractor – premium wooden conference table with polished finish, designed for spacious boardrooms and professional office environments.",
 
@@ -2151,7 +3683,8 @@ export const categories = [
       {
         id: "oval-meeting-table",
         name: "Oval Meeting Table",
-        metaTitle: "Oval Meeting Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Oval Meeting Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Oval Meeting Table by Dk Modular Contractor – premium 15 seater wooden meeting table with polished finish, designed for corporate offices and professional boardrooms.",
 
@@ -2200,11 +3733,11 @@ export const categories = [
         ],
       },
 
-
       {
         id: "rectangular-meeting-table",
         name: "Rectangular Meeting Table",
-        metaTitle: "Rectangular Meeting Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Rectangular Meeting Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Rectangular Meeting Table by Dk Modular Contractor – modern wooden meeting table with laminated finish and open storage. Ideal for corporate offices and professional meeting rooms.",
 
@@ -2257,7 +3790,8 @@ export const categories = [
       {
         id: "round-meeting-table",
         name: "Round Meeting Table",
-        metaTitle: "Round Meeting Table – Dk Modular Contractor Office Furniture",
+        metaTitle:
+          "Round Meeting Table – Dk Modular Contractor Office Furniture",
         metaDescription:
           "Round Meeting Table by Dk Modular Contractor – compact wooden meeting table with polished finish, ideal for small office meetings and collaborative discussions.",
 
@@ -2304,16 +3838,6 @@ export const categories = [
           },
         ],
       },
-
-
-
-
-
-
     ],
   },
-
-
-
-
 ];

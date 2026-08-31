@@ -5,6 +5,8 @@ import CategoryClient from "./CategoryClient";
 export async function generateMetadata({ params }) {
   const { categoryId } = params;
 
+  console.log(categoryId)
+
   // find the matching category
   const category = categories.find((c) => c.id === categoryId);
 
