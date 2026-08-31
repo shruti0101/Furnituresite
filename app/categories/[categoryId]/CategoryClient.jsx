@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import CategoryCitySection from "@/components/CategoryCitySection";
+import React from "react";
 
 export default function CategoryPage({ params }) {
   const { categoryId } = params;
@@ -111,14 +112,17 @@ export default function CategoryPage({ params }) {
               {category.sections[0].title}
             </h2>
 
-            {category.sections[0].content.map((item, index) => (
-              <p
-                key={index}
-                className={`text-gray-700 leading-7 ${index > 0 ? "mt-4" : ""}`}
-              >
-                {renderText(item.text)}
-              </p>
-            ))}
+            <ul className="space-y-3">
+              {category.sections[0].content.map((item, index) => (
+                <li
+                  key={index}
+                  className="flex items-start gap-3 text-gray-700 leading-7"
+                >
+                  <span className="mt-2.5 w-2 h-2 shrink-0 rounded-full bg-amber-500" />
+                  <span>{renderText(item.text)}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Office Workstation Solutions */}
@@ -127,14 +131,17 @@ export default function CategoryPage({ params }) {
               {category.sections[1].title}
             </h3>
 
-            {category.sections[1].content.map((item, index) => (
-              <p
-                key={index}
-                className={`text-gray-700 leading-7 ${index > 0 ? "mt-4" : ""}`}
-              >
-                {typeof item === "string" ? item : item.text}
-              </p>
-            ))}
+            <ul className="space-y-3">
+              {category.sections[1].content.map((item, index) => (
+                <li
+                  key={index}
+                  className="flex items-start gap-3 text-gray-700 leading-7"
+                >
+                  <span className="mt-2.5 w-2 h-2 shrink-0 rounded-full bg-amber-500" />
+                  <span>{typeof item === "string" ? item : item.text}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Applications */}
@@ -143,26 +150,26 @@ export default function CategoryPage({ params }) {
               Applications of our modular work stations
             </h3>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                "offices",
+                "Offices",
                 "IT companies",
                 "Startups",
                 "BPO and call centers",
                 "Coworking spaces",
-                "institutions",
+                "Institutions",
                 "Government offices",
                 "Commercial business centers",
               ].map((item) => (
-                <div
+                <li
                   key={item}
                   className="flex items-center gap-3 rounded-xl border border-gray-200 bg-gray-50 p-4 hover:border-amber-500 transition"
                 >
-                  <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+                  <span className="w-2 h-2 shrink-0 rounded-full bg-amber-500" />
                   <span className="text-gray-700 font-medium">{item}</span>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
 
           {/* Key Features */}
@@ -171,50 +178,96 @@ export default function CategoryPage({ params }) {
               {category.sections[2].title}
             </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {category.sections[2].content.map((feature, index) => (
-                <div
-                  key={index}
-                  className="rounded-xl border border-gray-200 bg-gray-50 p-5 hover:border-amber-500 transition"
-                >
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                    {feature.title}
-                  </h4>
+                <div className="flex items-start bg-gray-50 border p-2 rounded-2xl gap-3">
+                  <span className="mt-2 w-2 h-2 shrink-0 rounded-full bg-amber-500" />
 
-                  <p className="text-gray-700 leading-7">
-                    {feature.description}
-                  </p>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                      {feature.title}
+                    </h4>
+
+                    <p className="text-gray-700 leading-7">
+                      {feature.description}
+                    </p>
+                  </div>
                 </div>
               ))}
-            </div>
+            </ul>
           </div>
 
           {/* Benefits */}
           <div>
+            {/* Main Section Title */}
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
               {category.sections[3].title}
             </h3>
 
-            {category.sections[3].content.map((item, index) => (
-              <p
-                key={index}
-                className={`text-gray-700 leading-7 ${index > 0 ? "mt-4" : ""}`}
-              >
-                {item.text}
+            <ul className="space-y-4">
+              {category.sections[3].content.map((item, index) => {
+                const content = item.text;
 
-                {item.links?.map((link, linkIndex) => (
-                  <a
-                    key={linkIndex}
-                    href={link.href}
-                    className="text-blue-600 font-bold hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                if (typeof content === "string" && item.links?.length) {
+                  const parts = content.split("{link}");
+
+                  return (
+                    <li
+                      key={index}
+                      className="flex items-start gap-3 text-gray-700 leading-7"
+                    >
+                      <span className="mt-2.5 w-2 h-2 shrink-0 rounded-full bg-amber-500" />
+
+                      <div>
+                        {item.title && (
+                          <strong className="font-semibold text-gray-900">
+                            {item.title}:{" "}
+                          </strong>
+                        )}
+
+                        {parts.map((part, partIndex) => (
+                          <React.Fragment key={partIndex}>
+                            {part}
+
+                            {partIndex < parts.length - 1 &&
+                              item.links.map((link, linkIndex) => (
+                                <a
+                                  key={linkIndex}
+                                  href={link.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 font-bold hover:underline"
+                                >
+                                  {link.text}
+                                </a>
+                              ))}
+                          </React.Fragment>
+                        ))}
+                      </div>
+                    </li>
+                  );
+                }
+
+                return (
+                  <li
+                    key={index}
+                    className="flex items-start gap-3 text-gray-700 leading-7"
                   >
-                    {link.text}
-                  </a>
-                ))}
-              </p>
-            ))}
+                    <span className="mt-2.5 w-2 h-2 shrink-0 rounded-full bg-amber-500" />
+
+                    <div>
+                      {item.title && (
+                        <strong className="font-semibold text-gray-900">
+                          {item.title}:{" "}
+                        </strong>
+                      )}
+
+                      {renderText(item.text)}
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
 
           {/* FAQs */}
@@ -223,20 +276,21 @@ export default function CategoryPage({ params }) {
               {category.sections[4].title}
             </h3>
 
-            <div className="space-y-5">
+            <ul className="space-y-5">
               {category.sections[4].content.map((faq, index) => (
-                <div
-                  key={index}
-                  className="rounded-xl border border-gray-200 bg-gray-50 p-5"
-                >
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                    {faq.number}. {faq.question}
-                  </h4>
+                <div className="flex rounded-xl border border-gray-200 bg-gray-50 p-5 items-start gap-3">
+                  <span className="mt-2 w-2 h-2 shrink-0 rounded-full bg-amber-500" />
 
-                  <p className="text-gray-700 leading-7">{faq.answer}</p>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                      {faq.number}. {faq.question}
+                    </h4>
+
+                    <p className="text-gray-700 leading-7">{faq.answer}</p>
+                  </div>
                 </div>
               ))}
-            </div>
+            </ul>
           </div>
 
           {/* CTA */}
@@ -249,8 +303,8 @@ export default function CategoryPage({ params }) {
               A good office starts with the furniture. Investing in an employee
               workstation can create a working environment, improve employee
               productivity and support your company's growth. Whether you are
-              setting up an office or renovating an existing one our office desk
-              workstation solutions are designed to provide lasting value,
+              setting up an office or renovating an existing one, our office
+              desk workstation solutions are designed to provide lasting value,
               flexibility and superior performance.
             </p>
 

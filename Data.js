@@ -900,201 +900,205 @@ export const categories = [
     ],
 
     sections: [
+  {
+    id: "modular-workstation-for-modern-offices",
+    title: "Modular Workstation for Modern Offices",
+
+    content: [
       {
-        id: "modular-workstation-for-modern-offices",
-        title: "Modular Workstation for Modern Offices",
+        type: "paragraph",
+        text: "A Modular Workstation kind of thing; it ends up being a practical solution for setting up spaces that feel organized, comfortable, and still look professional.",
+      },
 
-        content: [
-          {
-            type: "paragraph",
-            text: "A Modular Workstation kind of thing; it ends up being a practical solution for setting up spaces that feel organized, comfortable, and still look professional.",
-          },
+      {
+        type: "paragraph",
+        text: "The Modular Office Workstation options we offer come in several configurations so they can match different office layouts and seating requirements.",
+      },
 
-          {
-            type: "paragraph",
-            text: "The Modular Office Workstation options we offer come in several configurations so they can match different office layouts and seating requirements.",
-          },
+      {
+        type: "paragraph",
+        text: "These are built with efficient space utilization in mind, which makes them a good fit for corporate offices, startups, IT companies, BPOs, and other commercial workplaces.",
+      },
 
+      {
+        type: "paragraph",
+        text: [
+          "And since we act as a ",
           {
-            type: "paragraph",
-            text: "These are built with efficient space utilization in mind, which makes them a good fit for corporate offices, startups, IT companies, BPOs, and other commercial workplaces.",
+            type: "link",
+            text: "Workstation Manufacturer",
+            href: "https://officeworkstationmanufacturer.com/",
           },
-
-          {
-            type: "paragraph",
-            text: [
-              "And since we act as a ",
-              {
-                type: "link",
-                text: "Workstation Manufacturer",
-                href: "https://officeworkstationmanufacturer.com/",
-              },
-              " who's been in this space for a while, we keep the designs functional, the construction durable, and the workspace setup flexible, not just “nice to look at.”",
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "Basically, our Modular Office Furniture helps businesses create a more professional environment while making better use of the available floor area.",
-          },
+          " who's been in this space for a while, we keep the designs functional, the construction durable, and the workspace setup flexible, not just “nice to look at.”",
         ],
       },
 
       {
-        id: "office-workstation-solutions",
-        title: "Office Workstation Solutions",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "A properly planned Office Workstation gives employees a specific, almost dedicated zone for focused and productive work.",
-          },
-
-          {
-            type: "paragraph",
-            text: "The Office Modular Workstation setups can be arranged depending on office size, team needs, seating capacity, and even interior preferences, so it doesn’t feel randomly placed.",
-          },
-
-          {
-            type: "paragraph",
-            text: "For those who need more structured spaces, Office Cubicle Workstation solutions work well when businesses want more organized or semi-private employee work areas.",
-          },
-
-          {
-            type: "paragraph",
-            text: "And if the goal is teamwork without losing individual work time, Office Cluster Workstation layouts are a solid choice because they support collaboration while still keeping dedicated workspaces.",
-          },
-
-          {
-            type: "paragraph",
-            text: "In short, our Office Workstation Furniture brings together practical workspace planning with a professional appearance, the kind modern offices tend to require.",
-          },
-        ],
-      },
-
-      {
-        id: "key-features",
-        title: "Key Features",
-
-        content: [
-          {
-            type: "feature",
-            title: "Flexible configurations",
-            description:
-              "Workstations can be put together based on the office size, seating needs, and what space is actually there.",
-          },
-
-          {
-            type: "feature",
-            title: "Space-efficient design",
-            description:
-              "This supports businesses in using floor area well while still keeping the workplace calm and tidy, not just chaotic.",
-          },
-
-          {
-            type: "feature",
-            title: "Durable construction",
-            description:
-              "Built for day-to-day office life, with stability in mind and long-term functionality.",
-          },
-
-          {
-            type: "feature",
-            title: "Cable management",
-            description:
-              "It also helps keep computer and electrical cables organized, so the workspace looks cleaner.",
-          },
-
-          {
-            type: "feature",
-            title: "Multiple design options",
-            description:
-              "You can choose different layouts, finishes, and configurations, so it fits with the office interiors.",
-          },
-
-          {
-            type: "feature",
-            title: "Easy maintenance",
-            description:
-              "Surfaces and overall design are meant to make daily cleaning and upkeep pretty convenient.",
-          },
-        ],
-      },
-
-      {
-        id: "benefits-of-modular-office-workstations",
-        title: "Benefits of Modular Office Workstations",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "A Modular Office Workstation in Delhi can really improve space utilization, helping you get more from the room you already have without making the place feel cluttered.",
-
-            links: [
-              {
-                text: "Modular Office Workstation in Delhi",
-                href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
-              },
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "You can also treat flexible office planning as a bit of a living thing, because these modular layouts can be shifted or expanded later, when the employee count moves around, or when business needs evolve.",
-          },
-
-          {
-            type: "paragraph",
-            text: "There’s also improved organization, since dedicated work zones make it easier for people to keep equipment, documents, and the usual day-to-day basics in order.",
-          },
-
-          {
-            type: "paragraph",
-            text: "On top of that, a professional office appearance tends to show up naturally, especially when the workstation furniture is chosen thoughtfully so the whole workspace has a consistent look.",
-          },
-        ],
-      },
-
-      {
-        id: "faqs",
-        title: "FAQs",
-
-        content: [
-          {
-            type: "faq",
-            number: 1,
-            question: "What is a modular office workstation, really?",
-            answer:
-              "A modular office workstation is a flexible office furniture solution, made of configurable work units, that can be arranged based on the available space and the employee requirements, kind of depending on how you want things to flow.",
-          },
-
-          {
-            type: "faq",
-            number: 2,
-            question: "What are the benefits of a modular workstation?",
-            answer:
-              "You get better space utilization, more adaptable layouts, an organized work area, easy expansion later on, and yes, a pretty professional-looking office overall.",
-          },
-
-          {
-            type: "faq",
-            number: 3,
-            question: "Where can modular office workstations be used?",
-            answer:
-              "They can fit in corporate offices, IT companies, startups, BPOs, call centers, coworking spaces, government offices, and basically commercial workplaces too, where desks matter.",
-          },
-
-          {
-            type: "faq",
-            number: 4,
-            question:
-              "How do I choose the right office workstation for my business?",
-            answer:
-              "Think about your office size, your team count, how you plan the seating arrangement, how much privacy you need, what kind of storage you actually want, and which workstation configuration you prefer.",
-          },
-        ],
+        type: "paragraph",
+        text: "Basically, our Modular Office Furniture helps businesses create a more professional environment while making better use of the available floor area.",
       },
     ],
+  },
+
+  {
+    id: "office-workstation-solutions",
+    title: "Office Workstation Solutions",
+
+    content: [
+      {
+        type: "paragraph",
+        text: "A properly planned Office Workstation gives employees a specific, almost dedicated zone for focused and productive work.",
+      },
+
+      {
+        type: "paragraph",
+        text: "The Office Modular Workstation setups can be arranged depending on office size, team needs, seating capacity, and even interior preferences, so it doesn’t feel randomly placed.",
+      },
+
+      {
+        type: "paragraph",
+        text: "For those who need more structured spaces, Office Cubicle Workstation solutions work well when businesses want more organized or semi-private employee work areas.",
+      },
+
+      {
+        type: "paragraph",
+        text: "And if the goal is teamwork without losing individual work time, Office Cluster Workstation layouts are a solid choice because they support collaboration while still keeping dedicated workspaces.",
+      },
+
+      {
+        type: "paragraph",
+        text: "In short, our Office Workstation Furniture brings together practical workspace planning with a professional appearance, the kind modern offices tend to require.",
+      },
+    ],
+  },
+
+  {
+    id: "key-features",
+    title: "Key Features",
+
+    content: [
+      {
+        type: "feature",
+        title: "Flexible Configurations",
+        description:
+          "Workstations can be put together based on the office size, seating needs, and what space is actually there.",
+      },
+
+      {
+        type: "feature",
+        title: "Space-Efficient Design",
+        description:
+          "This supports businesses in using floor area well while still keeping the workplace calm and tidy, not just chaotic.",
+      },
+
+      {
+        type: "feature",
+        title: "Durable Construction",
+        description:
+          "Built for day-to-day office life, with stability in mind and long-term functionality.",
+      },
+
+      {
+        type: "feature",
+        title: "Cable Management",
+        description:
+          "It also helps keep computer and electrical cables organized, so the workspace looks cleaner.",
+      },
+
+      {
+        type: "feature",
+        title: "Multiple Design Options",
+        description:
+          "You can choose different layouts, finishes, and configurations, so it fits with the office interiors.",
+      },
+
+      {
+        type: "feature",
+        title: "Easy Maintenance",
+        description:
+          "Surfaces and overall design are meant to make daily cleaning and upkeep pretty convenient.",
+      },
+    ],
+  },
+
+  {
+    id: "benefits-of-modular-office-workstations",
+    title: "Benefits of Modular Office Workstations",
+
+    content: [
+      {
+        type: "paragraph",
+        title: "Better Space Utilization",
+        text: "A {link} can really improve space utilization, helping you get more from the room you already have without making the place feel cluttered.",
+        links: [
+          {
+            placeholder: "{link}",
+            text: "Modular Office Workstation in Delhi",
+            href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
+          },
+        ],
+      },
+
+      {
+        type: "paragraph",
+        title: "Flexible Office Planning",
+        text: "You can also treat flexible office planning as a bit of a living thing, because these modular layouts can be shifted or expanded later, when the employee count moves around, or when business needs evolve.",
+      },
+
+      {
+        type: "paragraph",
+        title: "Improved Organization",
+        text: "There’s also improved organization, since dedicated work zones make it easier for people to keep equipment, documents, and the usual day-to-day basics in order.",
+      },
+
+      {
+        type: "paragraph",
+        title: "Professional Office Appearance",
+        text: "On top of that, a professional office appearance tends to show up naturally, especially when the workstation furniture is chosen thoughtfully so the whole workspace has a consistent look.",
+      },
+    ],
+  },
+
+  {
+    id: "faqs",
+    title: "FAQs",
+
+    content: [
+      {
+        type: "faq",
+        number: 1,
+        question: "What is a modular office workstation, really?",
+        answer:
+          "A modular office workstation is a flexible office furniture solution, made of configurable work units, that can be arranged based on the available space and the employee requirements, kind of depending on how you want things to flow.",
+      },
+
+      {
+        type: "faq",
+        number: 2,
+        question: "What are the benefits of a modular workstation?",
+        answer:
+          "You get better space utilization, more adaptable layouts, an organized work area, easy expansion later on, and yes, a pretty professional-looking office overall.",
+      },
+
+      {
+        type: "faq",
+        number: 3,
+        question: "Where can modular office workstations be used?",
+        answer:
+          "They can fit in corporate offices, IT companies, startups, BPOs, call centers, coworking spaces, government offices, and basically commercial workplaces too, where desks matter.",
+      },
+
+      {
+        type: "faq",
+        number: 4,
+        question:
+          "How do I choose the right office workstation for my business?",
+        answer:
+          "Think about your office size, your team count, how you plan the seating arrangement, how much privacy you need, what kind of storage you actually want, and which workstation configuration you prefer.",
+      },
+    ],
+  },
+],
   },
 
   // category 2 office-workstation
@@ -1596,200 +1600,204 @@ export const categories = [
     ],
 
     sections: [
+  {
+    id: "modular-workstation-for-modern-offices",
+    title: "Modular Workstation for Modern Offices",
+
+    content: [
       {
-        id: "modular-workstation-for-modern-offices",
-        title: "Modular Workstation for Modern Offices",
+        type: "paragraph",
+        text: "A Modular Workstation is designed to create an organized, comfortable, and productive workspace for today’s businesses. You know, the kind where people actually work.",
+      },
 
-        content: [
-          {
-            type: "paragraph",
-            text: "A Modular Workstation is designed to create an organized, comfortable, and productive workspace for today’s businesses. You know, the kind where people actually work.",
-          },
+      {
+        type: "paragraph",
+        text: "Our Office Workstation solutions fit corporate offices, startups, IT companies, BPOs, coworking spaces, and also commercial workplaces.",
+      },
 
-          {
-            type: "paragraph",
-            text: "Our Office Workstation solutions fit corporate offices, startups, IT companies, BPOs, coworking spaces, and also commercial workplaces.",
-          },
+      {
+        type: "paragraph",
+        text: "With flexible configurations, businesses can use available floor space more effectively while still keeping that professional office environment vibe.",
+      },
 
+      {
+        type: "paragraph",
+        text: [
+          "As an experienced ",
           {
-            type: "paragraph",
-            text: "With flexible configurations, businesses can use available floor space more effectively while still keeping that professional office environment vibe.",
+            type: "link",
+            text: "Workstation Manufacturer",
+            href: "https://officeworkstationmanufacturer.com/",
           },
-
-          {
-            type: "paragraph",
-            text: [
-              "As an experienced ",
-              {
-                type: "link",
-                text: "Workstation Manufacturer",
-                href: "https://officeworkstationmanufacturer.com/",
-              },
-              ", we deliver workable workstation solutions based on different office layouts and seating needs.",
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "Our Modular Office Furniture mixes functional design with a professional look, which matches contemporary workplaces really well.",
-          },
+          ", we deliver workable workstation solutions based on different office layouts and seating needs.",
         ],
       },
 
       {
-        id: "office-workstation-solutions",
-        title: "Office Workstation Solutions",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "A well-planned Office Modular Workstation gives each employee a dedicated work area, yet it still supports communication and collaboration between people.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Our Modular Office Workstation solutions can be set up based on office size, number of employees, and what floor space is available.",
-          },
-
-          {
-            type: "paragraph",
-            text: "For companies that want individual or semi-private work zones, our Office Cubicle Workstation designs fit nicely.",
-          },
-
-          {
-            type: "paragraph",
-            text: "If you prefer teamwork, Office Cluster Workstation layouts let teams work together while their seating stays organized and separate enough.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Our Office Workstation Furniture is built to offer practical, efficient working areas across many different business environments, not just one style.",
-          },
-        ],
-      },
-
-      {
-        id: "key-features",
-        title: "Key Features",
-
-        content: [
-          {
-            type: "feature",
-            title: "Flexible configurations",
-            description:
-              "Workstations can be arranged depending on how big the office is, what seating is needed, and also the room you actually have.",
-          },
-
-          {
-            type: "feature",
-            title: "Space-efficient design",
-            description:
-              "It supports businesses in using the floor area more thoughtfully, without turning everything into some kind of messy situation, you know.",
-          },
-
-          {
-            type: "feature",
-            title: "Durable construction",
-            description:
-              "It is made for everyday office use, with emphasis on steadiness and long-lasting performance.",
-          },
-
-          {
-            type: "feature",
-            title: "Cable management",
-            description:
-              "Helps keep the computer wires and electrical cables organized, so you end up with a cleaner, calmer workspace.",
-          },
-
-          {
-            type: "feature",
-            title: "Multiple design options",
-            description:
-              "Different layouts, finishes, and setups are available, so the furniture matches the office mood.",
-          },
-
-          {
-            type: "feature",
-            title: "Easy maintenance",
-            description:
-              "The practical surfaces and the overall design make daily wipe-downs and upkeep feel more convenient.",
-          },
-        ],
-      },
-
-      {
-        id: "benefits-of-modular-office-workstations",
-        title: "Benefits of Modular Office Workstations",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "A Modular Office Workstation in Delhi can really improve space utilization, helping you get more from the room you already have without making the place feel cluttered.",
-
-            links: [
-              {
-                text: "Office Workstation in Delhi",
-                href: "https://officeworkstationmanufacturer.com/category/office-workstation-in-delhi",
-              },
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "You can also treat flexible office planning as a bit of a living thing, because these modular layouts can be shifted or expanded later, when the employee count moves around, or when business needs evolve.",
-          },
-
-          {
-            type: "paragraph",
-            text: "There’s also improved organization, since dedicated work zones make it easier for people to keep equipment, documents, and the usual day-to-day basics in order.",
-          },
-
-          {
-            type: "paragraph",
-            text: "On top of that, a professional office appearance tends to show up naturally, especially when the workstation furniture is chosen thoughtfully so the whole workspace has a consistent look.",
-          },
-        ],
-      },
-
-      {
-        id: "faqs",
-        title: "FAQs",
-
-        content: [
-          {
-            type: "faq",
-            number: 1,
-            question: "What is a modular workstation?",
-            answer:
-              "A modular workstation is an adaptable office furniture system that can be set up in a variety of arrangements, kind of depending on the room space and what employees need. It’s like building with parts, you know, but in a workplace way.",
-          },
-
-          {
-            type: "faq",
-            number: 2,
-            question: "What are the benefits of an office workstation?",
-            answer:
-              "An office workstation helps organize employee seating, makes better use of floor space, supports collaboration and teamwork, and also helps create a more professional working environment. It keeps things clearer too, especially when you have a shared area.",
-          },
-
-          {
-            type: "faq",
-            number: 3,
-            question: "Can modular office workstations be customized?",
-            answer:
-              "Yes, modular office workstations can be customized around office dimensions, the seating count, employee requirements, the office layout, and even design preferences. So you’re not stuck with just one single look or setup.",
-          },
-
-          {
-            type: "faq",
-            number: 4,
-            question: "Where can office workstations be used?",
-            answer:
-              "Office workstations can be used in corporate offices, IT companies, startups, BPOs, call centers, coworking spaces, government offices, and other commercial workplaces. In short, places where people need a workable desk setup that fits the setting.",
-          },
-        ],
+        type: "paragraph",
+        text: "Our Modular Office Furniture mixes functional design with a professional look, which matches contemporary workplaces really well.",
       },
     ],
+  },
+
+  {
+    id: "office-workstation-solutions",
+    title: "Office Workstation Solutions",
+
+    content: [
+      {
+        type: "paragraph",
+        text: "A well-planned Office Modular Workstation gives each employee a dedicated work area, yet it still supports communication and collaboration between people.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Our Modular Office Workstation solutions can be set up based on office size, number of employees, and what floor space is available.",
+      },
+
+      {
+        type: "paragraph",
+        text: "For companies that want individual or semi-private work zones, our Office Cubicle Workstation designs fit nicely.",
+      },
+
+      {
+        type: "paragraph",
+        text: "If you prefer teamwork, Office Cluster Workstation layouts let teams work together while their seating stays organized and separate enough.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Our Office Workstation Furniture is built to offer practical, efficient working areas across many different business environments, not just one style.",
+      },
+    ],
+  },
+
+  {
+    id: "key-features",
+    title: "Key Features",
+
+    content: [
+      {
+        type: "feature",
+        title: "Flexible Configurations",
+        description:
+          "Workstations can be arranged depending on how big the office is, what seating is needed, and also the room you actually have.",
+      },
+
+      {
+        type: "feature",
+        title: "Space-Efficient Design",
+        description:
+          "It supports businesses in using the floor area more thoughtfully, without turning everything into some kind of messy situation, you know.",
+      },
+
+      {
+        type: "feature",
+        title: "Durable Construction",
+        description:
+          "It is made for everyday office use, with emphasis on steadiness and long-lasting performance.",
+      },
+
+      {
+        type: "feature",
+        title: "Cable Management",
+        description:
+          "Helps keep the computer wires and electrical cables organized, so you end up with a cleaner, calmer workspace.",
+      },
+
+      {
+        type: "feature",
+        title: "Multiple Design Options",
+        description:
+          "Different layouts, finishes, and setups are available, so the furniture matches the office mood.",
+      },
+
+      {
+        type: "feature",
+        title: "Easy Maintenance",
+        description:
+          "The practical surfaces and the overall design make daily wipe-downs and upkeep feel more convenient.",
+      },
+    ],
+  },
+
+  {
+    id: "benefits-of-modular-office-workstations",
+    title: "Benefits of Modular Office Workstations",
+
+    content: [
+      {
+        type: "paragraph",
+        title: "Better Space Utilization",
+        text: "A {link} can really improve space utilization, helping you get more from the room you already have without making the place feel cluttered.",
+        links: [
+          {
+            placeholder: "{link}",
+            text: "Office Workstation in Delhi",
+            href: "https://officeworkstationmanufacturer.com/category/office-workstation-in-delhi",
+          },
+        ],
+      },
+
+      {
+        type: "paragraph",
+        title: "Flexible Office Planning",
+        text: "You can also treat flexible office planning as a bit of a living thing, because these modular layouts can be shifted or expanded later, when the employee count moves around, or when business needs evolve.",
+      },
+
+      {
+        type: "paragraph",
+        title: "Improved Organization",
+        text: "There’s also improved organization, since dedicated work zones make it easier for people to keep equipment, documents, and the usual day-to-day basics in order.",
+      },
+
+      {
+        type: "paragraph",
+        title: "Professional Office Appearance",
+        text: "On top of that, a professional office appearance tends to show up naturally, especially when the workstation furniture is chosen thoughtfully so the whole workspace has a consistent look.",
+      },
+    ],
+  },
+
+  {
+    id: "faqs",
+    title: "FAQs",
+
+    content: [
+      {
+        type: "faq",
+        number: 1,
+        question: "What is a modular workstation?",
+        answer:
+          "A modular workstation is an adaptable office furniture system that can be set up in a variety of arrangements, kind of depending on the room space and what employees need. It’s like building with parts, you know, but in a workplace way.",
+      },
+
+      {
+        type: "faq",
+        number: 2,
+        question: "What are the benefits of an office workstation?",
+        answer:
+          "An office workstation helps organize employee seating, makes better use of floor space, supports collaboration and teamwork, and also helps create a more professional working environment. It keeps things clearer too, especially when you have a shared area.",
+      },
+
+      {
+        type: "faq",
+        number: 3,
+        question: "Can modular office workstations be customized?",
+        answer:
+          "Yes, modular office workstations can be customized around office dimensions, the seating count, employee requirements, the office layout, and even design preferences. So you’re not stuck with just one single look or setup.",
+      },
+
+      {
+        type: "faq",
+        number: 4,
+        question: "Where can office workstations be used?",
+        answer:
+          "Office workstations can be used in corporate offices, IT companies, startups, BPOs, call centers, coworking spaces, government offices, and other commercial workplaces. In short, places where people need a workable desk setup that fits the setting.",
+      },
+    ],
+  },
+],
   },
 
   // category 3 Computer Table
@@ -1968,209 +1976,211 @@ export const categories = [
       },
     ],
 
-    sections: [
+  sections: [
+  {
+    id: "computer-table-for-modern-workspaces",
+    title: "Computer Table for Modern Workspaces",
+
+    content: [
       {
-        id: "computer-table-for-modern-workspaces",
-        title: "Computer Table for Modern Workspaces",
+        type: "paragraph",
+        text: "A Computer Table gives you a pretty dedicated and honestly organized little corner for computers, laptops, papers, and those everyday office bits and pieces that seem to multiply overnight.",
+      },
 
-        content: [
-          {
-            type: "paragraph",
-            text: "A Computer Table gives you a pretty dedicated and honestly organized little corner for computers, laptops, papers, and those everyday office bits and pieces that seem to multiply overnight.",
-          },
+      {
+        type: "paragraph",
+        text: "Built with practical intent, it can work well in corporate offices, IT companies, schools and other educational institutions, home offices, and also commercial workplaces where things need to look tidy.",
+      },
 
-          {
-            type: "paragraph",
-            text: "Built with practical intent, it can work well in corporate offices, IT companies, schools and other educational institutions, home offices, and also commercial workplaces where things need to look tidy.",
-          },
+      {
+        type: "paragraph",
+        text: "These computer tables can blend into different workspace layouts, and they are often used together with Office Workstation Furniture, so the whole setup feels connected, not random.",
+      },
 
+      {
+        type: "paragraph",
+        text: [
+          "We’re an experienced ",
           {
-            type: "paragraph",
-            text: "These computer tables can blend into different workspace layouts, and they are often used together with Office Workstation Furniture, so the whole setup feels connected, not random.",
+            type: "link",
+            text: "Workstation Manufacturer",
+            href: "https://officeworkstationmanufacturer.com/",
           },
-          {
-            type: "paragraph",
-            text: [
-              "We’re an experienced ",
-              {
-                type: "link",
-                text: "Workstation Manufacturer",
-                href: "https://officeworkstationmanufacturer.com/",
-              },
-              ", so we keep leaning toward functional designs, the kind that help people sit comfortably and stay organized while working through the day.",
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "Also, Computer tables can fit nicely into Modular Office Furniture setups, especially when you need flexible pieces and space-efficient solutions that don’t hog the room.",
-          },
+          ", so we keep leaning toward functional designs, the kind that help people sit comfortably and stay organized while working through the day.",
         ],
       },
 
       {
-        id: "computer-tables-for-different-office-requirements",
-        title: "Computer Tables for Different Office Requirements",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "A well-planned Office Workstation really gives employees a specific zone for computer-based tasks and daily office activity, without turning everything into a cluttered mess.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Computer tables can be paired with an Office Modular Workstation arrangement to form clean work zones for one person or for a small team.",
-          },
-
-          {
-            type: "paragraph",
-            text: "For companies that need clearly defined spaces, an Office Cubicle Workstation can offer individual or semi-private working areas.",
-          },
-
-          {
-            type: "paragraph",
-            text: "If a team needs a shared work area but still wants each seat to feel like it has its own place, an Office Cluster Workstation setup is a solid option.",
-          },
-
-          {
-            type: "paragraph",
-            text: "These options can be chosen based on office size, seating needs, how much floor space is available, and the overall workplace layout.",
-          },
-        ],
-      },
-
-      {
-        id: "key-features",
-        title: "Key Features",
-
-        content: [
-          {
-            type: "feature",
-            title: "Functional work surface",
-            description:
-              "gives enough room for your computer, laptop, keyboard, papers, and those little must-haves you end up needing every day.",
-          },
-
-          {
-            type: "feature",
-            title: "Space-efficient design",
-            description:
-              "makes use of the floor space, so it works for tiny setups and also for bigger workspaces, depending on how you arrange it.",
-          },
-
-          {
-            type: "feature",
-            title: "Organized workspace",
-            description:
-              "it sort of creates a dedicated zone so your equipment and daily essentials stay in place and not all over the room.",
-          },
-
-          {
-            type: "feature",
-            title: "Durable construction",
-            description:
-              "built for daily office and commercial activity, with an emphasis on solid support and practical use.",
-          },
-
-          {
-            type: "feature",
-            title: "Professional appearance",
-            description:
-              "matches modern interiors, and it can pair well with various office workstation furniture setups.",
-          },
-
-          {
-            type: "feature",
-            title: "Easy maintenance",
-            description:
-              "The surface is practical, and the design stays simple, so cleaning and routine upkeep are convenient.",
-          },
-        ],
-      },
-
-      {
-        id: "benefits-of-modular-computer-table",
-        title: "Benefits of Modular Computer Table",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "A Computer Table in Delhi helps you keep computer gear, documents, and office accessories together in one neat workspace.",
-            links: [
-              {
-                text: "Computer Table in Delhi",
-                href: "https://officeworkstationmanufacturer.com/categories/computer-table",
-              },
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "Efficient space utilization: Compact and useful layouts allow businesses to use the available office area more effectively.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Improved productivity: When the desk is arranged and tidy, computer tasks often feel more comfortable and easier to handle.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Flexible workspace planning: You can use the table on its own or bring it into a Modular Workstation arrangement.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Professional office environment: with well-planned Office & Commercial Furniture, the workplace tends to look clean and organized.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Versatile usage: suitable for offices, IT companies, educational institutions, coworking areas, home offices, and lots of other professional settings.",
-          },
-        ],
-      },
-
-      {
-        id: "faqs",
-        title: "FAQs",
-
-        content: [
-          {
-            type: "faq",
-            number: 1,
-            question: "What is a computer table used for?",
-            answer:
-              "A computer table is basically a dedicated working spot for computers, laptops, keyboards, papers, and a few other day-to-day office things.",
-          },
-
-          {
-            type: "faq",
-            number: 2,
-            question: "How do I choose the right computer table for my office?",
-            answer:
-              "You can start with how much floor space you have, then think about your computer layout, the surface you really need for work, plus storage expectations and the way you’re arranging the seating. Also, look at the full office layout, like how everything flows together.",
-          },
-
-          {
-            type: "faq",
-            number: 3,
-            question: "Can a computer table be used in a modular office?",
-            answer:
-              "Yes, it can fit right into a modular office workstation, or it may be used as part of a modular workstation setup, so it blends in well with the system.",
-          },
-
-          {
-            type: "faq",
-            number: 4,
-            question: "Where can computer tables be used?",
-            answer:
-              "Computer tables work in corporate offices, IT companies, schools and colleges, coworking spaces, home offices, and also in commercial work locations.",
-          },
-        ],
+        type: "paragraph",
+        text: "Also, Computer tables can fit nicely into Modular Office Furniture setups, especially when you need flexible pieces and space-efficient solutions that don’t hog the room.",
       },
     ],
+  },
+
+  {
+    id: "computer-tables-for-different-office-requirements",
+    title: "Computer Tables for Different Office Requirements",
+
+    content: [
+      {
+        type: "paragraph",
+        text: "A well-planned Office Workstation really gives employees a specific zone for computer-based tasks and daily office activity, without turning everything into a cluttered mess.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Computer tables can be paired with an Office Modular Workstation arrangement to form clean work zones for one person or for a small team.",
+      },
+
+      {
+        type: "paragraph",
+        text: "For companies that need clearly defined spaces, an Office Cubicle Workstation can offer individual or semi-private working areas.",
+      },
+
+      {
+        type: "paragraph",
+        text: "If a team needs a shared work area but still wants each seat to feel like it has its own place, an Office Cluster Workstation setup is a solid option.",
+      },
+
+      {
+        type: "paragraph",
+        text: "These options can be chosen based on office size, seating needs, how much floor space is available, and the overall workplace layout.",
+      },
+    ],
+  },
+
+  {
+    id: "key-features",
+    title: "Key Features",
+
+    content: [
+      {
+        type: "feature",
+        title: "Functional work surface",
+        description:
+          "Gives enough room for your computer, laptop, keyboard, papers, and those little must-haves you end up needing every day.",
+      },
+
+      {
+        type: "feature",
+        title: "Space-efficient design",
+        description:
+          "Makes use of the floor space, so it works for tiny setups and also for bigger workspaces, depending on how you arrange it.",
+      },
+
+      {
+        type: "feature",
+        title: "Organized workspace",
+        description:
+          "It sort of creates a dedicated zone so your equipment and daily essentials stay in place and not all over the room.",
+      },
+
+      {
+        type: "feature",
+        title: "Durable construction",
+        description:
+          "Built for daily office and commercial activity, with an emphasis on solid support and practical use.",
+      },
+
+      {
+        type: "feature",
+        title: "Professional appearance",
+        description:
+          "Matches modern interiors, and it can pair well with various office workstation furniture setups.",
+      },
+
+      {
+        type: "feature",
+        title: "Easy maintenance",
+        description:
+          "The surface is practical, and the design stays simple, so cleaning and routine upkeep are convenient.",
+      },
+    ],
+  },
+
+  {
+    id: "benefits-of-modular-computer-table",
+    title: "Benefits of Modular Computer Table",
+
+    content: [
+      {
+        type: "paragraph",
+        text: "A {link} helps you keep computer gear, documents, and office accessories together in one neat workspace.",
+        links: [
+          {
+            placeholder: "{link}",
+            text: "Computer Table in Delhi",
+            href: "https://officeworkstationmanufacturer.com/category/computer-table-in-delhi",
+          },
+        ],
+      },
+
+      {
+        type: "paragraph",
+        text: "Efficient Space Utilization: Compact and useful layouts allow businesses to use the available office area more effectively.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Improved Productivity: When the desk is arranged and tidy, computer tasks often feel more comfortable and easier to handle.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Flexible Workspace Planning: You can use the table on its own or bring it into a Modular Workstation arrangement.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Professional Office Environment: With well-planned Office & Commercial Furniture, the workplace tends to look clean and organized.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Versatile Usage: Suitable for offices, IT companies, educational institutions, coworking areas, home offices, and lots of other professional settings.",
+      },
+    ],
+  },
+
+  {
+    id: "faqs",
+    title: "FAQs",
+
+    content: [
+      {
+        type: "faq",
+        number: 1,
+        question: "What is a computer table used for?",
+        answer:
+          "A computer table is basically a dedicated working spot for computers, laptops, keyboards, papers, and a few other day-to-day office things.",
+      },
+
+      {
+        type: "faq",
+        number: 2,
+        question: "How do I choose the right computer table for my office?",
+        answer:
+          "You can start with how much floor space you have, then think about your computer layout, the surface you really need for work, plus storage expectations and the way you’re arranging the seating. Also, look at the full office layout, like how everything flows together.",
+      },
+
+      {
+        type: "faq",
+        number: 3,
+        question: "Can a computer table be used in a modular office?",
+        answer:
+          "Yes, it can fit right into a modular office workstation, or it may be used as part of a modular workstation setup, so it blends in well with the system.",
+      },
+
+      {
+        type: "faq",
+        number: 4,
+        question: "Where can computer tables be used?",
+        answer:
+          "Computer tables work in corporate offices, IT companies, schools and colleges, coworking spaces, home offices, and also in commercial work locations.",
+      },
+    ],
+  },
+],
   },
 
   // category 4 office chair
@@ -2502,206 +2512,207 @@ export const categories = [
       },
     ],
 
-    sections: [
+  sections: [
+  {
+    id: "office-chairs-for-modern-workspaces",
+    title: "Office Chairs for Modern Workspaces",
+
+    content: [
       {
-        id: "office-chairs-for-modern-workspaces",
-        title: "Office Chairs for Modern Workspaces",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "Office Chairs are built to give comfortable, supportive seating for employees when they are doing daily office activities, and honestly, they just need to feel right day after day.",
-          },
-
-          {
-            type: "paragraph",
-            text: "A good office chair helps with posture, and it makes those long working hours feel much more tolerable, even when the schedule gets crowded.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Our office seating solutions fit corporate offices, startups, IT companies, BPOs, coworking spaces, and other commercial workplaces that need a clean setup.",
-          },
-
-          {
-            type: "paragraph",
-            text: "You can also combine office chairs with Office Workstation Furniture, and then suddenly the whole area looks complete, organized, and a bit more professional.",
-          },
-
-          {
-            type: "paragraph",
-            text: [
-              "As an experienced ",
-              {
-                type: "link",
-                text: "Workstation Manufacturer",
-                href: "https://officeworkstationmanufacturer.com/",
-              },
-              ", we deliver Office Furniture Solutions centered on functionality, comfort, and professional style.",
-            ],
-          },
-        ],
+        type: "paragraph",
+        text: "Office Chairs are built to give comfortable, supportive seating for employees when they are doing daily office activities, and honestly, they just need to feel right day after day.",
       },
 
       {
-        id: "office-chair-solutions-for-different-workspaces",
-        title: "Office Chair Solutions for Different Workspaces",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "Office chairs come in different designs and configurations, so they can match employee needs, the floor layout, and the internal office style.",
-          },
-
-          {
-            type: "paragraph",
-            text: "They can be paired with an Office Modular Workstation, which turns into a more comfortable and actually efficient personal workspace.",
-          },
-
-          {
-            type: "paragraph",
-            text: "In team-based offices, chairs are often used alongside a Modular Workstation, or with an Office Cluster Workstation arrangement, depending on how the teams sit.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Modular Office Furniture solutions may include fitting seating options so the entire workplace feels coordinated without looking mismatched.",
-          },
-
-          {
-            type: "paragraph",
-            text: "And of course, businesses can choose office chairs based on usage patterns, comfort expectations, workspace design, and the budget that is available at the moment.",
-          },
-        ],
+        type: "paragraph",
+        text: "A good office chair helps with posture, and it makes those long working hours feel much more tolerable, even when the schedule gets crowded.",
       },
 
       {
-        id: "benefits-of-office-chairs",
-        title: "Benefits of Office Chairs",
-
-        content: [
-          {
-            type: "feature",
-            title: "More comfort for real life",
-            description:
-              "a proper office chair gives you better seating comfort for those long, daily work stretches, you know.",
-          },
-
-          {
-            type: "feature",
-            title: "A nicer workspace feel",
-            description:
-              "when sitting is comfortable, computer work or desk-based tasks tend to feel more convenient, even after a while.",
-          },
-
-          {
-            type: "feature",
-            title: "Support for posture",
-            description:
-              "ergonomically designed chairs can offer the right kind of backing for your back and body while you’re seated.",
-          },
-
-          {
-            type: "feature",
-            title: "Looking more professional",
-            description:
-              "when chairs are paired with Modular Office Workstation solutions, you get a more coordinated and professional kind of workspace, not just random pieces.",
-          },
-
-          {
-            type: "feature",
-            title: "Easy to use in different places",
-            description:
-              "office chairs can work with standalone desks, cubicles, cluster workstations, and other office furniture too.",
-          },
-
-          {
-            type: "feature",
-            title: "Built for the long run",
-            description:
-              "good office seating usually delivers dependable performance for regular workplace use, day after day.",
-          },
-        ],
+        type: "paragraph",
+        text: "Our office seating solutions fit corporate offices, startups, IT companies, BPOs, coworking spaces, and other commercial workplaces that need a clean setup.",
       },
 
       {
-        id: "customized-office-furniture-solutions",
-        title: "Customized Office Furniture Solutions",
-
-        content: [
-          {
-            type: "paragraph",
-            text: "Office Chairs in Delhi can be chosen based on employee needs, the workstation design, office size, and what fits the interior style.",
-            links: [
-              {
-                text: "Office Chairs in Delhi",
-                href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
-              },
-            ],
-          },
-
-          {
-            type: "paragraph",
-            text: "Chairs can go together with Office Workstation solutions so the employee workspace feels complete and functional, not half done.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Companies can align seating with their existing Office & Commercial Furniture, so everything matches and the overall look stays consistent.",
-          },
-
-          {
-            type: "paragraph",
-            text: "As a professional Workstation Manufacturer, we aim to deliver practical office furniture solutions for different workplace requirements.",
-          },
-
-          {
-            type: "paragraph",
-            text: "Our approach helps with both smaller individual work areas and bigger team-based workstation layouts, with less hassle and more coherence.",
-          },
-        ],
+        type: "paragraph",
+        text: "You can also combine office chairs with Office Workstation Furniture, and then suddenly the whole area looks complete, organized, and a bit more professional.",
       },
 
       {
-        id: "faqs",
-        title: "FAQs",
-
-        content: [
+        type: "paragraph",
+        text: [
+          "As an experienced ",
           {
-            type: "faq",
-            number: 1,
-            question: "What is an office chair for, like in general?",
-            answer:
-              "An office chair is made to give comfortable and steady seating, especially for employees during desk-based, computer-related tasks.",
+            type: "link",
+            text: "Workstation Manufacturer",
+            href: "https://officeworkstationmanufacturer.com/",
           },
-
-          {
-            type: "faq",
-            number: 2,
-            question:
-              "How do I pick the right office chair without overthinking it?",
-            answer:
-              "Think about comfort and back support first. Also check adjustability, the size of the chair, how many hours you use it daily, your desk height, and what you actually need in your workspace.",
-          },
-
-          {
-            type: "faq",
-            number: 3,
-            question: "Are office chairs really good for long hours?",
-            answer:
-              "Yes, the right ergonomic office chair design can offer solid support and comfort for people who stay at a desk for extended stretches of time.",
-          },
-
-          {
-            type: "faq",
-            number: 4,
-            question: "Can office chairs work with modular workstations?",
-            answer:
-              "Yes, they can be paired with modular workstation setups, office cubicle workstations, and office cluster workstation configurations too.",
-          },
+          ", we deliver Office Furniture Solutions centered on functionality, comfort, and professional style.",
         ],
       },
     ],
+  },
+
+  {
+    id: "office-chair-solutions-for-different-workspaces",
+    title: "Office Chair Solutions for Different Workspaces",
+
+    content: [
+      {
+        type: "paragraph",
+        text: "Office chairs come in different designs and configurations, so they can match employee needs, the floor layout, and the internal office style.",
+      },
+
+      {
+        type: "paragraph",
+        text: "They can be paired with an Office Modular Workstation, which turns into a more comfortable and actually efficient personal workspace.",
+      },
+
+      {
+        type: "paragraph",
+        text: "In team-based offices, chairs are often used alongside a Modular Workstation, or with an Office Cluster Workstation arrangement, depending on how the teams sit.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Modular Office Furniture solutions may include fitting seating options so the entire workplace feels coordinated without looking mismatched.",
+      },
+
+      {
+        type: "paragraph",
+        text: "And of course, businesses can choose office chairs based on usage patterns, comfort expectations, workspace design, and the budget that is available at the moment.",
+      },
+    ],
+  },
+
+  {
+    id: "key-features",
+    title: "Key Features",
+
+    content: [
+      {
+        type: "feature",
+        title: "More Comfort for Real Life",
+        description:
+          "A proper office chair gives you better seating comfort for those long, daily work stretches, you know.",
+      },
+
+      {
+        type: "feature",
+        title: "A Nicer Workspace Feel",
+        description:
+          "When sitting is comfortable, computer work or desk-based tasks tend to feel more convenient, even after a while.",
+      },
+
+      {
+        type: "feature",
+        title: "Support for Posture",
+        description:
+          "Ergonomically designed chairs can offer the right kind of backing for your back and body while you’re seated.",
+      },
+
+      {
+        type: "feature",
+        title: "Looking More Professional",
+        description:
+          "When chairs are paired with Modular Office Workstation solutions, you get a more coordinated and professional kind of workspace, not just random pieces.",
+      },
+
+      {
+        type: "feature",
+        title: "Easy to Use in Different Places",
+        description:
+          "Office chairs can work with standalone desks, cubicles, cluster workstations, and other office furniture too.",
+      },
+
+      {
+        type: "feature",
+        title: "Built for the Long Run",
+        description:
+          "Good office seating usually delivers dependable performance for regular workplace use, day after day.",
+      },
+    ],
+  },
+
+  {
+    id: "customized-office-furniture-solutions",
+    title: "Customized Office Furniture Solutions",
+
+    content: [
+      {
+  type: "paragraph",
+  text: "{link} can be chosen based on employee needs, the workstation design, office size, and what fits the interior style.",
+  links: [
+    {
+      placeholder: "{link}",
+      text: "Office Chairs in Delhi",
+      href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
+    },
+  ],
+},
+
+      {
+        type: "paragraph",
+        text: "Chairs can go together with Office Workstation solutions so the employee workspace feels complete and functional, not half done.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Companies can align seating with their existing Office & Commercial Furniture, so everything matches and the overall look stays consistent.",
+      },
+
+      {
+        type: "paragraph",
+        text: "As a professional Workstation Manufacturer, we aim to deliver practical office furniture solutions for different workplace requirements.",
+      },
+
+      {
+        type: "paragraph",
+        text: "Our approach helps with both smaller individual work areas and bigger team-based workstation layouts, with less hassle and more coherence.",
+      },
+    ],
+  },
+
+  {
+    id: "faqs",
+    title: "FAQs",
+
+    content: [
+      {
+        type: "faq",
+        number: 1,
+        question: "What is an office chair for, like in general?",
+        answer:
+          "An office chair is made to give comfortable and steady seating, especially for employees during desk-based, computer-related tasks.",
+      },
+
+      {
+        type: "faq",
+        number: 2,
+        question:
+          "How do I pick the right office chair without overthinking it?",
+        answer:
+          "Think about comfort and back support first. Also check adjustability, the size of the chair, how many hours you use it daily, your desk height, and what you actually need in your workspace.",
+      },
+
+      {
+        type: "faq",
+        number: 3,
+        question: "Are office chairs really good for long hours?",
+        answer:
+          "Yes, the right ergonomic office chair design can offer solid support and comfort for people who stay at a desk for extended stretches of time.",
+      },
+
+      {
+        type: "faq",
+        number: 4,
+        question: "Can office chairs work with modular workstations?",
+        answer:
+          "Yes, they can be paired with modular workstation setups, office cubicle workstations, and office cluster workstation configurations too.",
+      },
+    ],
+  },
+],
   },
 
   // category 5 wooden
@@ -3050,235 +3061,214 @@ export const categories = [
       },
     ],
 
+    sections: [
+      {
+        id: "modular-workstation-for-modern-offices",
+        title: "Wooden Storage Units for Modern Offices",
 
+        content: [
+          {
+            type: "paragraph",
+            text: "Wooden Storage Units are a pretty practical way to keep documents, files, office supplies, and those everyday workplace essentials in order, even when things get busy.",
+          },
 
-      sections: [
-    {
-      id: "wooden-storage-units-for-modern-offices",
-      title: "Wooden Storage Units for Modern Offices",
+          {
+            type: "paragraph",
+            text: "Built with modern workplaces in mind, these units work on their own, and they can fit into a Modular Office Furniture setup, kind of seamlessly. ",
+          },
 
-      content: [
+          {
+            type: "paragraph",
+            text: "The whole, structured storage design helps you keep the office looking clean and organized, and it also makes the items people use most easier to reach quickly.  ",
+          },
+          {
+            type: "paragraph",
+            text: "These wooden storage solutions can also complement an Office workstation and other office furniture, so the space feels coordinated, not random. ",
+          },
+
+          {
+            type: "paragraph",
+            text: [
+              "As an experienced ",
+              {
+                type: "link",
+                text: "Workstation Manufacturer",
+                href: "https://officeworkstationmanufacturer.com/",
+              },
+              " we offer storage options that are practical for different office layouts and different requirements, too.",
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "office-workstation-solutions",
+        title: "Solution for Wooden Storage Units",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "Wood storage units help you sort papers, forms, office tools, and other daily items. They also help your desk area look tidy.",
+          },
+
+          {
+            type: "paragraph",
+            text: "These units can be built to match the floor space you have. That means they work in small offices too, not only in bigger business sites.",
+          },
+
+          {
+            type: "paragraph",
+            text: "With the right storage, staff can keep common items in the same place. That makes it easier to grab things fast and keeps the room from getting messy.",
+          },
+
+          {
+            type: "paragraph",
+            text: "You can mix these units with other office furniture. They can fit with modular desks, work tables, and extra storage pieces. The setup can feel like one system.",
+          },
+
+          {
+            type: "paragraph",
+            text: "You can request storage that fits your needs. As a work station maker, we plan units around your office plan, how much you need to store, the size you want, and the features you need.",
+          },
+          {
+            type: "paragraph",
+            text: "A good wooden storage unit looks neat and gives a clean business feel. It also gives real space for storage in today’s office setting.",
+          },
+        ],
+      },
+
+      {
+        id: "key-features",
+        title: "Key Features",
+
+        content: [
+          {
+            type: "feature",
+            title: "Spacious Storage",
+            description:
+              " Gives you dedicated space for files, documents, stationery, and other office essentials, without making everything feel crowded.",
+          },
+
+          {
+            type: "feature",
+            title: "Organized Design",
+            description:
+              "Helps keep workplace items arranged neatly, and it tends to reduce clutter around an employee's work area day after day.",
+          },
+
+          {
+            type: "feature",
+            title: "Durable Construction",
+            description:
+              "Made for regular office use, with stability in mind and long-term functionality as a goal.",
+          },
+
+          {
+            type: "feature",
+            title: "Professional Appearance",
+            description:
+              "Wooden finishes blend well with contemporary office interiors and with existing Office Workstation Furniture.",
+          },
+
+          {
+            type: "feature",
+            title: "Flexible Placement",
+            description:
+              "You can place these near workstations, across departments, near meeting areas, or just in other office zones that need a little more order.",
+          },
+
+          {
+            type: "feature",
+            title: "Easy maintenance",
+            description:
+              "Practical surfaces make routine cleaning and everyday upkeep pretty convenient, honestly.",
+          },
+        ],
+      },
+
+      {
+        id: "benefits-of-modular-office-workstations",
+        title: "Benefits of Wooden Storage Units",
+
+        content: [
+          {
+            type: "paragraph",
+            text: "Better Organization: Wooden storage units help keep papers, folders, and everyday office essentials in clear spots, so stuff doesn’t end up wandering around. ",
+          },
+
+          {
+            type: "paragraph",
+            text: "Reduced Workplace Clutter: When the storage is in the right location, the desk area tends to feel calmer, cleaner, and more orderly for employees.",
+          },
+
         {
-          type: "paragraph",
-          text: "Wooden Storage Units are a pretty practical way to keep documents, files, office supplies, and those everyday workplace essentials in order, even when things get busy.",
-        },
-
-        {
-          type: "paragraph",
-          text: "Built with modern workplaces in mind, these units work on their own, and they can fit into a Modular Office Furniture setup, kind of seamlessly.",
-        },
-
-        {
-          type: "paragraph",
-          text: "The whole, structured storage design helps you keep the office looking clean and organized, and it also makes the items people use most easier to reach quickly.",
-        },
-
-        {
-          type: "paragraph",
-          text: "These wooden storage solutions can also complement an Office workstation and other office furniture, so the space feels coordinated, not random.",
-        },
-
-       {
   type: "paragraph",
-  text: [
-    "As an experienced ",
+  text: "Efficient Space Utilization: Storage can be worked into existing {link} arrangements and office layouts without needing a full redesign.",
+  links: [
     {
-      type: "link",
-      text: "Workstation Manufacturer",
-      href: "https://officeworkstationmanufacturer.com/",
+      placeholder: "{link}",
+      text: "Wooden Storage Units in Delhi",
+      href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
     },
-    ", we offer storage options that are practical for different office layouts and different requirements, too.",
   ],
 },
-      ],
-    },
 
-    {
-      id: "key-features",
-      title: "Key Features",
+          {
+            type: "paragraph",
+            text: "Professional Appearance: If the storage furniture is designed well, it makes the whole office look neater and less improvised.",
+          },
+          {
+            type: "paragraph",
+            text: "Easy Accessibility: Dedicated compartments make frequently used documents and supplies faster to reach, with less hunting around.",
+          },
 
-      content: [
-        {
-          type: "feature",
-          title: "Spacious Storage",
-          description:
-            "Gives you dedicated space for files, documents, stationery, and other office essentials, without making everything feel crowded.",
-        },
+          {
+            type: "paragraph",
+            text: "Long-Term Practicality: Sturdy storage furniture can keep up as the office evolves, and it keeps supporting daily order as well.",
+          },
+        ],
+      },
 
-        {
-          type: "feature",
-          title: "Organized Design",
-          description:
-            "Helps keep workplace items arranged neatly, and it tends to reduce clutter around an employee's work area day after day.",
-        },
+      {
+        id: "faqs",
+        title: "FAQs",
 
-        {
-          type: "feature",
-          title: "Durable Construction",
-          description:
-            "Made for regular office use, with stability in mind and long-term functionality as a goal.",
-        },
+        content: [
+          {
+            type: "faq",
+            number: 1,
+            question: "What are wooden storage units used for? ",
+            answer:
+              "Wooden storage units are used for organizing files, documents, stationery, office supplies, and other workplace essentials—yeah, sort of all that daily stuff.",
+          },
 
-        {
-          type: "feature",
-          title: "Professional Appearance",
-          description:
-            "Wooden finishes blend well with contemporary office interiors and with existing Office Workstation Furniture.",
-        },
+          {
+            type: "faq",
+            number: 2,
+            question: "Are wooden storage units suitable for offices?",
+            answer:
+              "Yes, they are good for corporate offices, IT companies, educational institutions, coworking spaces, and commercial workplaces as well, generally.",
+          },
 
-        {
-          type: "feature",
-          title: "Flexible Placement",
-          description:
-            "You can place these near workstations, across departments, near meeting areas, or just in other office zones that need a little more order.",
-        },
+          {
+            type: "faq",
+            number: 3,
+            question:
+              "Can wooden storage units be used with modular office furniture? ",
+            answer:
+              "Yes, they can be integrated with Modular Office Furniture and placed alongside workstations, so it all feels coordinated, more or less.",
+          },
 
-        {
-          type: "feature",
-          title: "Easy Maintenance",
-          description:
-            "Practical surfaces make routine cleaning and everyday upkeep pretty convenient, honestly.",
-        },
-      ],
-    },
-
-    {
-      id: "benefits-of-wooden-storage-units",
-      title: "Benefits of Wooden Storage Units",
-
-      content: [
-        {
-          type: "feature",
-          title: "Better Organization",
-          description:
-            "Wooden storage units help keep papers, folders, and everyday office essentials in clear spots, so stuff doesn’t end up wandering around.",
-        },
-
-        {
-          type: "feature",
-          title: "Reduced Workplace Clutter",
-          description:
-            "When the storage is in the right location, the desk area tends to feel calmer, cleaner, and more orderly for employees.",
-        },
-
-        {
-          type: "feature",
-          title: "Efficient Space Utilization",
-          description:
-            "Storage can be worked into existing Modular Workstation arrangements and office layouts without needing a full redesign.",
-        },
-
-        {
-          type: "feature",
-          title: "Professional Appearance",
-          description:
-            "If the storage furniture is designed well, it makes the whole office look neater and less improvised.",
-        },
-
-        {
-          type: "feature",
-          title: "Easy Accessibility",
-          description:
-            "Dedicated compartments make frequently used documents and supplies faster to reach, with less hunting around.",
-        },
-
-        {
-          type: "feature",
-          title: "Long-Term Practicality",
-          description:
-            "Sturdy storage furniture can keep up as the office evolves, and it keeps supporting daily order as well.",
-        },
-      ],
-    },
-
-    {
-      id: "office-furniture-integration",
-      title: "Office Furniture Integration",
-
-      content: [
-        {
-          type: "paragraph",
-          text: "Wooden Storage Units in Delhi can be matched with modular office workstations, so the same space covers both the working area and storage, kind of side by side.",
-          links: [
-            {
-              text: "Wooden Storage Units in Delhi",
-              href: "https://officeworkstationmanufacturer.com/category/modular-office-workstation-in-delhi",
-            },
-          ],
-        },
-
-        {
-          type: "paragraph",
-          text: "They often pair nicely with an Office Modular Workstation, because the storage stays near where employees spend most of their time.",
-        },
-
-        {
-          type: "paragraph",
-          text: "You can also fold storage options around an Office Cubicle workstation and Office Cluster Workstation setups, in a way that still looks cohesive.",
-        },
-
-        {
-          type: "paragraph",
-          text: "As a professional Workstation Manufacturer, we can help companies plan storage alongside workstation needs and other furniture requirements too.",
-          links: [
-            {
-              text: "Workstation Manufacturer",
-              href: "https://officeworkstationmanufacturer.com/",
-            },
-          ],
-        },
-
-        {
-          type: "paragraph",
-          text: "These units can turn into part of a full Office & Commercial Furniture scheme for workplaces that are organized and functional, with less back-and-forth.",
-        },
-      ],
-    },
-
-    {
-      id: "faqs",
-      title: "FAQs",
-
-      content: [
-        {
-          type: "faq",
-          number: 1,
-          question: "What are wooden storage units used for?",
-          answer:
-            "Wooden storage units are used for organizing files, documents, stationery, office supplies, and other workplace essentials—yeah, sort of all that daily stuff.",
-        },
-
-        {
-          type: "faq",
-          number: 2,
-          question: "Are wooden storage units suitable for offices?",
-          answer:
-            "Yes, they are good for corporate offices, IT companies, educational institutions, coworking spaces, and commercial workplaces as well, generally.",
-        },
-
-        {
-          type: "faq",
-          number: 3,
-          question:
-            "Can wooden storage units be used with modular office furniture?",
-          answer:
-            "Yes, they can be integrated with Modular Office Furniture and placed alongside workstations, so it all feels coordinated, more or less.",
-        },
-
-        {
-          type: "faq",
-          number: 4,
-          question:
-            "How do wooden storage units help organize an office?",
-          answer:
-            "They provide specific storage places for documents, files, and small supplies, which helps cut down on mess and keep the workplace tidy without too much effort.",
-        },
-      ],
-    },
-  ],
-
-
-    
+          {
+            type: "faq",
+            number: 4,
+            question: "How do wooden storage units help organize an office?",
+            answer:
+              "They provide specific storage places for documents, files, and small supplies, which helps cut down on mess and keep the workplace tidy without too much effort. ",
+          },
+        ],
+      },
+    ],
   },
 
   // category 6 meeting room
@@ -3289,231 +3279,228 @@ export const categories = [
       "Meeting And Conference Room Table – Dk Modular Contractor Office Furniture",
     metaDescription: "Meeting And Conference Room Table",
 
+   sections: [
+  {
+    id: "meeting-and-conference-room-table-for-professional-workspaces",
+    title: "Meeting And Conference Room Table for Professional Workspaces",
 
-     sections: [
-    {
-      id: "meeting-and-conference-room-table-for-professional-workspaces",
-      title: "Meeting And Conference Room Table for Professional Workspaces",
+    content: [
+      {
+        type: "paragraph",
+        text: "A Meeting And Conference Room Table gives a professional but comfortable setup for meetings, presentations, discussions, interviews, and even day-to-day team collaboration.",
+      },
 
-      content: [
-        {
-          type: "paragraph",
-          text: "A Meeting And Conference Room Table gives a professional but comfortable setup for meetings, presentations, discussions, interviews, and even day-to-day team collaboration.",
-        },
+      {
+        type: "paragraph",
+        text: "In a way, it also helps things feel more coordinated in modern workplaces, so it can go well with an Office workstation, and yes, it can make the whole office furniture arrangement look like it belongs together.",
+      },
 
-        {
-          type: "paragraph",
-          text: "In a way, it also helps things feel more coordinated in modern workplaces, so it can go well with an Office workstation, and yes, it can make the whole office furniture arrangement look like it belongs together.",
-        },
+      {
+        type: "paragraph",
+        text: "You can pick the table based on meeting room size, how many people you expect to seat, the office layout, and the general interior design style you’re trying to keep.",
+      },
 
-        {
-          type: "paragraph",
-          text: "You can pick the table based on meeting room size, how many people you expect to seat, the office layout, and the general interior design style you’re trying to keep.",
-        },
+      {
+        type: "paragraph",
+        text: "It also works alongside Modular Office Furniture, so the workplace environment stays consistent and still feels practical.",
+      },
 
-        {
-          type: "paragraph",
-          text: "It also works alongside Modular Office Furniture, so the workplace environment stays consistent and still feels practical.",
-        },
+      {
+        type: "paragraph",
+        text: [
+          "As an experienced ",
+          {
+            type: "link",
+            text: "Workstation Manufacturer",
+            href: "https://officeworkstationmanufacturer.com/",
+          },
+          ", we provide office & commercial furniture solutions that fit different business needs, not just one type of requirement.",
+        ],
+      },
+    ],
+  },
 
-        {
-  type: "paragraph",
-  text: [
-    "As an experienced ",
-    {
-      type: "link",
-      text: "Workstation Manufacturer",
-      href: "https://officeworkstationmanufacturer.com/",
-    },
-    ", we provide office & commercial furniture solutions that fit different business needs, not just one type of requirement.",
-  ],
-},
-      ],
-    },
+  {
+    id: "solution-for-meeting-and-conference-room-tables",
+    title: "Solution for Meeting and Conference Room Tables",
 
-    {
-      id: "key-features",
-      title: "Key features",
+    content: [
+      {
+        type: "paragraph",
+        title: "Meeting Room Tables for Your Needs",
+        text: "These tables make it easier to host talks, show presentations, and run team sessions in a tidy space.",
+      },
 
-      content: [
-        {
-          type: "feature",
-          title: "Spacious tabletop",
-          description:
-            "gives enough surface for laptops, documents, presentation materials, and meeting accessories, so nobody feels crowded.",
-        },
+      {
+        type: "paragraph",
+        title: "Space Use That Fits",
+        text: "You can pick a table shape and size that matches your room and the layout of your office.",
+      },
 
-        {
-          type: "feature",
-          title: "Sturdy build",
-          description:
-            "made for steadiness and reliable everyday performance, even with regular use.",
-        },
+      {
+        type: "paragraph",
+        title: "Better Talk Between People",
+        text: "When the table is laid out well, everyone can sit in a comfortable way. This helps the team share ideas during the meeting.",
+      },
 
-        {
-          type: "feature",
-          title: "Professional look",
-          description:
-            "matches modern conference rooms and corporate office interiors.",
-        },
+      {
+        type: "paragraph",
+        title: "Works With Other Office Pieces",
+        text: "These tables can match Modular Office Furniture and other workstation setups. The full room can feel planned instead of random.",
+      },
 
-        {
-          type: "feature",
-          title: "Flexible configurations",
-          description:
-            "works for various room sizes, seating capacities, and meeting purposes.",
-        },
+      {
+        type: "paragraph",
+        title: "Made to Match Your Room",
+        text: "We design options as a Work Station Manufacturer based on room size, how many seats you need, what style you want, and your business goals.",
+      },
 
-        {
-          type: "feature",
-          title: "Easy maintenance",
-          description:
-            "practical surfaces make cleaning and routine upkeep convenient.",
-        },
+      {
+        type: "paragraph",
+        title: "Looks Sharp, Stays Useful",
+        text: "A modern table improves the look of the meeting space. It also holds up for daily work and everyday use.",
+      },
+    ],
+  },
 
-        {
-          type: "feature",
-          title: "Functional workspace",
-          description:
-            "Forms a shared zone for productive conversations, presentations, and other cooperative tasks.",
-        },
-      ],
-    },
+  {
+    id: "key-features",
+    title: "Key Features",
 
-    {
-      id: "benefits-of-meeting-and-conference-room-table",
-      title: "Benefits of Meeting And Conference Room Table",
+    content: [
+      {
+        type: "feature",
+        title: "Spacious Tabletop",
+        description:
+          "Gives enough surface for laptops, documents, presentation materials, and meeting accessories, so nobody feels crowded.",
+      },
 
-      content: [
-        {
-          type: "feature",
-          title: "Professional meeting environment",
-          description:
-            "A well-designed conference table creates a more organized and professional space for important business discussions.",
-        },
+      {
+        type: "feature",
+        title: "Sturdy Build",
+        description:
+          "Made for steadiness and reliable everyday performance, even with regular use.",
+      },
 
-        {
-          type: "feature",
-          title: "Better collaboration",
-          description:
-            "It offers a shared workspace where teams can communicate, trade ideas, and work together in a more effective way.",
-        },
+      {
+        type: "feature",
+        title: "Professional Look",
+        description:
+          "Matches modern conference rooms and corporate office interiors.",
+      },
 
-        {
-          type: "feature",
-          title: "Efficient space utilization",
-          description:
-            "Table configurations can be picked based on room dimensions and seating needs, even if the layout is tricky.",
-        },
+      {
+        type: "feature",
+        title: "Flexible Configurations",
+        description:
+          "Works for various room sizes, seating capacities, and meeting purposes.",
+      },
 
-        {
-          type: "feature",
-          title: "Improved organization",
-          description:
-            "There’s enough room for laptops, documents, files, and presentation equipment, so things stay tidy.",
-        },
+      {
+        type: "feature",
+        title: "Easy Maintenance",
+        description:
+          "Practical surfaces make cleaning and routine upkeep convenient.",
+      },
 
-        {
-          type: "feature",
-          title: "Complete office planning",
-          description:
-            "A conference table can blend in nicely with Modular Office Workstation layouts plus other workplace furniture.",
-        },
+      {
+        type: "feature",
+        title: "Functional Workspace",
+        description:
+          "Forms a shared zone for productive conversations, presentations, and other cooperative tasks.",
+      },
+    ],
+  },
 
-        {
-          type: "feature",
-          title: "Long-term practicality",
-          description:
-            "A good-quality table supports regular meetings and also adapts to changing requirements in professional workplaces over time.",
-        },
-      ],
-    },
+  {
+    id: "benefits-of-meeting-and-conference-room-table",
+    title: "Benefits of Meeting And Conference Room Table",
 
-    {
-      id: "integration-with-office-furniture",
-      title: "Integration with office furniture",
+    content: [
+      {
+        type: "paragraph",
+        title: "Professional Meeting Environment",
+        text: "A well-designed conference table creates a more organized and professional space for important business discussions.",
+      },
 
-      content: [
-        {
-          type: "paragraph",
-          text: "A Meeting and Conference Room Table in Delhi can be paired with Office Workstation Furniture to form a coordinated and functional workplace setup.",
-          links: [
-            {
-              text: "Meeting and Conference Room Table in Delhi",
-              href: "https://officeworkstationmanufacturer.com/category/office-tables-in-delhi",
-            },
-          ],
-        },
+      {
+        type: "paragraph",
+        title: "Better Collaboration",
+        text: "It offers a shared workspace where teams can communicate, trade ideas, and work together in a more effective way.",
+      },
 
-        {
-          type: "paragraph",
-          text: "It can complement an Office Modular Workstation by giving a specific area for team discussions and collaborative activities.",
-        },
+      {
+        type: "paragraph",
+        title: "Efficient Space Utilization",
+        text: "Table configurations can be picked based on room dimensions and seating needs, even if the layout is tricky.",
+      },
 
-        {
-          type: "paragraph",
-          text: "For businesses using an Office Cubicle Workstation layout, a conference table can be added to create a separate space for formal meetings.",
-        },
+      {
+        type: "paragraph",
+        title: "Improved Organization",
+        text: "There’s enough room for laptops, documents, files, and presentation equipment, so things stay tidy.",
+      },
 
-        {
-          type: "paragraph",
-          text: "An Office Cluster Workstation arrangement can also benefit from a dedicated meeting area for team communication.",
-        },
+      {
+        type: "paragraph",
+        title: "Complete Office Planning",
+        text: "A conference table can blend in nicely with {link} layouts plus other workplace furniture.",
+        links: [
+          {
+            text: "Meeting and Conference Room Table in Delhi",
+            href: "https://officeworkstationmanufacturer.com/category/office-tables-in-delhi",
+          },
+        ],
+      },
 
-        {
-          type: "paragraph",
-          text: "As a professional Workstation Manufacturer, we provide furniture solutions that can be planned around different office layouts and real-world flow.",
-         
-        },
+      {
+        type: "paragraph",
+        title: "Long-Term Practicality",
+        text: "A good-quality table supports regular meetings and also adapts to changing requirements in professional workplaces over time.",
+      },
+    ],
+  },
 
-        {
-          type: "paragraph",
-          text: "The table can be part of a complete Office & Commercial Furniture plan for modern corporate and business environments.",
-        },
-      ],
-    },
+  {
+    id: "faqs",
+    title: "Voice Search Optimized FAQs",
 
-    {
-      id: "faqs",
-      title: "FAQs",
+    content: [
+      {
+        type: "faq",
+        number: 1,
+        question: "What is a meeting and conference room table used for?",
+        answer:
+          "A meeting and conference room table is used for business meetings, team discussions, presentations, interviews, training sessions, and collaborative activities. Sometimes it is also used for planning sessions or short brainstorming blocks.",
+      },
 
-      content: [
-        {
-          type: "faq",
-          number: 1,
-          question:
-            "What is a meeting and conference room table used for?",
-          answer:
-            "A meeting and conference room table is used for business meetings, team discussions, presentations, interviews, training sessions, and collaborative activities. Sometimes it is also used for planning sessions or short brainstorming blocks.",
-        },
+      {
+        type: "faq",
+        number: 2,
+        question:
+          "Can a conference table be used with modular office furniture?",
+        answer:
+          "Yes, a conference table can fit nicely with Modular Office Furniture and it can be planned alongside workstations, office chairs, and a few other pieces of workplace furniture; it just depends on how you arrange everything.",
+      },
 
-        {
-          type: "faq",
-          number: 2,
-          question:
-            "Can a conference table be used with modular office furniture?",
-          answer:
-            "Yes, a conference table can fit nicely with Modular Office Furniture and it can be planned alongside workstations, office chairs, and a few other pieces of workplace furniture; it just depends on how you arrange everything.",
-        },
+      {
+        type: "faq",
+        number: 3,
+        question: "What size conference table is suitable for an office?",
+        answer:
+          "The right size really hinges on room dimensions, the seating capacity that you need, and also how much open space you want for comfortable walking around the table.",
+      },
 
-        {
-          type: "faq",
-          number: 3,
-          question: "What size conference table is suitable for an office?",
-          answer:
-            "The right size really hinges on room dimensions, the seating capacity that you need, and also how much open space you want for comfortable walking around the table.",
-        },
-
-        {
-          type: "faq",
-          number: 4,
-          question: "Can a conference table be customized for an office?",
-          answer:
-            "Yes, conference tables can be planned according to room dimensions, seating requirements, design preferences, and the overall office layout.",
-        },
-      ],
-    },
-  ],
+      {
+        type: "faq",
+        number: 4,
+        question: "Can a conference table be customized for an office?",
+        answer:
+          "Yes, conference tables can be planned according to room dimensions, seating requirements, design preferences, and the overall office layout.",
+      },
+    ],
+  },
+],
 
     products: [
       // product 1
