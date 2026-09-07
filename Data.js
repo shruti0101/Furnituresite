@@ -527,10 +527,7 @@ export const categories = [
           "Modular Office Workstation designed for organized, efficient, and modern office spaces with pre-laminated boards and CRCA pipe frames.",
 
         description: [
-          {
-            type: "h2",
-            text: "Modular Office Workstation",
-          },
+         
 
           {
             type: "h2",
@@ -769,10 +766,7 @@ export const categories = [
 },
 
         description: [
-          {
-            type: "h2",
-            text: "L Shaped Workstation",
-          },
+          
 
           {
             type: "h2",
@@ -970,10 +964,7 @@ export const categories = [
   metaDescription: "Computer Workstation Furniture",
 
   description: [
-    {
-      type: "h2",
-      text: "Computer Workstation Furniture",
-    },
+  
 
     {
       type: "h2",
@@ -1180,10 +1171,7 @@ export const categories = [
   metaDescription: "Single Seater Modular Office Workstation",
 
   description: [
-    {
-      type: "h2",
-      text: "Single Seater Modular Office Workstation",
-    },
+    
 
     {
       type: "h2",
@@ -1403,10 +1391,7 @@ export const categories = [
   metaDescription: "Modern Office Workstation",
 
   description: [
-    {
-      type: "h2",
-      text: "Modern Office Workstation",
-    },
+   
 
     {
       type: "h2",
@@ -1616,10 +1601,7 @@ export const categories = [
         metaDescription: "Linear Modular Office Workstation",
 
         description: [
-          {
-            type: "h2",
-            text: "Linear Modern Office Workstation | Dk Modular Contractor Contractor",
-          },
+         
           {
             type: "p",
             text: "The Linear Modern Office Workstation by Dk Modular Contractor Contractor is designed for organised, streamlined, and collaborative office environments. Its linear layout is ideal for teams working side-by-side, making it a perfect solution for corporate offices, IT firms, BPOs, co-working spaces, and commercial workplaces that require efficient space utilisation.",
@@ -1683,10 +1665,7 @@ export const categories = [
         metaDescription: "U Shape Modern Office Workstation",
 
         description: [
-          {
-            type: "h2",
-            text: "U Shape Modern Office Workstation | Dk Modular Contractor Contractor",
-          },
+         
           {
             type: "p",
             text: "The U Shape Modern Office Workstation by Dk Modular Contractor Contractor is designed to offer maximum workspace efficiency with a modern and professional appearance. Ideal for corporate offices, IT companies, managerial cabins, and home offices, this workstation makes optimal use of corner spaces while providing ample working surface.",

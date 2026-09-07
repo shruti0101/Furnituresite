@@ -18,9 +18,7 @@ export default function ProductPage({ params }) {
 
   if (!product) {
     return (
-      <h2 className="mt-10 text-center text-red-500">
-        Product not found
-      </h2>
+      <h2 className="mt-10 text-center text-red-500">Product not found</h2>
     );
   }
 
@@ -52,10 +50,8 @@ export default function ProductPage({ params }) {
 
       {/* ================= MAIN ================= */}
       <section className="mx-auto max-w-7xl space-y-20 px-6 py-10">
-
         {/* ================= IMAGE + INFO ================= */}
         <div className="grid grid-cols-1 items-start gap-14 lg:grid-cols-2">
-
           {/* IMAGE */}
           <div>
             <div className="overflow-hidden rounded-2xl border shadow-sm">
@@ -101,7 +97,6 @@ export default function ProductPage({ params }) {
 
           {/* PRODUCT INFO */}
           <div className="space-y-8">
-
             <div>
               <h2 className="font-serif text-2xl font-semibold text-black md:text-3xl">
                 {product.name}
@@ -122,10 +117,7 @@ export default function ProductPage({ params }) {
                 <table className="w-full text-sm">
                   <tbody>
                     {product.specs.map((spec, i) => (
-                      <tr
-                        key={i}
-                        className="border-b last:border-none"
-                      >
+                      <tr key={i} className="border-b last:border-none">
                         <td className="w-1/2 px-6 py-4 font-bold text-black">
                           {spec.label}
                         </td>
@@ -152,7 +144,7 @@ export default function ProductPage({ params }) {
 
               <a
                 href={`https://wa.me/+919999402424?text=Hello, I am interested in ${encodeURIComponent(
-                  product.name
+                  product.name,
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -166,14 +158,14 @@ export default function ProductPage({ params }) {
 
         {/* ================= DESCRIPTION ================= */}
         <div className="rounded-2xl border bg-white p-3 md:p-8">
-          <h2 className="mb-8 font-serif text-2xl font-semibold text-black md:text-3xl">
+         {!product?.cta && (
+           <h2 className="mb-8 font-serif text-2xl font-semibold text-black md:text-3xl">
             Product Description
           </h2>
+         )}
 
           <div className="space-y-6 leading-relaxed text-black">
-
             {product.description?.map((block, i) => {
-
               /* H2 */
               if (block.type === "h2") {
                 return (
@@ -248,38 +240,34 @@ export default function ProductPage({ params }) {
                 );
               }
 
-           
-
               return null;
             })}
           </div>
         </div>
 
-        
-
         {/* ================= BOTTOM CTA ================= */}
-       {product.cta && (
-  <div className="rounded-2xl bg-black px-6 py-10 text-center text-white md:px-12 md:py-14">
-    <h2 className="font-serif text-2xl font-bold md:text-4xl">
-      {product.cta.title}
-    </h2>
+        {product.cta && (
+          <div className="rounded-2xl bg-black px-6 py-10 text-center text-white md:px-12 md:py-14">
+            <h2 className="font-serif text-2xl font-bold md:text-4xl">
+              {product.cta.title}
+            </h2>
 
-    <p
-      className="mx-auto mt-4 max-w-3xl leading-relaxed text-white/80"
-      dangerouslySetInnerHTML={{
-        __html: product.cta.text,
-      }}
-    />
+            <p
+              className="mx-auto mt-4 max-w-3xl leading-relaxed text-white/80"
+              dangerouslySetInnerHTML={{
+                __html: product.cta.text,
+              }}
+            />
 
-    <a
-      href="tel:+919999402424"
-      className="mt-7 inline-flex items-center gap-2 rounded-xl bg-amber-500 px-7 py-3 font-semibold text-black transition hover:bg-amber-400"
-    >
-       Get a Quote
-      <ArrowUpRight size={18} />
-    </a>
-  </div>
-)}
+            <a
+              href="tel:+919999402424"
+              className="mt-7 inline-flex items-center gap-2 rounded-xl bg-amber-500 px-7 py-3 font-semibold text-black transition hover:bg-amber-400"
+            >
+              Get a Quote
+              <ArrowUpRight size={18} />
+            </a>
+          </div>
+        )}
 
         {/* ================= RELATED PRODUCTS ================= */}
         <div>
@@ -289,9 +277,7 @@ export default function ProductPage({ params }) {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {categories
-              .find((c) =>
-                c.products.some((p) => p.id === product.id)
-              )
+              .find((c) => c.products.some((p) => p.id === product.id))
               ?.products.filter((p) => p.id !== product.id)
               .slice(0, 4)
               .map((item) => (
@@ -325,10 +311,7 @@ export default function ProductPage({ params }) {
 
         {/* ================= ENQUIRY ================= */}
         {isFormOpen && (
-          <Enquiry
-            isOpen={isFormOpen}
-            onClose={() => setIsFormOpen(false)}
-          />
+          <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
         )}
       </section>
     </>
