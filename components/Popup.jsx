@@ -15,26 +15,26 @@ export default function ContactForm() {
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
 
-useEffect(() => {
-  const handleScroll = () => {
-    const scrollTop = window.scrollY;
-    const docHeight =
-      document.documentElement.scrollHeight - window.innerHeight;
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
 
-    if (docHeight <= 0) return;
+      if (docHeight <= 0) return;
 
-    const scrollPercent = (scrollTop / docHeight) * 100;
+      const scrollPercent = (scrollTop / docHeight) * 100;
 
-    if (scrollPercent >= 20) {
-      setIsOpen(true);
-      window.removeEventListener("scroll", handleScroll); // open once
-    }
-  };
+      if (scrollPercent >= 20) {
+        setIsOpen(true);
+        window.removeEventListener("scroll", handleScroll); // open once
+      }
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   if (!isOpen) return null;
 
@@ -47,6 +47,7 @@ useEffect(() => {
 
     try {
       const formData = {
+        supplierToken: "6a34cb127d11e405b832d3d0",
         platform: "dkmodular Popup Form",
         platformEmail: "dkmodularcontractor@gmail.com",
         name,
@@ -151,9 +152,9 @@ Contact: ${phone}`;
                 <option value="Meeting And Conference Room Table">Conference Room Table</option>
                 <option value="Computer Table">Computer Table</option>
                 <option value="Office Chair">Office Chair</option>
-                
+
                 <option value="Wooden Storage Unit">Wooden Storage Unit</option>
-        
+
               </select>
             </div>
 
@@ -198,9 +199,8 @@ Contact: ${phone}`;
             </button>
 
             {status && (
-              <p className={`text-center text-sm mt-2 font-medium ${
-                status.startsWith("✅") ? "text-green-600" : "text-red-600"
-              }`}>
+              <p className={`text-center text-sm mt-2 font-medium ${status.startsWith("✅") ? "text-green-600" : "text-red-600"
+                }`}>
                 {status}
               </p>
             )}
