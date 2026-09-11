@@ -1,8 +1,8 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact DK Modular Contractor – Office Furniture Manufacturer",
-  description: "Get in touch with DK Modular Contractor, a trusted office furniture and modular workstation manufacturer in India. Contact our team for custom furniture solutions, quotes, and support.",
+  title: "Contact DK Modular for the Best Workstation Manufacturer in India",
+  description: "Contact DK Modular Contractor, a trusted workstation manufacturer for premium Office Cluster Workstation, Office Cubicle Workstation, custom designs, pricing, and workspace solutions.",
 };
 
 export default function AboutUsPage() {

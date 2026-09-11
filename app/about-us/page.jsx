@@ -1,8 +1,8 @@
 import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "About DK Modular Contractor | Leading Modular Furniture Manufacturer",
-  description: "Learn about DK Modular Contractor, a trusted modular furniture manufacturer specializing in office workstations, modular kitchens, wardrobes, and customized furniture solutions across India.",
+  title: "About Us | Workstation Manufacturer in India | DK Modular ",
+  description: "Discover DK Modular Contractor, a trusted workstation manufacturer in India offering premium modular office workstations, office cubicle workstations, office workstation furniture, etc",
 };
 
 export default function AboutUsPage() {

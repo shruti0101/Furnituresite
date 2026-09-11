@@ -449,8 +449,8 @@ export const categories = [
     id: "modular-office-workstation",
     name: "Modular Office Workstation",
     metaTitle:
-      "Custom Modular Office Workstations – Dk Modular Contractor Office Furniture",
-    metaDescription: "Custom Modular Office Workstations",
+      "Modular Office Workstation | Modular Office Furniture | DK Modular",
+    metaDescription: "Explore modern modular office workstations from a trusted workstation manufacturer. Get ergonomic, durable, and customizable workstation solutions for every office.",
 
     products: [
       // product 1
@@ -521,10 +521,10 @@ export const categories = [
         name: "Modular Office Workstation",
 
         metaTitle:
-          "Modular Office Workstation – Dk Modular Contractor Office Furniture",
+          "Modular Office Workstation | Workstation Manufacturer | DK Modular",
 
         metaDescription:
-          "Modular Office Workstation designed for organized, efficient, and modern office spaces with pre-laminated boards and CRCA pipe frames.",
+          "Buy modern Modular Office Workstation solutions from a trusted workstation manufacturer. Explore durable, ergonomic, and customizable designs for productive offices.",
 
         description: [
          
@@ -754,9 +754,9 @@ export const categories = [
         name: "L Shaped Workstation",
 
         metaTitle:
-          "L Shaped Workstation – Dk Modular Contractor Office Furniture",
+          "L Shaped Workstation | Modular Workstation Manufacturer in India | DK Modular",
 
-        metaDescription: "L Shaped Workstation",
+        metaDescription: "Explore premium L Shaped Workstation designs from a trusted workstation manufacturer. Discover modern, ergonomic, and space-saving solutions for productive offices. ",
 
 
         cta: {
@@ -959,9 +959,9 @@ export const categories = [
   name: "Computer Workstation Furniture",
 
   metaTitle:
-    "Computer Workstation Furniture – Dk Modular Contractor Office Furniture",
+    "Computer Workstation Furniture Manufacturer | Office Workstation Furniture | DK Modular",
 
-  metaDescription: "Computer Workstation Furniture",
+  metaDescription: "Explore high-quality Computer Workstation Tables designed for modern offices. Crafted with durable plywood and mild steel, featuring smooth finishes, open-frame designs, and smart cable management. Get competitive prices from a trusted workstation manufacturer in India.",
 
   description: [
   
@@ -1166,9 +1166,9 @@ export const categories = [
   name: "Single Seater Modular Office Workstation",
 
   metaTitle:
-    "Single Seater Modular Office Workstation – Dk Modular Contractor Office Furniture",
+    "Buy India’s No. 1 Single Seater Modular Office Workstation | DK Modular",
 
-  metaDescription: "Single Seater Modular Office Workstation",
+  metaDescription: "Discover a premium Single Seater Modular Office Workstation for modern offices. Enjoy ergonomic design, durable construction, smart wire management, and customization from a trusted workstation manufacturer. ",
 
   description: [
     
@@ -1386,9 +1386,9 @@ export const categories = [
   name: "Modern Office Workstation",
 
   metaTitle:
-    "Modern Office Workstation – Dk Modular Contractor Office Furniture",
+    "Modern Office Workstation Trends & Ideas | DK Modular",
 
-  metaDescription: "Modern Office Workstation",
+  metaDescription: "Explore modern workstation design for office spaces from a trusted workstation manufacturer in Delhi, India. Discover portable modular workstations and office desk solutions.",
 
   description: [
    
@@ -1597,8 +1597,8 @@ export const categories = [
         id: "linear-modular-office-workstation",
         name: "Linear Modular Office Workstation",
         metaTitle:
-          "Linear Modular Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription: "Linear Modular Office Workstation",
+          "Linear Modular Office Workstation | Office Workstation Furniture | DK Modular",
+        metaDescription: "Explore Linear Modular Office Workstations from a trusted workstation manufacturer. Get modern, ergonomic, and customizable office workstation solutions for productive workspaces.",
 
         description: [
          
@@ -1661,8 +1661,8 @@ export const categories = [
         id: "U-shape-modern-office-workstation",
         name: "U Shape Modern Office Workstation",
         metaTitle:
-          "U Shape Modern Office Workstation – Dk Modular Contractor Office Furniture",
-        metaDescription: "U Shape Modern Office Workstation",
+          "U Shaped WorkStation at Best Price in Delhi, India | Office Workstation Furniture | DK Modular",
+        metaDescription: "Buy U Shaped Workstation at the best price in Delhi, India. Explore stylish, ergonomic, and durable office workstation furniture from DK Modular for modern workspaces.",
 
         description: [
          
@@ -1923,8 +1923,8 @@ export const categories = [
   {
     id: "office-workstation",
     name: "Office-Workstation",
-    metaTitle: "Office workstation – Dk Modular Contractor Office Furniture",
-    metaDescription: "office-workstation",
+    metaTitle: "Office Workstation Manufacturers in Delhi, India | Modern Office Workstation Designs | DK Modular",
+    metaDescription: "DK Modular is one of the largest manufacturers and suppliers of Modular Office Workstation, Office Cubicle Workstation, Office Cluster Workstation, Office & Commercial Furniture in India",
 
     products: [
       //product 1
@@ -1933,9 +1933,9 @@ export const categories = [
         id: "2-seater-corporate-office-workstation",
         name: "2 Seater Corporate Office Workstation",
         metaTitle:
-          "2 Seater Corporate Office Workstation – Dk Modular Contractor Office Furniture",
+          "2 Seater Corporate Office Workstation | Workstation Manufacturer | DK Modular",
         metaDescription:
-          "2 Seater Corporate Office Workstation by Dk Modular Contractor – modern, durable, and space-efficient workstation with aluminium frame and wooden tabletop. Ideal for corporate office environments.",
+          "Explore 2 Seater Corporate Office Workstations, Office Workstation Furniture, Office & Commercial Furniture, and Office Clusters Workstation from a trusted workstation manufacturer in India. Get modern, ergonomic, and durable designs for productive office spaces.",
 
         description: [
           {
@@ -1987,9 +1987,9 @@ export const categories = [
         id: "2-seater-office-workstation",
         name: "2 Seater  Office Workstation",
         metaTitle:
-          "2 Seater  Office Workstation – Dk Modular Contractor Office Furniture",
+          "2 Seater Office Workstation | Modular Workstation at Best Price | DK Modular",
         metaDescription:
-          "2 Seater  Office Workstation by Dk Modular Contractor – modern, durable, and space-efficient workstation with aluminium frame and wooden tabletop. Ideal for corporate office environments.",
+          "Buy 2 Seater Office Workstations at the best price from DK Modular. Explore modern modular workstations, Office Workstation Furniture and Office & Commercial Furniture with durable, ergonomic, and space-saving designs for productive offices.",
 
         description: [
           {
@@ -2039,9 +2039,9 @@ export const categories = [
         id: "office-cubicle-workstation",
         name: "Office Cubicle Workstation",
         metaTitle:
-          "Office Cubicle Workstation – Dk Modular Contractor Office Furniture",
+          "Office Cubicle Workstation | Modern and Efficient Office Workstation for Corporate Business | DK Modular",
         metaDescription:
-          "Office Cubicle Workstation by Dk Modular Contractor – modern, modular, and space-efficient 4 seater cubicle workstation made from premium particle board. Ideal for corporate and commercial offices.",
+          "Explore Modern Office Cubicles, Office Modular Workstation, and workstation manufacturer designed for privacy, productivity, and smart space utilization. Choose stylish partitioned workstations, private pods, and efficient workspace dividers for organized corporate offices.",
 
         description: [
           {
@@ -2096,9 +2096,9 @@ export const categories = [
         id: "wooden-office-workstation",
         name: "Wooden Office Workstation",
         metaTitle:
-          "Wooden Office Workstation – Dk Modular Contractor Office Furniture",
+          "Modular Wooden Office Workstation from Delhi, India | workstation manufacturer | DK Modular",
         metaDescription:
-          "Wooden Office Workstation by Dk Modular Contractor – premium 4 seater workstation crafted from high-quality wood with polished finish. Ideal for modern office environments.",
+          "Explore premium Wooden Office Workstations, Office Cluster Workstation and Office & Commercial Furniture from a trusted workstation manufacturer. Discover stylish, durable, and ergonomic designs for modern offices at competitive prices.",
 
         description: [
           {
@@ -2149,9 +2149,9 @@ export const categories = [
         id: "office-workstation",
         name: " Office Workstation",
         metaTitle:
-          " Office Workstation – Dk Modular Contractor Office Furniture",
+          "Office Workstation Manufacturers | Modular workstation | DK Modular ",
         metaDescription:
-          " Office Workstation by Dk Modular Contractor – premium 4 seater workstation crafted from high-quality wood with polished finish. Ideal for modern office environments.",
+          "Discover premium modular workstation solutions from trusted Office Workstation Manufacturers, DK Modular. Explore modern, ergonomic, and durable designs at competitive prices for every office.",
 
         description: [
           {
@@ -2205,9 +2205,9 @@ export const categories = [
         id: "6-seater-linear-office-workstation",
         name: "6 Seater Linear Office Workstation",
         metaTitle:
-          "6 Seater Linear Office Workstation – Dk Modular Contractor Office Furniture",
+          "6 Seater Linear Office Workstation Manufacturer | DK Modular ",
         metaDescription:
-          "6 Seater Linear Office Workstation by Dk Modular Contractor – modern, space-efficient linear workstation made from premium particle board with polished finish. Ideal for office and corporate environments.",
+          "Upgrade your office with a modern 6-seater linear office workstation, Office Cubicle Workstation, Office Cluster Workstation, and Office & Commercial Furniture by DK Modular. Explore durable, space-saving designs built for productive workspaces.",
 
         description: [
           {
@@ -2258,9 +2258,9 @@ export const categories = [
         id: "l-shape-director-table",
         name: "L Shape Director Table",
         metaTitle:
-          "L Shape Director Table – Dk Modular Contractor Office Furniture",
+          "L Shape Director Table Manufacturer | Office Workstation | DK Modular",
         metaDescription:
-          "L Shape Director Table by Dk Modular Contractor – premium executive table made from particle board with powder-coated finish. Designed for director cabins and modern office spaces.",
+          "Upgrade your office with a stylish L Shape Director Table, Modular Office Workstation, and Office & Commercial Furniture by DK Modular. Discover spacious, durable executive office tables designed for comfort and productivity.",
 
         description: [
           {
@@ -2310,9 +2310,9 @@ export const categories = [
         id: "particle-board-office-workstation",
         name: "Particle Board Office Workstation",
         metaTitle:
-          "Particle Board Office Workstation – Dk Modular Contractor Office Furniture",
+          "Particle Board Office Workstation Manufacturer | Office Cluster Workstation | DK Modular",
         metaDescription:
-          "Particle Board Office Workstation by Dk Modular Contractor – modern, durable, and space-efficient workstation designed for offices. Ideal for 4-seater setups with polished surface and premium finish.",
+          "Choose durable and stylish particle board office workstations by DK Modular. Explore space-saving designs made for organized, comfortable, and productive offices.",
 
         description: [
           {
@@ -2367,9 +2367,9 @@ export const categories = [
         id: "single-seater-office-workstation",
         name: "Single Seater Office Workstation",
         metaTitle:
-          "Single Seater Office Workstation – Dk Modular Contractor Office Furniture",
+          "Single-Seater Office Workstation | Office Cluster Workstation | DK Modular ",
         metaDescription:
-          "Single Seater Office Workstation by Dk Modular Contractor – compact, ergonomic, and premium workstation with aluminium frame and polished finish. Ideal for individual office setups and focused work environments.",
+          "Discover premium single seater office workstations, Modular Office Workstation, Office & Commercial Furniture by DK Modular. Get smart, compact, and stylish office furniture designed to maximize space, comfort, and productivity.",
 
         description: [
           {
@@ -2623,8 +2623,8 @@ export const categories = [
     id: "computer-table",
     name: "Computer Table",
     metaTitle:
-      "Computer Tables for Office Workstations – Dk Modular Contractor Office Furniture",
-    metaDescription: "Find premium Computer Tables for Office Workstations. ",
+      "Buy Computer Tables Online | workstation manufacturer | DK Modular",
+    metaDescription: "Shop computer tables online at DK Modular. Explore computer table design, computer workstations, and wooden computer tables at the best price in India.",
 
     products: [
       // product 1
@@ -2633,9 +2633,9 @@ export const categories = [
         id: "modular-wooden-computer-table",
         name: "Modular Wooden Computer Table",
         metaTitle:
-          "Modular Wooden Computer Table – Dk Modular Contractor Office Furniture",
+          "Modular Wooden Computer Table | Modern Office Table | DK Modular ",
         metaDescription:
-          "Modular Wooden Computer Table by Dk Modular Contractor – compact, durable, and functional computer table with drawers. Ideal for office use with a clean and modern design.",
+          "Buy modular wooden computer tables, Workstation Manufacturer, Office Cluster Workstation and Office & Commercial Furniture by DK Modular, crafted for style, durability, and smart space use. Find the perfect modern office table for a productive workspace.",
 
         description: [
           {
@@ -2688,9 +2688,9 @@ export const categories = [
         id: "office-computer-desk",
         name: "Office Computer Desk",
         metaTitle:
-          "Office Computer Desk – Dk Modular Contractor Office Furniture",
+          "Office Computer Desk | Modular Office Workstation Manufacturer | DK Modular",
         metaDescription:
-          "Office Computer Desk by Dk Modular Contractor Contractor – durable and spacious computer desk made from high-quality wooden material with pre-laminated finish. Ideal for corporate office environments.",
+          "Looking for the right office computer desk? Explore DK Modular’s Modern Office Workstation and Office Cubicle Workstation durable designs, created to maximize workspace, comfort, and productivity.",
 
         description: [
           {
@@ -2742,9 +2742,9 @@ export const categories = [
         id: "wooden-computer-table",
         name: "Wooden Computer Table",
         metaTitle:
-          "Wooden Computer Table – Dk Modular Contractor Office Furniture",
+          "Wooden Computer Table | Workstation Manufacturers | DK Modular",
         metaDescription:
-          "Wooden Computer Table by Dk Modular Contractor Contractor – modern single-seater computer table made from pre-laminated ply with a clean rectangular design. Ideal for office use.",
+          "Buy stylish wooden computer tables from DK Modular. Explore durable, Modern Office Cubicle Workstation, Office Workstation Furniture, and space-saving designs crafted for comfortable, organized, and productive workspaces.",
 
         description: [
           {
@@ -3005,9 +3005,9 @@ export const categories = [
   {
     id: "office-chairs",
     name: "Office Chairs",
-    metaTitle: "Office Chairs – Ergonomic & Executive Seating Solutions ",
+    metaTitle: "Office Chairs | Buy Online at Best Price in India | DK Modular",
     metaDescription:
-      "Office Chairs – Explore our range of ergonomic and executive office chairs designed for comfort, support, and style. Perfect for workspaces of all sizes.",
+      "Buy amazing designed Office Chairs online for comfortable working long hours. Order ergonomic Office Chairs in India and bid farewell to backaches.",
 
     products: [
       // product 1
@@ -3016,9 +3016,9 @@ export const categories = [
         id: "adjustable-height-office-chair",
         name: "Adjustable Height Office Chair",
         metaTitle:
-          "Adjustable Height Office Chair – Dk Modular Contractor Office Furniture",
+          "Adjustable Height Office Chair | Workstation Manufacturers | DK Modular ",
         metaDescription:
-          "Adjustable Height Office Chair by Dk Modular Contractor Contractor – ergonomic office chair with leather seat, stainless steel frame, and smooth-rolling wheels. Designed for comfort and productivity in office environments.",
+          "Upgrade your workspace with an adjustable-height office chair, Office Modular Workstation, Office Cluster Workstation, Office & Commercial Furniture, and Office Cubicle Workstation from DK Modular. Find the right seating position and enjoy greater comfort during long hours at your desk.",
 
         description: [
           {
@@ -3069,9 +3069,9 @@ export const categories = [
         id: "executive-office-chair",
         name: "Executive Office Chair",
         metaTitle:
-          "Executive Office Chair – Dk Modular Contractor Office Furniture",
+          "Executive Office Chairs Online | Workstation Manufacturers | DK Modular",
         metaDescription:
-          "Executive Office Chair by Dk Modular Contractor – ergonomic, adjustable office chair with fabric seat, adjustable backrest, and smooth-rolling wheels. Ideal for modern office environments.",
+          "Buy executive office chairs online at DK Modular. Discover ergonomic chairs with premium comfort, lumbar support, and adjustable features designed for executive offices.",
 
         description: [
           {
@@ -3124,9 +3124,9 @@ export const categories = [
         id: "high-back-mesh-chair",
         name: "High Back Mesh Chair",
         metaTitle:
-          "High Back Mesh Chair – Dk Modular Contractor Office Furniture",
+          "High Back Mesh Chair | Workstation Manufacturers | DK Modular ",
         metaDescription:
-          "High Back Mesh Chair by Dk Modular Contractor – ergonomic office chair with breathable fabric seat, adjustable height, and high back support. Ideal for long working hours in office environments.",
+          "DK Modular, India’s No. 1 office chair manufacturer, offers breathable mesh chairs with ergonomic features that support back health for prolonged sitting.",
 
         description: [
           {
@@ -3176,9 +3176,9 @@ export const categories = [
         id: "low-back-office-chair",
         name: "Low Back Office Chair",
         metaTitle:
-          "Low Back Office Chair – Dk Modular Contractor Office Furniture",
+          "Low back office workstation chair—Workstation Manufacturers in Delhi, India | DK Modular",
         metaDescription:
-          "Low Back Office Chair by Dk Modular Contractor – ergonomic office chair with adjustable arms, fabric seat, adjustable backrest and height. Ideal for daily office use and workstations.",
+          "Manufacturers of Low Back Office Workstation Chair | Modular Office Furniture, Office Cubicle Workstation, Office & Commercial Furniture, and Office Cluster Workstation offered by DK Modular in Delhi, India.",
 
         description: [
           {
@@ -3229,9 +3229,9 @@ export const categories = [
         id: "office-director-chair",
         name: "Office Director Chair",
         metaTitle:
-          "Office Director Chair – Dk Modular Contractor Office Furniture",
+          "Best Director Chair for Office | Modern Workstation Manufacturers | DK Modular ",
         metaDescription:
-          "Office Director Chair by Dk Modular Contractor – premium executive chair designed for director cabins, offering superior comfort, ergonomic support, and a professional appearance.",
+          "Upgrade your office with premium director chairs available online by DK Modular and explore comfortable, supportive designs made for long working hours and executive workspaces. Shop now and elevate your workspace with our high-quality director chairs.",
 
         description: [
           {
@@ -3281,9 +3281,9 @@ export const categories = [
         id: "office-leather-revolving-chair",
         name: "Office Leather Revolving Chair",
         metaTitle:
-          "Office Leather Revolving Chair – Dk Modular Contractor Office Furniture",
+          "Office Leather Revolving Chair | Office Workstation Manufacturers | DK Modular ",
         metaDescription:
-          "Office Leather Revolving Chair by Dk Modular Contractor – premium high back leather chair with revolving mechanism, fixed arms, and smooth wheels. Ideal for executive and office use.",
+          "Upgrade your office with a premium leather revolving chair, Office Cluster Workstation, Office & Commercial Furniture, Modular Office Furniture, and Office Cubicle Workstation from DK Modular. Enjoy smooth movement, supportive seating, and a refined look for your executive workspace.",
 
         description: [
           {
@@ -3537,9 +3537,9 @@ export const categories = [
   {
     id: "wooden-storage-units",
     name: "Wooden Storage Units",
-    metaTitle: "Wooden Storage Units – Dk Modular Contractor Office Furniture",
+    metaTitle: "Wooden Storage Unit | Workstation Manufacturers | DK Modular ",
     metaDescription:
-      "Explore premium Wooden Storage Units for efficient organization and storage. Ideal for home and office use.",
+      "Explore updated listings of wooden storage unit manufacturers. These companies provide the best quality wooden storage units as per clients requirements.",
 
     products: [
       // product 1
@@ -3548,9 +3548,9 @@ export const categories = [
         id: "home-wooden-storage-cupboard",
         name: "Home Wooden Storage Cupboard",
         metaTitle:
-          "Home Wooden Storage Cupboard – Dk Modular Contractor Furniture",
+          "Home Wooden Storage Cupboard | Stylish Storage Solutions | DK Modular",
         metaDescription:
-          "Home Wooden Storage Cupboard by Dk Modular Contractor – modern 2 door wooden cabinet with polished finish and customized design. Ideal for home storage with a clean and elegant look.",
+          "Upgrade your home with a stylish wooden storage cupboard, Office Cubicle Workstation, Office Cluster Workstation and Office & Commercial Furniture from DK Modular. Discover spacious, durable designs that keep everyday essentials organized and your interiors clutter-free.",
 
         description: [
           {
@@ -3603,9 +3603,9 @@ export const categories = [
       {
         id: "wooden-storage-unit",
         name: "Wooden Storage Unit",
-        metaTitle: "Wooden Storage Unit – Dk Modular Contractor Furniture",
+        metaTitle: "Buy Premium Wooden Storage Unit Online | Office Workstation Manufacturers | DK Modular",
         metaDescription:
-          "Wooden Storage Unit by Dk Modular Contractor – durable double door wooden cabinet with polished finish and practical shelving. Suitable for office and home storage needs.",
+          "Organize your workspace with a premium wooden storage unit, Office Workstation Furniture, Office & Commercial Furniture, and Office Cluster Workstation from DK Modular. Explore smart, spacious designs that simplify storage and keep your office neat and clutter-free.",
 
         description: [
           {
@@ -3657,9 +3657,9 @@ export const categories = [
         id: "smart-wooden-cabinet",
         name: "Smart Wooden Cabinet",
         metaTitle:
-          "Smart Wooden Cabinet – Dk Modular Contractor Office Furniture",
+          "Buy Smart Wooden Cabinet in Delhi, India | DK Modular",
         metaDescription:
-          "Smart Wooden Cabinet by Dk Modular Contractor – modern laminated file cabinet with sliding doors, spacious storage, and durable plywood construction. Ideal for office file and document storage.",
+          "Discover smart wooden cabinets, Office Workstation Furniture, and Office Cluster Workstation by DK Modular, designed to keep essentials organized without compromising style. Choose practical storage solutions for modern offices.",
 
         description: [
           {
@@ -3722,9 +3722,9 @@ export const categories = [
       {
         id: "wooden-storage-cabinet",
         name: "Wooden Storage Cabinet",
-        metaTitle: "Wooden Storage Cabinet – Dk Modular Contractor Furniture",
+        metaTitle: "Wooden Storage Cabinet | Office Workstation Manufacturer | DK Modular",
         metaDescription:
-          "Wooden Storage Cabinet by Dk Modular Contractor – durable double door wooden cabinet with polished finish and practical shelving. Ideal for office and home storage needs.",
+          "Explore the Wooden Storage Cabinet by DK Modular—elegant designs with doors and shelves, offering smart, stylish, and long-lasting storage solutions for modern homes & Offices.",
 
         description: [
           {
@@ -3775,9 +3775,9 @@ export const categories = [
       {
         id: "wooden-storage-cupboard",
         name: "Wooden Storage Cupboard",
-        metaTitle: "Wooden Storage Cupboard – Dk Modular Contractor Furniture",
+        metaTitle: "Wooden Storage Cupboard | Workstation Manufacturer | DK Modular ",
         metaDescription:
-          "Wooden Storage Cupboard by Dk Modular Contractor – spacious wooden cupboard with polished finish and double door design. Ideal for home and office storage requirements.",
+          "Upgrade your workspace with a wooden storage cupboard, Office Cluster Workstation, and Office & Commercial Furniture from DK Modular. Discover spacious, sturdy designs that keep files, documents, and essentials neatly organized.",
 
         description: [
           {
@@ -3828,9 +3828,9 @@ export const categories = [
         id: "laminated-wooden-storage-cabinet",
         name: "Laminated Wooden Storage Cabinet",
         metaTitle:
-          "Laminated Wooden Storage Cabinet – Dk Modular Contractor Furniture",
+          "Laminated Wooden Storage Cabinet at Reasonable Price | Workstation Manufacturer | DK Modular",
         metaDescription:
-          "Laminated Wooden Storage Cabinet by Dk Modular Contractor – modern hinged-door cabinet with polished laminated finish. Ideal for office and home storage needs.",
+          "Upgrade your office with a laminated wooden storage cabinet from DK Modular. Explore stylish, durable, and secure storage designed to keep files and essentials neatly organized.",
 
         description: [
           {
@@ -4094,8 +4094,8 @@ export const categories = [
     id: "meeting-and-conference-room-table",
     name: "Meeting And Conference Room Table",
     metaTitle:
-      "Meeting And Conference Room Table – Dk Modular Contractor Office Furniture",
-    metaDescription: "Meeting And Conference Room Table",
+      "Meeting & Conference Room Tables in Delhi, India | Workstation Manufacturer | DK Modular ",
+    metaDescription: "Buy Premium Meeting & Conference Room Tables Manufacturer, Modular Office Workstation and Office Workstation Furniture for office meeting rooms. Durable, modern corporate designs. Enquire about bulk pricing.",
 
     sections: [
       {
@@ -4327,9 +4327,9 @@ export const categories = [
         id: "14-seater-meeting-table",
         name: "14 Seater Meeting Table",
         metaTitle:
-          "14 Seater Meeting Table – Dk Modular Contractor Office Furniture",
+          "14 Seater Meeting Table at a reasonable price | Workstation Manufacturer | DK Modular",
         metaDescription:
-          "14 Seater Meeting Table by Dk Modular Contractor – spacious wooden meeting table with polished finish, designed for corporate boardrooms and conference rooms.",
+          "Upgrade your meeting space with a 14 seater meeting table, modular workstation manufacturer, Office & Commercial Furniture, and Office Cubicle Workstation from DK Modular. Explore spacious, professional designs made for team meetings and collaboration.",
 
         description: [
           {
@@ -4381,9 +4381,9 @@ export const categories = [
         id: "executive-meeting-table",
         name: "Executive Meeting Table",
         metaTitle:
-          "Executive Meeting Table – Dk Modular Contractor Office Furniture",
+          "Buy Executive Meeting Table in Delhi, India | Workstation Manufacturer | DK Modular ",
         metaDescription:
-          "Executive Meeting Table by Dk Modular Contractor – premium wooden meeting table with drawer storage and polished finish. Ideal for executive meetings and corporate office use.",
+          "Executive Meeting Table blends style and function—perfect for collaboration. Buy Workstation Manufacturer online in Delhi, India, and get the best deals today.",
 
         description: [
           {
@@ -4436,9 +4436,9 @@ export const categories = [
         id: "large-conference-table",
         name: "Large Conference Table",
         metaTitle:
-          "Large Conference Table – Dk Modular Contractor Office Furniture",
+          "Large Conference Table | Workstation Manufacturer | DK Modular ",
         metaDescription:
-          "Large Conference Table by Dk Modular Contractor – premium wooden conference table with polished finish, designed for spacious boardrooms and professional office environments.",
+          "Upgrade your boardroom with a large conference table from DK Modular. Explore spacious, professional designs built for team meetings, collaboration, and important discussions.",
 
         description: [
           {
@@ -4489,9 +4489,9 @@ export const categories = [
         id: "oval-meeting-table",
         name: "Oval Meeting Table",
         metaTitle:
-          "Oval Meeting Table – Dk Modular Contractor Office Furniture",
+          "Buy Premium Oval Meeting Table in Delhi, India | Workstation Manufacturer | DK Modular",
         metaDescription:
-          "Oval Meeting Table by Dk Modular Contractor – premium 15 seater wooden meeting table with polished finish, designed for corporate offices and professional boardrooms.",
+          "Upgrade your meeting room with an oval meeting table from DK Modular. Explore elegant, spacious designs that create a comfortable setting for meetings and collaboration.",
 
         description: [
           {
@@ -4542,9 +4542,9 @@ export const categories = [
         id: "rectangular-meeting-table",
         name: "Rectangular Meeting Table",
         metaTitle:
-          "Rectangular Meeting Table – Dk Modular Contractor Office Furniture",
+          "Rectangular Meeting Table at the Best Reasonable Price | Workstation Manufacturer | DK Modular",
         metaDescription:
-          "Rectangular Meeting Table by Dk Modular Contractor – modern wooden meeting table with laminated finish and open storage. Ideal for corporate offices and professional meeting rooms.",
+          "Explore our Rectangular Meeting Table at an affordable price, an ideal choice for modern offices. It features a sturdy engineered wood base, a smooth matte-finish tabletop, rounded edges, and a stylish panel structure with useful storage space. Perfect for contemporary workspaces in Delhi, India.",
 
         description: [
           {
@@ -4596,9 +4596,9 @@ export const categories = [
         id: "round-meeting-table",
         name: "Round Meeting Table",
         metaTitle:
-          "Round Meeting Table – Dk Modular Contractor Office Furniture",
+          "Round Meeting Table | Workstation Manufacturer | DK Modular ",
         metaDescription:
-          "Round Meeting Table by Dk Modular Contractor – compact wooden meeting table with polished finish, ideal for small office meetings and collaborative discussions.",
+          "Upgrade your meeting space with a round meeting table, Office Workstation Furniture, Office Cluster Workstation, and Modular Office Workstation from DK Modular. Explore stylish, sturdy designs that encourage easy communication, teamwork, and productive discussions.",
 
         description: [
           {

@@ -13,10 +13,10 @@ const montserrat = Montserrat({
 export const metadata = {
   metadataBase: new URL("https://officeworkstationmanufacturer.com"),
 
-  title: "Office Workstation Manufacturer | Modular Office Furniture",
+  title: "India's Best Office Workstation Manufacturer | Office Modular Workstation",
 
   description:
-    "Trusted office workstation manufacturer offering modular, ergonomic, and custom workstations for modern corporate offices. Quality assured.",
+    "Explore Office Workstation in India, Office Modular Workstation, Office Cluster Workstation, office cubicle workstation, and commercial furniture by DK Modular Contractors, Quality Assured.",
 
   alternates: {
     canonical: "/",
