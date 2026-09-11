@@ -25,6 +25,7 @@ export default function ContactForm({ isOpen, onClose }) {
 
     try {
       const formData = {
+        supplierToken: "6a34cb127d11e405b832d3d0",
         platform: "Dk Modular Contractor Furniture Enquiry Form",
         platformEmail: "dkmodularcontractor@gmail.com",
         name,
@@ -94,7 +95,7 @@ Contact: ${phone}`;
           </button>
 
           <h2 className="text-center text-white text-xl md:text-2xl font-semibold tracking-wide">
-         Let's Elevate Your Workspace
+            Let's Elevate Your Workspace
           </h2>
           <div className="w-28 h-[4px] bg-amber-500 mx-auto mt-3 mb-8 rounded-full"></div>
 
@@ -117,14 +118,14 @@ Contact: ${phone}`;
                   required
                   disabled={loading}
                 >
-                   <option disabled value="">Select Product</option>
-                <option value="Modular Office Workstation">Modular Office Workstation</option>
-                <option value="Office Workstation">Office Workstation</option>
-                <option value="Meeting And Conference Room Table">Conference Room Table</option>
-                <option value="Computer Table">Computer Table</option>
-                <option value="Office Chair">Office Chair</option>
-                
-                <option value="Wooden Storage Unit">Wooden Storage Unit</option>
+                  <option disabled value="">Select Product</option>
+                  <option value="Modular Office Workstation">Modular Office Workstation</option>
+                  <option value="Office Workstation">Office Workstation</option>
+                  <option value="Meeting And Conference Room Table">Conference Room Table</option>
+                  <option value="Computer Table">Computer Table</option>
+                  <option value="Office Chair">Office Chair</option>
+
+                  <option value="Wooden Storage Unit">Wooden Storage Unit</option>
                 </select>
               </div>
 

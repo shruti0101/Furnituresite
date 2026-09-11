@@ -22,6 +22,7 @@ const Contact = () => {
 
     try {
       const payload = {
+        supplierToken: "6a34cb127d11e405b832d3d0",
         platform: "Dk Modular Contractor Office Furniture Contact Form",
         platformEmail: "dkmodularcontractor@gmail.com",
         name,
@@ -230,11 +231,11 @@ Contact: ${phone}`;
                     Address:
                   </h4>
                   <p className="text-black text-sm sm:text-base md:text-lg leading-snug">
-                    Plot no. 1 Khasra No. 52/10/2 Ranhola Vihar, 
-                <br />
-              Neta ji Subhash Nagar Near Nangloi Najafgarh Road Near Ranhola Police Station 
-                <br />
-                New Delhi , 110041
+                    Plot no. 1 Khasra No. 52/10/2 Ranhola Vihar,
+                    <br />
+                    Neta ji Subhash Nagar Near Nangloi Najafgarh Road Near Ranhola Police Station
+                    <br />
+                    New Delhi , 110041
                   </p>
                 </div>
               </div>
