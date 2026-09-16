@@ -10,12 +10,14 @@ export default function YoutubeSection() {
     {
       id: "1",
       title: "Modern Modular Office Workstations",
+      alt:"Modular Office Furniture",
       link: "https://youtu.be/3oU5Bc79UqU",
       desc: "See how modular furniture transforms productivity-focused offices.",
     },
     {
       id: "2",
       title: "Premium Office Furniture Installation",
+      alt:"Workstation Manufacturer",
       link: "https://youtu.be/RVRvUvcHIKo",
       desc: "A walkthrough of our furniture execution & finishing quality.",
     },
@@ -77,7 +79,7 @@ export default function YoutubeSection() {
                 {id && (
                   <img
                     src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}
-                    alt={video.title}
+                    alt={video.alt}
                     className="w-full h-[260px] object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 )}

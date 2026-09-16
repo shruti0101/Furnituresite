@@ -10,6 +10,7 @@ export const categories = [
   {
     id: "modular",
     title: "Modular Office Workstation",
+    alt:"Modular Office Workstation",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -34,6 +35,7 @@ export const categories = [
   {
     id: "office",
     title: "Office Workstation",
+    alt:"Office Workstation",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" strokeWidth="1.5"
@@ -60,6 +62,7 @@ export const categories = [
   {
     id: "meeting",
     title: "Conference Room Table",
+    alt:"Office Workstation Furniture",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" strokeWidth="1.5"
@@ -85,6 +88,7 @@ export const categories = [
   {
     id: "computer",
     title: "Computer Table",
+    alt:"Office Cubicle Workstation",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" strokeWidth="1.5"
@@ -110,6 +114,7 @@ export const categories = [
   {
     id: "wooden-storage",
     title: "Wooden Storage Unit",
+    alt:"Office & Commercial Furniture",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" strokeWidth="1.5"
@@ -136,6 +141,7 @@ export const categories = [
   {
     id: "office-chair",
     title: "Office Chair",
+    alt:"Workstation Manufacturer",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -266,7 +272,7 @@ export default function CategoryShowcase() {
                       <div className="rounded-xl bg-gray-100/90 w-full max-w-[420px] aspect-square flex items-center justify-center overflow-hidden shadow-2xl">
                         <Image
                           src={cat.image}
-                          alt={cat.title}
+                          alt={cat.alt}
                           width={520}
                           height={520}
                           className="object-cover w-full h-full"

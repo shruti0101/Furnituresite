@@ -142,7 +142,7 @@ const AboutPage = () => {
         <div className="relative h-[400px] w-full">
           <Image
             src="/gallery/wooden1.webp"
-            alt="Conference Table Furniture"
+            alt="Workstation Manufacturer"
             fill
             className="object-cover"
           />
@@ -230,7 +230,7 @@ const AboutPage = () => {
           <div className="relative w-full h-[420px]">
             <Image
               src="/aboutusimg2.webp" 
-              alt="Modern Office Workspace"
+              alt="Modular Office Workstation"
               fill
               className="object-cover rounded-xs"
               priority

@@ -94,7 +94,7 @@ export default function About() {
                   >
                     <Image
                       src={src}
-                      alt={`slide-${i}`}
+                      alt="Office Workstation"
                       fill
                       className="object-cover"
                       priority={i === index}
@@ -138,7 +138,7 @@ export default function About() {
             <h3 className="font-serif text-sm tracking-widest text-black uppercase mb-2">About Dk Modular Contractor</h3>
 
             <h1 className="text-3xl font-extrabold leading-tight mb-4 text-amber-600">
-              Premium Modular Office Furniture
+              Premium Workstation Manufacturer
             </h1>
 
             <p className="text-base  text-black leading-relaxed ">
